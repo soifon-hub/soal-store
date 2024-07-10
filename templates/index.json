@@ -228,11 +228,17 @@
             "text": "",
             "text_font_class": "fs-body-100"
           }
+        },
+        "border_UzwNdQ": {
+          "type": "border",
+          "settings": {
+          }
         }
       },
       "block_order": [
         "heading_cdfHYK",
-        "text_3EHdAQ"
+        "text_3EHdAQ",
+        "border_UzwNdQ"
       ],
       "settings": {
         "alignment": "center_center",
