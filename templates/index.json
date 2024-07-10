@@ -243,31 +243,29 @@
         "custom_content_width": 500
       }
     },
-    "featured_collection_grid_xJwedG": {
+    "featured_collection_grid_8qB6Fy": {
       "type": "featured-collection-grid",
       "blocks": {
-        "collection_ficjrf": {
+        "collection_HnyJhb": {
           "type": "collection",
           "settings": {
-            "collection": "adidas"
+            "collection": "kid"
           }
         }
       },
       "block_order": [
-        "collection_ficjrf"
+        "collection_HnyJhb"
       ],
       "custom_css": [
-        "@media (min-width: 1200px) {.featured-collection-grid__products {column-gap: calc(var(--spacing-20) + 1px); }}",
-        "@media (max-width: 700px) {.swiper-wrapper {justify-content: center; gap: 15px; } .swiper-wrapper .swiper-slide {margin-right: 0 !important; } .ff-heading.featured-collection-grid__heading {font-size: 24px; }}",
-        ".ff-heading.featured-collection-grid__heading {max-width: 600px;}",
-        "@media (min-width: 800px) {.featured-collection-grid__products {display: grid; column-gap: calc(var(--spacing-20) + 1px); }}"
+        "@media (min-width: 1200px) {.featured-collection-grid__products {grid-template-columns: 1fr 1fr 1fr; column-gap: calc(var(--spacing-10) + 1px); }}",
+        "@media (max-width: 720px) {.featured-collection-grid__products.carousel__wrapper.swiper-wrapper {display: grid; row-gap: 22px; grid-template-columns: auto auto; }}"
       ],
       "settings": {
-        "heading": "Soal",
+        "heading": "",
         "subheading": "",
         "link": "",
         "link_text": "",
-        "maximum_collections": 4,
+        "maximum_collections": 7,
         "columns": "4",
         "mobile_columns": "2",
         "enable_animation": true,
@@ -658,35 +656,6 @@
         "enable_animation": true,
         "divider_style": "solid",
         "section_padding": "section--vertical-padding-none"
-      }
-    },
-    "16548772614c49ba39": {
-      "type": "featured-collection-slider",
-      "blocks": {
-        "767ac6c0-8826-4284-bd74-6eb8a441d7bc": {
-          "type": "collection",
-          "settings": {
-            "show_view_all": true,
-            "collection": "oral-care",
-            "collection_name": "Collection"
-          }
-        }
-      },
-      "block_order": [
-        "767ac6c0-8826-4284-bd74-6eb8a441d7bc"
-      ],
-      "disabled": true,
-      "settings": {
-        "heading": "Featured collection",
-        "subheading": "",
-        "link": "",
-        "link_text": "View all products",
-        "maximum_products": 8,
-        "columns": "4",
-        "mobile_columns": "2",
-        "enable_animation": true,
-        "divider_style": "solid",
-        "section_padding": "section--vertical-padding-top-bottom"
       }
     },
     "16558561315f6147d3": {
@@ -1084,6 +1053,38 @@
         "section_padding": "section--vertical-padding-top-bottom"
       }
     },
+    "featured_collection_grid_xJwedG": {
+      "type": "featured-collection-grid",
+      "blocks": {
+        "collection_ficjrf": {
+          "type": "collection",
+          "settings": {
+            "collection": "adidas"
+          }
+        }
+      },
+      "block_order": [
+        "collection_ficjrf"
+      ],
+      "custom_css": [
+        "@media (min-width: 1200px) {.featured-collection-grid__products {column-gap: calc(var(--spacing-20) + 1px); }}",
+        "@media (max-width: 700px) {.swiper-wrapper {justify-content: center; gap: 15px; } .swiper-wrapper .swiper-slide {margin-right: 0 !important; } .ff-heading.featured-collection-grid__heading {font-size: 24px; }}",
+        ".ff-heading.featured-collection-grid__heading {max-width: 600px;}",
+        "@media (min-width: 800px) {.featured-collection-grid__products {display: grid; column-gap: calc(var(--spacing-20) + 1px); }}"
+      ],
+      "settings": {
+        "heading": "Soal",
+        "subheading": "",
+        "link": "",
+        "link_text": "",
+        "maximum_collections": 4,
+        "columns": "4",
+        "mobile_columns": "2",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
     "image_compare_TwaPHc": {
       "type": "image-compare",
       "blocks": {
@@ -1182,33 +1183,32 @@
         "section_padding": "section--vertical-padding-top-bottom"
       }
     },
-    "featured_collection_grid_8qB6Fy": {
-      "type": "featured-collection-grid",
+    "16548772614c49ba39": {
+      "type": "featured-collection-slider",
       "blocks": {
-        "collection_HnyJhb": {
+        "767ac6c0-8826-4284-bd74-6eb8a441d7bc": {
           "type": "collection",
           "settings": {
-            "collection": "kid"
+            "show_view_all": true,
+            "collection": "oral-care",
+            "collection_name": "Collection"
           }
         }
       },
       "block_order": [
-        "collection_HnyJhb"
+        "767ac6c0-8826-4284-bd74-6eb8a441d7bc"
       ],
-      "custom_css": [
-        "@media (min-width: 1200px) {.featured-collection-grid__products {grid-template-columns: 1fr 1fr 1fr; column-gap: calc(var(--spacing-10) + 1px); }}",
-        "@media (max-width: 720px) {.featured-collection-grid__products.carousel__wrapper.swiper-wrapper {display: grid; row-gap: 22px; grid-template-columns: auto auto; }}"
-      ],
+      "disabled": true,
       "settings": {
-        "heading": "",
-        "subheading": "<p>JUST FOR YOU<\/p>",
+        "heading": "Featured collection",
+        "subheading": "",
         "link": "",
-        "link_text": "",
-        "maximum_collections": 4,
+        "link_text": "View all products",
+        "maximum_products": 8,
         "columns": "4",
         "mobile_columns": "2",
         "enable_animation": true,
-        "divider_style": "none",
+        "divider_style": "solid",
         "section_padding": "section--vertical-padding-top-bottom"
       }
     },
@@ -1344,22 +1344,22 @@
     "slideshow_ngWCPT",
     "1654916105fd939f8f",
     "rich_text_DxcVMF",
-    "featured_collection_grid_xJwedG",
+    "featured_collection_grid_8qB6Fy",
     "165489980473ecbf41",
     "video_GfxzKJ",
     "testimonials_eb6fnk",
     "1654878022d8e24a9a",
     "16549177944ec2347e",
     "1655855558c1ac2348",
-    "16548772614c49ba39",
     "16558561315f6147d3",
     "1655747757d7226f15",
     "165488047346f59e49",
     "1654913893935a57bd",
     "165489278903cc3881",
+    "featured_collection_grid_xJwedG",
     "image_compare_TwaPHc",
     "sales_banner_TQV9j6",
-    "featured_collection_grid_8qB6Fy",
+    "16548772614c49ba39",
     "countdown_bar_Y8cCtg",
     "multi_column_mqeEBj"
   ]
