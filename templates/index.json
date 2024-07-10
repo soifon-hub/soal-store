@@ -228,17 +228,11 @@
             "text": "",
             "text_font_class": "fs-body-100"
           }
-        },
-        "border_UzwNdQ": {
-          "type": "border",
-          "settings": {
-          }
         }
       },
       "block_order": [
         "heading_cdfHYK",
-        "text_3EHdAQ",
-        "border_UzwNdQ"
+        "text_3EHdAQ"
       ],
       "settings": {
         "alignment": "center_center",
@@ -1316,6 +1310,9 @@
         "column_bpBD7w",
         "column_YU6hM4",
         "column_kQhhdb"
+      ],
+      "custom_css": [
+
       ],
       "settings": {
         "title": "SOAL",
