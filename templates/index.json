@@ -1,3 +1,15 @@
+<<<<<<< HEAD
+=======
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
+>>>>>>> 64f52f11cc35ed24529320622f50296d224f725f
 {
   "sections": {
     "1654916105fd939f8f": {
@@ -13,7 +25,11 @@
         "1654916105bea353be-1": {
           "type": "heading",
           "settings": {
+<<<<<<< HEAD
             "title": "<span>Soal<\/span> <br> Heritage in Every Bottle",
+=======
+            "title": "<span>Dukat Olives<\/span> <br> Heritage in Every Bottle",
+>>>>>>> 64f52f11cc35ed24529320622f50296d224f725f
             "heading_font_class": "fs-heading-display-3"
           }
         },
@@ -101,11 +117,14 @@
         "@media (min-width: 800px) {.featured-collection-grid__products {column-gap: calc(var(--spacing-20) + 1px); }}"
       ],
       "settings": {
+<<<<<<< HEAD
         "image_bg": "shopify:\/\/shop_images\/Isolation_Mode_branch_1.svg",
         "background_color": "",
         "max_width_section": 1050,
         "custom_class": "",
         "enable_confirmation_popup": true,
+=======
+>>>>>>> 64f52f11cc35ed24529320622f50296d224f725f
         "heading": "From Dukat's Ancient Groves to Your Table <br><br><span>Dukat Olive Oil   <\/span>",
         "subheading": "",
         "link": "",
@@ -115,8 +134,12 @@
         "mobile_columns": "2",
         "enable_animation": true,
         "divider_style": "none",
+<<<<<<< HEAD
         "section_padding": "section--vertical-padding-top-bottom",
         "aspect_ratio_image": "natural"
+=======
+        "section_padding": "section--vertical-padding-top-bottom"
+>>>>>>> 64f52f11cc35ed24529320622f50296d224f725f
       }
     },
     "165489980473ecbf41": {
@@ -164,8 +187,11 @@
         "@media (max-width: 600px) {h2.image-with-text__text-container-heading.ff-heading.fs-heading-display-3.section-blocks__heading {font-size: 27px; } .image-with-text {background-image: none; } .image-with-text__image-container-inner {width: 100%; }}"
       ],
       "settings": {
+<<<<<<< HEAD
         "image_bg": "shopify:\/\/shop_images\/image-bg-transparent-40_e29a6aac-a776-4a8a-980f-f2f47b84c186.png",
         "custom_class_two": "",
+=======
+>>>>>>> 64f52f11cc35ed24529320622f50296d224f725f
         "image_position": "right",
         "text_alignment": "left",
         "image": "shopify:\/\/shop_images\/image-2.png",
@@ -240,7 +266,11 @@
             "focal_point": "center",
             "show_rating": false,
             "rating": 5,
+<<<<<<< HEAD
             "quote": "\"I've tried many olive oils, but Soal stands out with its rich flavor and smooth finish. It's now a kitchen essential for me.\"",
+=======
+            "quote": "\"I've tried many olive oils, but Dukat Olives stands out with its rich flavor and smooth finish. It's now a kitchen essential for me.\"",
+>>>>>>> 64f52f11cc35ed24529320622f50296d224f725f
             "author": "– Ben"
           }
         },
@@ -270,7 +300,10 @@
         "@media (max-width: 600px) {.testimonials__navigation-button-wrapper {top: 50%; } .ff-subheading.testimonials__item-quote {font-family: \"Figtree\"; font-size: 20px; padding: 0 50px; } .testimonials__navigation-button-wrapper--prev {left: calc((var(--mobile-paddle-size) \/ 3) * 0); right: calc((var(--mobile-paddle-size) \/ 3) * 0); }}"
       ],
       "settings": {
+<<<<<<< HEAD
         "image_bg": "shopify:\/\/shop_images\/Layer_1_1.svg",
+=======
+>>>>>>> 64f52f11cc35ed24529320622f50296d224f725f
         "image_size": "small",
         "quote_font": "heading",
         "background_color": "",
@@ -1001,10 +1034,13 @@
         "@media (max-width: 720px) {.featured-collection-grid__products.carousel__wrapper.swiper-wrapper {display: grid; row-gap: 22px; grid-template-columns: auto auto; }}"
       ],
       "settings": {
+<<<<<<< HEAD
         "background_color": "#ece9e4",
         "max_width_section": 1440,
         "custom_class": "footer_collections",
         "enable_confirmation_popup": true,
+=======
+>>>>>>> 64f52f11cc35ed24529320622f50296d224f725f
         "heading": "100% <span>Extra Virgin<\/span> Olive Oil",
         "subheading": "",
         "link": "",
@@ -1014,8 +1050,12 @@
         "mobile_columns": "2",
         "enable_animation": true,
         "divider_style": "none",
+<<<<<<< HEAD
         "section_padding": "section--vertical-padding-top-bottom",
         "aspect_ratio_image": "square"
+=======
+        "section_padding": "section--vertical-padding-top-bottom"
+>>>>>>> 64f52f11cc35ed24529320622f50296d224f725f
       }
     },
     "countdown_bar_Y8cCtg": {
