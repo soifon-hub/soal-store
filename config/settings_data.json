@@ -274,6 +274,35 @@
         "type": "popup",
         "settings": {
         }
+      },
+      "font-section": {
+        "type": "font-section",
+        "blocks": {
+          "image_PpyAbi": {
+            "type": "image",
+            "settings": {
+              "name": "customfont",
+              "custom_font_weight": "normal",
+              "custom_font_style": "none",
+              "custom_font_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0843\/2638\/3962\/files\/LexendZetta-Regular.woff?v=1720616143",
+              "apply_h1": true,
+              "apply_h2": true,
+              "apply_h3": true,
+              "apply_h4": true,
+              "apply_h5": true,
+              "apply_h6": true,
+              "apply_span": true,
+              "apply_p": true,
+              "apply_custom": ""
+            }
+          }
+        },
+        "block_order": [
+          "image_PpyAbi"
+        ],
+        "settings": {
+          "enable": true
+        }
       }
     },
     "content_for_index": [
