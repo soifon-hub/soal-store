@@ -398,13 +398,5 @@ html.sticky-header-enabled [data-js-cart-count] {
   }
   } */
 
-  @media (max-width: 700px) {
-    #shopify-section-template--21978605027674__featured_collection_grid_xJwedG .swiper-wrapper{
-         display: grid;
-    column-gap: calc(var(--spacing-20) + 1px);
-    row-gap: calc(var(--spacing-20) + 1px); 
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, auto); 
-      
-    }}
+
 /*# sourceMappingURL=custom.css.map */
