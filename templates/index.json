@@ -219,7 +219,7 @@
           "type": "heading",
           "settings": {
             "title": "NEW ARRIVAL",
-            "heading_font_class": "fs-heading-2-base"
+            "heading_font_class": "fs-heading-3-base"
           }
         },
         "text_3EHdAQ": {
@@ -240,7 +240,7 @@
         "divider_style": "none",
         "section_padding": "section--vertical-padding-top-bottom",
         "content_width": "custom",
-        "custom_content_width": 700
+        "custom_content_width": 500
       }
     },
     "featured_collection_grid_xJwedG": {
