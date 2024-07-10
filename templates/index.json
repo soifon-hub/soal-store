@@ -374,6 +374,9 @@
         "text_YyUxah",
         "play_button_Tiaq9M"
       ],
+      "custom_css": [
+        ".video.video--text-mobile-center {padding: 0px;}"
+      ],
       "settings": {
         "video_source": "shopify",
         "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
