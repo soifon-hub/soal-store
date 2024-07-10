@@ -1,34 +1,49 @@
 <!doctype html>
-
-<!--
-  ___                 ___           ___           ___
-       /  /\                     /__/\         /  /\         /  /\
-      /  /:/_                    \  \:\       /  /:/        /  /::\
-     /  /:/ /\  ___     ___       \  \:\     /  /:/        /  /:/\:\
-    /  /:/ /:/ /__/\   /  /\  ___  \  \:\   /  /:/  ___   /  /:/  \:\
-   /__/:/ /:/  \  \:\ /  /:/ /__/\  \__\:\ /__/:/  /  /\ /__/:/ \__\:\
-   \  \:\/:/    \  \:\  /:/  \  \:\ /  /:/ \  \:\ /  /:/ \  \:\ /  /:/
-    \  \::/      \  \:\/:/    \  \:\  /:/   \  \:\  /:/   \  \:\  /:/
-     \  \:\       \  \::/      \  \:\/:/     \  \:\/:/     \  \:\/:/
-      \  \:\       \__\/        \  \::/       \  \::/       \  \::/
-       \__\/                     \__\/         \__\/         \__\/
-
-  --------------------------------------------------------------------
-  #  Stiletto v1.6.0
-  #  Documentation: https://fluorescent.co/help/TODO/
-  #  Purchase: https://themes.shopify.com/themes/TODO/
-  #  A product by Fluorescent: https://fluorescent.co/
-  --------------------------------------------------------------------
--->
-
 <html class="no-js" lang="{{ request.locale.iso_code }}" style="--announcement-height: 1px;">
   <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="p:domain_verify" content="2554a7eb9a0bae00cac86a569c28024d"/>
+    <meta name="facebook-domain-verification" content="ug5891l05c17joitvowzy9pcmdop4p" />
     <link rel="canonical" href="{{ canonical_url }}">
     <link rel="preconnect" href="https://cdn.shopify.com" crossorigin>
-
+    <style>
+      .shopify-email-marketing-confirmation__container {
+        
+            max-width: 600px;
+            margin: 8% auto!important;
+            background-color: #ffffff;
+            padding: 20px;
+            border: 1px solid #ddd;
+            text-align: center;
+        }
+        .shopify-email-marketing-confirmation__container a {
+            font-size: 16px;
+            text-decoration: none;
+            display: block;
+            color: #fff!important;
+            padding: 20px 25px;
+            background: #1d271a;
+            border-radius: 5px;
+            margin-top: 5%;
+        }
+        .shopify-email-marketing-confirmation__container a:hover {
+            background: #34492d;
+        }
+        .shopify-email-marketing-confirmation__container img {
+            height: auto;
+            width: 50px;
+            margin-bottom: 20px;
+        }
+        .shopify-email-marketing-confirmation__container a:hover, 
+        .shopify-email-marketing-confirmation__container a:active, 
+        .shopify-email-marketing-confirmation__container a:visited {
+            color: #1d271a!important;
+            background: white;
+            border: 1px solid #1d271a!important;
+        }
+    </style>
     {%- if settings.favicon != blank -%}
       <link rel="shortcut icon" href="{{ settings.favicon | image_url: width: 32, height: 32 }}" type="image/png">
     {%- endif -%}
@@ -82,14 +97,15 @@
       {% section 'quick-cart' %}
       {%- if settings.enable_quick_search -%}
         {% render 'quick-search' %}
-      {%- endif -%}
+      {%- endif -%} 
 
       <div class="header-overlay" data-header-overlay>
         <div class="header-overlay__inner"></div>
       </div>
 
-      <main id="main" class="main">
-        {{ content_for_layout }}
+      <main id="main" class="main"> 
+        {{ content_for_layout }} 
+        
       </main>
 
       {% section 'footer' %}
