@@ -11,11 +11,45 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
+        "enable_animation": true,
+        "content_width": "custom",
+        "custom_content_width": 700
+      }
+    },
+    "collection_list_grid_QyFH6i": {
+      "type": "collection-list-grid",
+      "settings": {
+        "heading": "Category Grid View",
+        "subheading": "",
+        "link": "shopify:\/\/collections",
+        "link_text": "",
+        "columns": "3",
+        "mobile_columns": "2",
+        "collection_list": [
+          "adidas",
+          "converse",
+          "flex-fit",
+          "herschel",
+          "kid",
+          "men",
+          "supra",
+          "vans"
+        ],
+        "collection_listing_aspect_ratio": "landscape",
+        "label_style": "beneath",
+        "overlay_title_background_style": "gradient",
+        "overlay_text_color": "#fff",
+        "overlay_title_background": "#000000",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
       }
     }
   },
   "order": [
-    "main"
+    "main",
+    "collection_list_grid_QyFH6i"
   ]
 }
