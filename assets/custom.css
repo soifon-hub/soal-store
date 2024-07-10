@@ -386,4 +386,11 @@ html.sticky-header-enabled [data-js-cart-count] {
 .yotpo-head .yotpo-reviews-by {
   display: none !important; }
 
+
+  //new added css
+  .featured-collection-grid__products{
+    display:grid;
+    grid-template-columns:auto auto auto auto;
+  }
+
 /*# sourceMappingURL=custom.css.map */
