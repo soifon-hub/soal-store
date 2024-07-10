@@ -27,7 +27,7 @@
             "heading_font_class": "fs-heading-display-3",
             "subheading": "",
             "subheading_font_class": "fs-heading-5-base",
-            "text": "<p>EXPLORE COLLENTION<\/p>",
+            "text": "<p>EXPLORE COLLECTION<\/p>",
             "text_font_class": "fs-body-100",
             "link_1": "",
             "link_text_1": "Read more",
@@ -112,7 +112,7 @@
         "slide_knYbkH"
       ],
       "custom_css": [
-        "h2.slideshow-slide__text-container-heading.ff-heading{color: black; font-size: 25px;}"
+        "h2.slideshow-slide__text-container-heading.ff-heading {color: black; font-size: 25px;}"
       ],
       "settings": {
         "image_aspect": "custom",
