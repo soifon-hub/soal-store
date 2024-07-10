@@ -387,16 +387,7 @@ html.sticky-header-enabled [data-js-cart-count] {
   display: none !important; }
 
 
-  //new added css
-  /* @media(max-width:720px){
-  .featured-collection-grid__products{
-     display: grid;
-    column-gap: calc(var(--spacing-20) + 1px);
-    row-gap: calc(var(--spacing-20) + 1px); 
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, auto); 
-  }
-  } */
+  
 
 
 /*# sourceMappingURL=custom.css.map */
