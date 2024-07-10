@@ -267,7 +267,7 @@ html.sticky-header-enabled [data-js-cart-count] {
     .template-index .product-item__inner .product-item__meta .product-item__text .fs-product-card-title a {
       font-size: 14px; } }
 .template-index .product-item__inner .product-item__meta .product-item__text .product-item__price .product-item__price {
-  color: var(--green-color-black);
+  color: #DD8560; //ADDED
   font-family: var(--font-heading-v1);
   font-size: 16px;
   font-style: normal;
