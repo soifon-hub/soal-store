@@ -98,6 +98,73 @@
 }
 
 
+//new font upload SOAL
+
+@font-face {
+  font-family: 'LexendZetta-Black';
+    src: url("LexendZetta-Black.ttf") format("ttf"), 
+    url("LexendZetta-Black.ttf") format("ttf");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap; }
+@font-face {
+  font-family: 'LexendZetta-Bold';
+    src: url("LexendZetta-Bold.ttf") format("ttf"), 
+    url("LexendZetta-Bold.ttf") format("ttf");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap; }
+@font-face {
+  font-family: 'LexendZetta-ExtraBold';
+    src: url("LexendZetta-ExtraBold.ttf") format("ttf"), 
+    url("LexendZetta-ExtraBold.ttf") format("ttf");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap; }
+@font-face {
+  font-family: 'LexendZetta-ExtraLight';
+    src: url("LexendZetta-ExtraLight.ttf") format("ttf"), 
+    url("LexendZetta-ExtraLight.ttf") format("ttf");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap; }
+@font-face {
+  font-family: 'LexendZetta-Light';
+    src: url("LexendZetta-Light.ttf") format("ttf"), 
+    url("LexendZetta-Light.ttf") format("ttf");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap; }
+@font-face {
+  font-family: 'LexendZetta-Medium';
+    src: url("LexendZetta-Medium.ttf") format("ttf"), 
+    url("LexendZetta-Medium.ttf") format("ttf");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap; }
+@font-face {
+  font-family: 'LexendZetta-Regular';
+    src: url("LexendZetta-Regular.ttf") format("ttf"), 
+    url("LexendZetta-Regular.ttf") format("ttf");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap; }
+@font-face {
+  font-family: 'LexendZetta-SemiBold';
+    src: url("LexendZetta-SemiBold.ttf") format("ttf"), 
+    url("LexendZetta-SemiBold.ttf") format("ttf");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap; }
+@font-face {
+  font-family: 'LexendZetta-Thin';
+    src: url("LexendZetta-Thin.ttf") format("ttf"), 
+    url("LexendZetta-Thin.ttf") format("ttf");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap; }
+
+
 :root {
     --white-color: #ffffff;
     --white-color-op: #FFE7E7;
