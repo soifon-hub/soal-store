@@ -389,8 +389,11 @@ html.sticky-header-enabled [data-js-cart-count] {
 
   //new added css
   .featured-collection-grid__products{
-    display:grid;
-    grid-template-columns:auto auto auto auto;
+     display: grid;
+    column-gap: calc(var(--spacing-20) + 1px);
+    row-gap: calc(var(--spacing-20) + 1px); 
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, auto); 
   }
 
 /*# sourceMappingURL=custom.css.map */
