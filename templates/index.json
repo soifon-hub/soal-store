@@ -13,7 +13,7 @@
         "1654916105bea353be-1": {
           "type": "heading",
           "settings": {
-            "title": "<span>Dukat Olives<\/span> <br> Heritage in Every Bottle",
+            "title": "<span>Soal<\/span> <br> Heritage in Every Bottle",
             "heading_font_class": "fs-heading-display-3"
           }
         },
@@ -110,7 +110,7 @@
         "subheading": "",
         "link": "",
         "link_text": "",
-        "maximum_collections": 2,
+        "maximum_collections": 3,
         "columns": "3",
         "mobile_columns": "2",
         "enable_animation": true,
@@ -240,7 +240,7 @@
             "focal_point": "center",
             "show_rating": false,
             "rating": 5,
-            "quote": "\"I've tried many olive oils, but Dukat Olives stands out with its rich flavor and smooth finish. It's now a kitchen essential for me.\"",
+            "quote": "\"I've tried many olive oils, but Soal stands out with its rich flavor and smooth finish. It's now a kitchen essential for me.\"",
             "author": "– Ben"
           }
         },
