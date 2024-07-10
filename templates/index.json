@@ -375,7 +375,7 @@
         "play_button_Tiaq9M"
       ],
       "custom_css": [
-        ".video.video--text-mobile-center {padding: 0px;}"
+        ".video.video--text-mobile-center {padding: 10px 0px;}"
       ],
       "settings": {
         "video_source": "shopify",
