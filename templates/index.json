@@ -373,7 +373,7 @@
         "play_button_Tiaq9M"
       ],
       "settings": {
-        "video_source": "external",
+        "video_source": "shopify",
         "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
         "loop": false,
         "media_aspect_ratio": "landscape_wide_alt",
@@ -1073,7 +1073,7 @@
         "@media (min-width: 800px) {.featured-collection-grid__products {display: grid; column-gap: calc(var(--spacing-20) + 1px); }}"
       ],
       "settings": {
-        "heading": "Soal",
+        "heading": "JUST FOR YOU",
         "subheading": "",
         "link": "",
         "link_text": "",
