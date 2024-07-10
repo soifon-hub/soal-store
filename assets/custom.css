@@ -239,7 +239,7 @@ html.sticky-header-enabled [data-js-cart-count] {
 
 @media (min-width: 960px) {
   .featured-collection-grid.featured-collection-grid--per-view-3 .featured-collection-grid__products {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     max-width: 1200px;
     margin: 0 auto; }
 
