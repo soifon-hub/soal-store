@@ -260,7 +260,8 @@
         "@media (min-width: 1200px) {.featured-collection-grid__products {grid-template-columns: 1fr 1fr 1fr; column-gap: calc(var(--spacing-10) + 1px); }}",
         "@media (max-width: 720px) {.featured-collection-grid__products.carousel__wrapper.swiper-wrapper {display: grid; row-gap: 22px; grid-template-columns: auto auto; }}",
         "h5.product-item__product-vendor {display: none;}",
-        ".fs-body-50 {display: none;}"
+        ".fs-body-50 {display: none;}",
+        "p.product-item__price {color: #DD8560;}"
       ],
       "settings": {
         "heading": "",
