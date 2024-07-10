@@ -159,7 +159,7 @@
           "divider_width": "0px",
           "enable_locale_selector": true,
           "enable_country_selector": true,
-          "show_social_media": true,
+          "show_social_media": false,
           "logo_width": 100,
           "mobile_logo_width": 80,
           "menu": "women",
