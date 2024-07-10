@@ -1333,7 +1333,7 @@
         "row_spacing_mobile": 20,
         "column_alignment_mobile": "center",
         "background_behind_columns": false,
-        "background_color": "",
+        "background_color": "rgba(0,0,0,0)",
         "text_color": "#000000",
         "button_background_color": "#000000",
         "button_text_color": "#ffffff",
