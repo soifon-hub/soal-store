@@ -74,6 +74,7 @@
         "blocks": {
           "announcement-bar-0": {
             "type": "announcement",
+            "disabled": true,
             "settings": {
               "title": "<p>Free standard shipping and returns on all orders<\/p>",
               "title_mobile": "",
@@ -82,6 +83,7 @@
           },
           "announcement-bar-1": {
             "type": "announcement",
+            "disabled": true,
             "settings": {
               "title": "<p>Free standard shipping and returns on all orders<\/p>",
               "title_mobile": "",
