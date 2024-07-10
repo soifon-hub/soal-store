@@ -1317,7 +1317,7 @@
         "column_kQhhdb"
       ],
       "custom_css": [
-
+        ".multi-column:not(.multi-column--background-behind-column) {background-color: #00000085;}"
       ],
       "settings": {
         "title": "SOAL",
@@ -1336,7 +1336,7 @@
         "column_alignment_mobile": "center",
         "background_behind_columns": false,
         "background_color": "rgba(0,0,0,0)",
-        "text_color": "#000000",
+        "text_color": "#ffffff",
         "button_background_color": "#000000",
         "button_text_color": "#ffffff",
         "enable_animation": true,
