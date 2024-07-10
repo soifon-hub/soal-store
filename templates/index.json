@@ -288,7 +288,7 @@
           "type": "accent",
           "disabled": true,
           "settings": {
-            "accent": "TASTE THE BEAUTY"
+            "accent": "Collection"
           }
         },
         "1654899804e4fc48ec-0": {
@@ -1206,12 +1206,12 @@
         "@media (max-width: 720px) {.featured-collection-grid__products.carousel__wrapper.swiper-wrapper {display: grid; row-gap: 22px; grid-template-columns: auto auto; }}"
       ],
       "settings": {
-        "heading": "JUST FOR YOU",
-        "subheading": "",
+        "heading": "",
+        "subheading": "<p>JUST FOR YOU<\/p>",
         "link": "",
         "link_text": "",
-        "maximum_collections": 3,
-        "columns": "3",
+        "maximum_collections": 4,
+        "columns": "4",
         "mobile_columns": "2",
         "enable_animation": true,
         "divider_style": "none",
@@ -1325,8 +1325,8 @@
         "content_vertical_alignment": "top",
         "content_background_padding": "medium",
         "columns": "4",
-        "column_spacing": 28,
-        "row_spacing": 28,
+        "column_spacing": 36,
+        "row_spacing": 36,
         "column_alignment": "left",
         "columns_mobile": "2",
         "column_spacing_mobile": 20,
