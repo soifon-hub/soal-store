@@ -2,7 +2,7 @@
   "store": {
     "id": 79547924815,
     "plan": "basic",
-    "theme": "dukat-olives\/main",
+    "theme": "soal-store\/main",
     "primaryLocale": "en",
     "adminMode": false,
     "headless": false,
@@ -323,7 +323,7 @@
       "imprintHref": "\/",
       "close": "&#10005;",
       "target": "",
-      "logo": "<img class=\"cc-banner-logo\" height=\"40\" width=\"40\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0795\/4792\/4815\/t\/3\/assets\/pandectes-logo.png?v=1716137046\" alt=\"Dukat Olives\" \/>"
+      "logo": "<img class=\"cc-banner-logo\" height=\"40\" width=\"40\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0795\/4792\/4815\/t\/3\/assets\/pandectes-logo.png?v=1716137046\" alt=\"Soal\" \/>"
     },
     "window": "<div role=\"dialog\" aria-live=\"polite\" aria-label=\"cookieconsent\" aria-describedby=\"cookieconsent:desc\" id=\"pandectes-banner\" class=\"cc-window-wrapper cc-top-wrapper\"><div class=\"pd-cookie-banner-window cc-window {{classes}}\"><!--googleoff: all-->{{children}}<!--googleon: all--><\/div><\/div>",
     "compliance": {
@@ -387,7 +387,7 @@
     "0": [
       {
         "name": "keep_alive",
-        "domain": "dukatolives.com",
+        "domain": "soal-store.com",
         "path": "\/",
         "provider": "Shopify",
         "firstParty": true,
@@ -400,7 +400,7 @@
       },
       {
         "name": "secure_customer_sig",
-        "domain": "dukatolives.com",
+        "domain": "soal-store.com",
         "path": "\/",
         "provider": "Shopify",
         "firstParty": true,
@@ -413,7 +413,7 @@
       },
       {
         "name": "localization",
-        "domain": "dukatolives.com",
+        "domain": "soal-store.com",
         "path": "\/",
         "provider": "Shopify",
         "firstParty": true,
@@ -426,7 +426,7 @@
       },
       {
         "name": "cart_currency",
-        "domain": "dukatolives.com",
+        "domain": "soal-store.com",
         "path": "\/",
         "provider": "Shopify",
         "firstParty": true,
@@ -439,7 +439,7 @@
       },
       {
         "name": "_cmp_a",
-        "domain": ".dukatolives.com",
+        "domain": ".soal-store.com",
         "path": "\/",
         "provider": "Shopify",
         "firstParty": true,
@@ -452,7 +452,7 @@
       },
       {
         "name": "_tracking_consent",
-        "domain": ".dukatolives.com",
+        "domain": ".soal-store.com",
         "path": "\/",
         "provider": "Shopify",
         "firstParty": true,
@@ -465,7 +465,7 @@
       },
       {
         "name": "shopify_pay_redirect",
-        "domain": "dukatolives.com",
+        "domain": "soal-store.com",
         "path": "\/",
         "provider": "Shopify",
         "firstParty": true,
@@ -517,7 +517,7 @@
       },
       {
         "name": "_pandectes_gdpr",
-        "domain": ".dukatolives.com",
+        "domain": ".soal-store.com",
         "path": "\/",
         "provider": "Pandectes",
         "firstParty": true,
@@ -597,7 +597,7 @@
       },
       {
         "name": "wpm-domain-test",
-        "domain": "dukatolives.com",
+        "domain": "soal-store.com",
         "path": "\/",
         "provider": "Shopify",
         "firstParty": true,
@@ -612,7 +612,7 @@
     "2": [
       {
         "name": "_orig_referrer",
-        "domain": ".dukatolives.com",
+        "domain": ".soal-store.com",
         "path": "\/",
         "provider": "Shopify",
         "firstParty": true,
@@ -625,7 +625,7 @@
       },
       {
         "name": "_shopify_y",
-        "domain": ".dukatolives.com",
+        "domain": ".soal-store.com",
         "path": "\/",
         "provider": "Shopify",
         "firstParty": true,
@@ -638,7 +638,7 @@
       },
       {
         "name": "_landing_page",
-        "domain": ".dukatolives.com",
+        "domain": ".soal-store.com",
         "path": "\/",
         "provider": "Shopify",
         "firstParty": true,
@@ -651,7 +651,7 @@
       },
       {
         "name": "_shopify_s",
-        "domain": ".dukatolives.com",
+        "domain": ".soal-store.com",
         "path": "\/",
         "provider": "Shopify",
         "firstParty": true,
@@ -664,7 +664,7 @@
       },
       {
         "name": "_shopify_sa_t",
-        "domain": ".dukatolives.com",
+        "domain": ".soal-store.com",
         "path": "\/",
         "provider": "Shopify",
         "firstParty": true,
@@ -677,7 +677,7 @@
       },
       {
         "name": "_shopify_sa_p",
-        "domain": ".dukatolives.com",
+        "domain": ".soal-store.com",
         "path": "\/",
         "provider": "Shopify",
         "firstParty": true,
@@ -690,7 +690,7 @@
       },
       {
         "name": "_ga",
-        "domain": ".dukatolives.com",
+        "domain": ".soal-store.com",
         "path": "\/",
         "provider": "Google",
         "firstParty": true,
@@ -716,7 +716,7 @@
       },
       {
         "name": "_boomr_clss",
-        "domain": "https:\/\/dukatolives.com",
+        "domain": "https:\/\/soal-store.com",
         "path": "\/",
         "provider": "Shopify",
         "firstParty": true,
@@ -729,7 +729,7 @@
       },
       {
         "name": "_ga_1F59M5FB4N",
-        "domain": ".dukatolives.com",
+        "domain": ".soal-store.com",
         "path": "\/",
         "provider": "Google",
         "firstParty": true,
@@ -742,7 +742,7 @@
       },
       {
         "name": "_ga_F09DPH2HHE",
-        "domain": ".dukatolives.com",
+        "domain": ".soal-store.com",
         "path": "\/",
         "provider": "Google",
         "firstParty": true,
@@ -770,7 +770,7 @@
       },
       {
         "name": "__kla_id",
-        "domain": "dukatolives.com",
+        "domain": "soal-store.com",
         "path": "\/",
         "provider": "Klaviyo",
         "firstParty": true,
@@ -783,7 +783,7 @@
       },
       {
         "name": "_fbp",
-        "domain": ".dukatolives.com",
+        "domain": ".soal-store.com",
         "path": "\/",
         "provider": "Facebook",
         "firstParty": true,
@@ -796,7 +796,7 @@
       },
       {
         "name": "_pin_unauth",
-        "domain": "dukatolives.com",
+        "domain": "soal-store.com",
         "path": "\/",
         "provider": "Pinterest",
         "firstParty": true,
@@ -809,7 +809,7 @@
       },
       {
         "name": "_gcl_au",
-        "domain": ".dukatolives.com",
+        "domain": ".soal-store.com",
         "path": "\/",
         "provider": "Google",
         "firstParty": true,
@@ -848,7 +848,7 @@
       },
       {
         "name": "lastExternalReferrerTime",
-        "domain": "https:\/\/dukatolives.com",
+        "domain": "https:\/\/soal-store.com",
         "path": "\/",
         "provider": "Facebook",
         "firstParty": true,
@@ -861,7 +861,7 @@
       },
       {
         "name": "lastExternalReferrer",
-        "domain": "https:\/\/dukatolives.com",
+        "domain": "https:\/\/soal-store.com",
         "path": "\/",
         "provider": "Facebook",
         "firstParty": true,
@@ -941,7 +941,7 @@
       },
       {
         "name": "klaviyoOnsite",
-        "domain": "https:\/\/dukatolives.com",
+        "domain": "https:\/\/soal-store.com",
         "path": "\/",
         "provider": "Unknown",
         "firstParty": true,
@@ -954,7 +954,7 @@
       },
       {
         "name": "klaviyoPagesVisitCount",
-        "domain": "https:\/\/dukatolives.com",
+        "domain": "https:\/\/soal-store.com",
         "path": "\/",
         "provider": "Unknown",
         "firstParty": true,
@@ -967,7 +967,7 @@
       },
       {
         "name": "__storage_test__",
-        "domain": "https:\/\/dukatolives.com",
+        "domain": "https:\/\/soal-store.com",
         "path": "\/",
         "provider": "Unknown",
         "firstParty": true,
@@ -980,7 +980,7 @@
       },
       {
         "name": "_kla_test",
-        "domain": "https:\/\/dukatolives.com",
+        "domain": "https:\/\/soal-store.com",
         "path": "\/",
         "provider": "Unknown",
         "firstParty": true,
@@ -993,7 +993,7 @@
       },
       {
         "name": "local-storage-test",
-        "domain": "https:\/\/dukatolives.com",
+        "domain": "https:\/\/soal-store.com",
         "path": "\/",
         "provider": "Unknown",
         "firstParty": true,
@@ -1006,7 +1006,7 @@
       },
       {
         "name": "session-storage-test",
-        "domain": "https:\/\/dukatolives.com",
+        "domain": "https:\/\/soal-store.com",
         "path": "\/",
         "provider": "Unknown",
         "firstParty": true,
@@ -1019,7 +1019,7 @@
       },
       {
         "name": "loglevel",
-        "domain": "https:\/\/dukatolives.com",
+        "domain": "https:\/\/soal-store.com",
         "path": "\/",
         "provider": "Unknown",
         "firstParty": true,

@@ -1,2 +1,2 @@
-## Dukat Olives - Olive Oil Brand
-- [dukatolives.com](https://dukatolives.com)
+## Soal
+- [soal-store.com](https://soal-store.com)
