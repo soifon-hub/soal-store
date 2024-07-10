@@ -9,6 +9,122 @@
 */
 {
   "sections": {
+    "slideshow_ngWCPT": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_jMtJT4": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/05b87a15a34ed241e22abbbdaa1276b2.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/05b87a15a34ed241e22abbbdaa1276b2.jpg",
+            "focal_point": "center",
+            "mobile_focal_point": "center",
+            "media_link": "",
+            "text_position": "center_center",
+            "text_position_mobile": "center_center",
+            "accent": "",
+            "title": "DARE TO DIFFER",
+            "heading_font_class": "fs-heading-display-2",
+            "subheading": "",
+            "subheading_font_class": "fs-heading-5-base",
+            "text": "<p>EXPLORE COLLENTION<\/p>",
+            "text_font_class": "fs-body-100",
+            "link_1": "",
+            "link_text_1": "Read more",
+            "button_style_1": "btn--primary",
+            "link_2": "",
+            "link_text_2": "Read more",
+            "button_style_2": "btn--primary",
+            "text_color": "#FFFFFF",
+            "button_background_color": "#FFFFFF",
+            "button_text_color": "#000000",
+            "color_overlay": "#000",
+            "color_overlay_gradient": "",
+            "overlay_opacity": 40
+          }
+        },
+        "slide_xNcEK7": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/05b87a15a34ed241e22abbbdaa1276b2.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/05b87a15a34ed241e22abbbdaa1276b2.jpg",
+            "focal_point": "center",
+            "mobile_focal_point": "center",
+            "media_link": "",
+            "text_position": "center_center",
+            "text_position_mobile": "center_center",
+            "accent": "",
+            "title": "DARE TO DIFFER",
+            "heading_font_class": "fs-heading-display-2",
+            "subheading": "",
+            "subheading_font_class": "fs-heading-5-base",
+            "text": "<p>EXPLORE COLLENTION<\/p>",
+            "text_font_class": "fs-body-100",
+            "link_1": "",
+            "link_text_1": "Read more",
+            "button_style_1": "btn--primary",
+            "link_2": "",
+            "link_text_2": "Read more",
+            "button_style_2": "btn--primary",
+            "text_color": "#FFFFFF",
+            "button_background_color": "#FFFFFF",
+            "button_text_color": "#000000",
+            "color_overlay": "#000",
+            "color_overlay_gradient": "",
+            "overlay_opacity": 40
+          }
+        },
+        "slide_knYbkH": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/05b87a15a34ed241e22abbbdaa1276b2.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/05b87a15a34ed241e22abbbdaa1276b2.jpg",
+            "focal_point": "center",
+            "mobile_focal_point": "center",
+            "media_link": "",
+            "text_position": "center_center",
+            "text_position_mobile": "center_center",
+            "accent": "",
+            "title": "DARE TO DIFFER",
+            "heading_font_class": "fs-heading-display-2",
+            "subheading": "",
+            "subheading_font_class": "fs-heading-5-base",
+            "text": "<p>EXPLORE COLLENTION<\/p>",
+            "text_font_class": "fs-body-100",
+            "link_1": "",
+            "link_text_1": "Read more",
+            "button_style_1": "btn--primary",
+            "link_2": "",
+            "link_text_2": "Read more",
+            "button_style_2": "btn--primary",
+            "text_color": "#FFFFFF",
+            "button_background_color": "#FFFFFF",
+            "button_text_color": "#000000",
+            "color_overlay": "#000",
+            "color_overlay_gradient": "",
+            "overlay_opacity": 40
+          }
+        }
+      },
+      "block_order": [
+        "slide_jMtJT4",
+        "slide_xNcEK7",
+        "slide_knYbkH"
+      ],
+      "settings": {
+        "image_aspect": "custom",
+        "desktop_height": 100,
+        "mobile_height": 100,
+        "enable_autoplay": true,
+        "duration_autoplay": 6,
+        "navigation_alignment": "center",
+        "navigation_color_foreground": "#fff",
+        "navigation_color_background": "",
+        "navigation_background_opacity": 100,
+        "enable_animation": true,
+        "section_padding": "none"
+      }
+    },
     "1654916105fd939f8f": {
       "type": "video-hero",
       "blocks": {
@@ -70,6 +186,7 @@
         "button_g9fmyf",
         "button_KaqByK"
       ],
+      "disabled": true,
       "settings": {
         "image_aspect": "custom",
         "desktop_height": 100,
@@ -88,6 +205,37 @@
         "overlay_opacity": 100,
         "enable_animation": true,
         "section_padding": "section--vertical-padding-none"
+      }
+    },
+    "rich_text_DxcVMF": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_cdfHYK": {
+          "type": "heading",
+          "settings": {
+            "title": "NEW ARRIVAL",
+            "heading_font_class": "fs-heading-2-base"
+          }
+        },
+        "text_3EHdAQ": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "text_font_class": "fs-body-100"
+          }
+        }
+      },
+      "block_order": [
+        "heading_cdfHYK",
+        "text_3EHdAQ"
+      ],
+      "settings": {
+        "alignment": "center_center",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom",
+        "custom_content_width": 700
       }
     },
     "featured_collection_grid_xJwedG": {
@@ -113,7 +261,7 @@
         "heading": "Soal",
         "subheading": "",
         "link": "",
-        "link_text": "",
+        "link_text": "Explore More",
         "maximum_collections": 3,
         "columns": "3",
         "mobile_columns": "2",
@@ -134,6 +282,7 @@
         },
         "1654899804e4fc48ec-0": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "title": "Preserving Purity in a Sea of Change Amidst a world of mass production, Dukat remains <span>steadfast<\/span>, offering olive oil steeped in the <span>unchanging traditions of our village.<\/span>",
             "heading_font_class": "fs-heading-display-3"
@@ -149,6 +298,7 @@
         },
         "1654899804e4fc48ec-2": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "link": "shopify:\/\/collections\/all",
             "link_text": "LEARN MORE",
@@ -177,13 +327,63 @@
         "image_small": "shopify:\/\/shop_images\/58262e66c5e9731050280eb16880d5a4.jpg",
         "image_small_aspect_ratio": "square",
         "image_small_focal_point": "center",
-        "background_color": "#ece9e4",
+        "background_color": "#ffffff",
         "text_color": "#000000",
         "button_background_color": "#000000",
         "button_text_color": "#ffffff",
         "enable_animation": true,
         "divider_style": "none",
         "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
+    "video_GfxzKJ": {
+      "type": "video",
+      "blocks": {
+        "heading_8mCxDW": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "title": "Video",
+            "heading_font_class": "fs-heading-display-2"
+          }
+        },
+        "text_YyUxah": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Use this section to promote a particular feature with editorial video.<\/p>",
+            "text_font_class": "fs-body-100"
+          }
+        },
+        "play_button_Tiaq9M": {
+          "type": "play-button",
+          "settings": {
+            "text": "Watch now",
+            "button_layout": "full",
+            "icon_style": "outline"
+          }
+        }
+      },
+      "block_order": [
+        "heading_8mCxDW",
+        "text_YyUxah",
+        "play_button_Tiaq9M"
+      ],
+      "settings": {
+        "video_source": "external",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "loop": false,
+        "media_aspect_ratio": "landscape_wide_alt",
+        "focal_point": "center",
+        "text_position": "center_center",
+        "text_position_mobile": "center",
+        "button_background_color": "#FFF",
+        "color_overlay": "#000",
+        "color_overlay_text": "#FFF",
+        "color_overlay_gradient": "",
+        "overlay_opacity": 40,
+        "enable_animation": true,
+        "section_padding": "section--vertical-padding-none"
       }
     },
     "testimonials_eb6fnk": {
@@ -263,6 +463,7 @@
         "testimonial_djHbg6",
         "testimonial_8NmXMV"
       ],
+      "disabled": true,
       "custom_css": [
         "@media (max-width: 600px) {.testimonials__navigation-button-wrapper {top: 50%; } .ff-subheading.testimonials__item-quote {font-family: \"Figtree\"; font-size: 20px; padding: 0 50px; } .testimonials__navigation-button-wrapper--prev {left: calc((var(--mobile-paddle-size) \/ 3) * 0); right: calc((var(--mobile-paddle-size) \/ 3) * 0); }}"
       ],
@@ -994,7 +1195,7 @@
         "@media (max-width: 720px) {.featured-collection-grid__products.carousel__wrapper.swiper-wrapper {display: grid; row-gap: 22px; grid-template-columns: auto auto; }}"
       ],
       "settings": {
-        "heading": "<span>Soal<\/span>",
+        "heading": "JUST FOR YOU",
         "subheading": "",
         "link": "",
         "link_text": "",
@@ -1038,12 +1239,106 @@
         "full_width": true,
         "section_padding": "section--vertical-padding-none"
       }
+    },
+    "multi_column_mqeEBj": {
+      "type": "multi-column",
+      "blocks": {
+        "column_dgQyw8": {
+          "type": "column",
+          "settings": {
+            "accent": "",
+            "heading": "",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "<p>Fast shipping. Free on orders over $45.<\/p>",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        },
+        "column_bpBD7w": {
+          "type": "column",
+          "settings": {
+            "accent": "",
+            "heading": "",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "<p>Sustainable process from start to finish.<\/p>",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        },
+        "column_YU6hM4": {
+          "type": "column",
+          "settings": {
+            "accent": "",
+            "heading": "",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "<p>Unique designs and high-quality materials.<\/p>",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        },
+        "column_kQhhdb": {
+          "type": "column",
+          "settings": {
+            "accent": "",
+            "heading": "",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "<p>Fast shipping. Free on orders over $45.<\/p>",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "column_dgQyw8",
+        "column_bpBD7w",
+        "column_YU6hM4",
+        "column_kQhhdb"
+      ],
+      "settings": {
+        "title": "SOAL",
+        "subheading": "<p>Making a luxurious lifestyle accessible for a generous group of women is our daily drive.<\/p>",
+        "heading_font_class": "fs-heading-3-base",
+        "heading_alignment": "center",
+        "content_vertical_alignment": "top",
+        "content_background_padding": "medium",
+        "columns": "4",
+        "column_spacing": 28,
+        "row_spacing": 28,
+        "column_alignment": "left",
+        "columns_mobile": "2",
+        "column_spacing_mobile": 20,
+        "row_spacing_mobile": 20,
+        "column_alignment_mobile": "left",
+        "background_behind_columns": false,
+        "background_color": "",
+        "text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_text_color": "#FFFFFF",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
     }
   },
   "order": [
+    "slideshow_ngWCPT",
     "1654916105fd939f8f",
+    "rich_text_DxcVMF",
     "featured_collection_grid_xJwedG",
     "165489980473ecbf41",
+    "video_GfxzKJ",
     "testimonials_eb6fnk",
     "1654878022d8e24a9a",
     "16549177944ec2347e",
@@ -1057,6 +1352,7 @@
     "image_compare_TwaPHc",
     "sales_banner_TQV9j6",
     "featured_collection_grid_8qB6Fy",
-    "countdown_bar_Y8cCtg"
+    "countdown_bar_Y8cCtg",
+    "multi_column_mqeEBj"
   ]
 }
