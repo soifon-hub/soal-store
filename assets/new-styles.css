@@ -64,6 +64,5 @@ Copy code
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%) rotate(45deg); /* Center the dot and rotate it */
     border: none;
 }
