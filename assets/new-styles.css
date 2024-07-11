@@ -58,3 +58,11 @@
     border-radius: 0;
 
 }
+.slideshow-navigation__dot{
+  width: 8px;
+  height:8px;
+  position:absolute;
+  top:30%;
+  left:50%;
+  border-radius:0px;
+}
