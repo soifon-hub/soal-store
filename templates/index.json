@@ -1427,7 +1427,8 @@
         "image_column_CRYpDX"
       ],
       "custom_css": [
-        ".multi-column:not(.multi-column--background-behind-column) {background-color: #00000085;}"
+        ".multi-column:not(.multi-column--background-behind-column) {background-color: #00000085;}",
+        ".multi-column__grid-item-inner {width: 50%; display: block; margin: 0 auto;}"
       ],
       "settings": {
         "title": "",
