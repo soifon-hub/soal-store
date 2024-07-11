@@ -106,7 +106,7 @@
     text-align:center;
 }
 
-.footer__links ,.a{
+.footer__links ul li a {
     color: #000000;
     font-family: var(--font-heading-v1);
     font-size: 12px;
