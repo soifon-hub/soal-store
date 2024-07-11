@@ -24,7 +24,7 @@
         "heading_zGjipM": {
           "type": "heading",
           "settings": {
-            "title": "Page not found",
+            "title": "Page <br>not found",
             "heading_font_class": "fs-heading-2-base"
           }
         },
@@ -48,7 +48,7 @@
           "type": "button",
           "settings": {
             "link": "",
-            "link_text": "&larr; Home Page",
+            "link_text": "← Home Page",
             "button_style": "btn--primary"
           }
         }
