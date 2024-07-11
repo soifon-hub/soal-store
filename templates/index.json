@@ -234,6 +234,9 @@
         "heading_cdfHYK",
         "text_3EHdAQ"
       ],
+      "custom_css": [
+        "h2.rich-text__heading {font-size: 18px;}"
+      ],
       "settings": {
         "alignment": "center_center",
         "enable_animation": true,
