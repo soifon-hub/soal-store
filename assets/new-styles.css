@@ -46,23 +46,28 @@
 }
 }
 
-css
-Copy code
-.slideshow-navigation__dot {
-    position: relative;
-    padding: 12px; /* or use var(--spacing-3) */
-    opacity: .4;
-    border-radius: 0;
-    transition: opacity .2s ease;
-}
-
 .slideshow-navigation__dot-loader {
-    width: 20px;  /* Adjust size as needed */
-    height: 20px; /* Adjust size as needed */
-    background-color: var(--color-foreground); /* Set the color of the dot */
-    transform: rotate(45deg); /* Rotates the square to form a rhombus */
+    display: none;
     position: absolute;
     top: 50%;
     left: 50%;
-    border: none;
+    transform: translate(-50%, -50%)  rotate(45deg);
+    border: 2px solid var(--color-foreground);
+    width: 15px; 
+    height: 15px;
+    border-radius: 0;
+
+}
+
+.slideshow-navigation__dot:after {
+    content: "";
+    width: 8px;
+    height: 8px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    background-color: var(--color-foreground);
+    border-radius: 0;
+    transition: background-color .2s ease;
 }
