@@ -19,4 +19,8 @@
   display:flex;
   justify-content:space-between;
 }
+
+  .drawer-menu__link .icon.icon-chevron{
+    display:none;
+  }
 }
