@@ -1359,19 +1359,41 @@
             "link_text": "",
             "button_style": "btn--primary"
           }
+        },
+        "image_column_kJLyFU": {
+          "type": "image_column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Untitled_design_5.png",
+            "image_width": 100,
+            "aspect_ratio": "square",
+            "focal_point": "center",
+            "image_position": "above_text",
+            "image_link": "",
+            "small_caption": "",
+            "accent": "",
+            "heading": "",
+            "heading_font_class": "fs-heading-4-base",
+            "text": "",
+            "text_font_class": "fs-body-100",
+            "text_max_width": 100,
+            "link": "",
+            "link_text": "",
+            "button_style": "btn--primary"
+          }
         }
       },
       "block_order": [
         "image_column_ejdY9Y",
         "image_column_G3i7dN",
         "image_column_UhJkFr",
-        "image_column_pg4PfQ"
+        "image_column_pg4PfQ",
+        "image_column_kJLyFU"
       ],
       "custom_css": [
         ".multi-column:not(.multi-column--background-behind-column) {background-color: #00000085;}",
         "div.multi-column__subheading {font-size: 11px; line-height: 25px; letter-spacing: 0.5px; word-spacing: -1px; padding: 20px;}",
         "div.multi-column__grid-item-text {font-size: 10px;}",
-        ".multi-column__grid-item-image-figure{max-width:30%;}"
+        ".multi-column__grid-item-image-figure {max-width: 30%;}"
       ],
       "settings": {
         "title": "SOAL",
