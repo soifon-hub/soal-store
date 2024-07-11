@@ -51,7 +51,7 @@
             "variant_popup_text": "Size guide",
             "variant_popup_page": "",
             "swatch_size": "medium",
-            "chip_layout": "3col"
+            "chip_layout": "natural"
           }
         },
         "inventory_counter": {
@@ -81,11 +81,11 @@
           "settings": {
             "title": "",
             "add_box": false,
-            "add_dividers": true,
-            "icon_1": "leaf",
-            "text_1": "<p>Your order ships carbon neutral<\/p>",
+            "add_dividers": false,
+            "icon_1": "none",
+            "text_1": "<p><strong>MATERIALS<\/strong><br\/>We work with monitoring programmes to ensure compliance with safety, health and quality standards for our products. <\/p>",
             "icon_2": "none",
-            "text_2": "",
+            "text_2": "<p><br\/><strong>CARE<\/strong><br\/>To keep your jackets and coats clean, you only need to freshen them up and go over them with a cloth or a clothes brush. If you need to dry clean a garment, look for a dry cleaner that uses technologies that are respectful of the environment.<\/p>",
             "icon_3": "none",
             "text_3": "",
             "icon_4": "none",
@@ -197,6 +197,9 @@
         "accordion-2",
         "accordion-3",
         "text"
+      ],
+      "custom_css": [
+
       ],
       "settings": {
         "enable_sticky_product_details": true,
