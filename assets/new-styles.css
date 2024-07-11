@@ -81,6 +81,9 @@
     letter-spacing: 2.4px;
 }
 
+.footer__newsletter .input[type=email] {
+    color: black;
+}
 
 
 
