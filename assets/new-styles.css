@@ -108,7 +108,8 @@
 
 .footer__links ul li a {
     color: #000000;
-    font-family: var(--font-heading-v1);
+    display: flex;
+    justify-content:space-around;
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
