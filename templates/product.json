@@ -102,7 +102,7 @@
           "type": "product_callouts",
           "settings": {
             "title": "",
-            "add_box": true,
+            "add_box": false,
             "add_dividers": true,
             "icon_1": "none",
             "custom_icon_image_1": "shopify:\/\/shop_images\/2_80b34d56-6d06-4689-97cf-32d5e21fa15e.png",
