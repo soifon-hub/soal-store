@@ -258,11 +258,11 @@
             "accent": "",
             "heading": "",
             "heading_font_class": "fs-heading-4-base",
-            "text": "<p>You can text us at 800-309-2622 – or click on the “text us” link below on your mobile device. Please allow the system to acknowledge a simple greeting (even “Hi” will do!) before providing your question\/order details. Consent is not required for any purchase. Message and data rates may apply. Text messaging may not be available via all carriers.<\/p>",
+            "text": "<p>Need an ASAP answer? Contact us via chat, 24\/7! For existing furniture orders, please call us.<\/p>",
             "text_font_class": "fs-body-75",
             "text_max_width": 100,
             "link": "",
-            "link_text": "",
+            "link_text": "CHAT WITH US",
             "button_style": "btn--primary"
           }
         },
@@ -271,15 +271,16 @@
           "settings": {
             "icon": "plant",
             "icon_width": 50,
-            "icon_width_mobile": 50,
+            "icon_width_mobile": 100,
+            "custom_icon_image": "shopify:\/\/shop_images\/3.png",
             "accent": "",
-            "heading": "Column with icon",
+            "heading": "",
             "heading_font_class": "fs-heading-4-base",
-            "text": "<p>Pair text with an icon to focus on your chosen product, collection, or blog post.<\/p>",
-            "text_font_class": "fs-body-100",
+            "text": "<p>You can text us at 800-309-2622 – or click on the “text us” link below on your mobile device. Please allow the system to acknowledge a simple greeting (even “Hi” will do!) before providing your question\/order details. Consent is not required for any purchase. Message and data rates may apply. Text messaging may not be available via all carriers.<\/p>",
+            "text_font_class": "fs-body-75",
             "text_max_width": 100,
             "link": "",
-            "link_text": "",
+            "link_text": "TEXT US",
             "button_style": "btn--primary"
           }
         },
@@ -288,12 +289,13 @@
           "settings": {
             "icon": "plant",
             "icon_width": 50,
-            "icon_width_mobile": 50,
+            "icon_width_mobile": 100,
+            "custom_icon_image": "shopify:\/\/shop_images\/4.png",
             "accent": "",
-            "heading": "Column with icon",
+            "heading": "",
             "heading_font_class": "fs-heading-4-base",
-            "text": "<p>Pair text with an icon to focus on your chosen product, collection, or blog post.<\/p>",
-            "text_font_class": "fs-body-100",
+            "text": "<p>To send us a private or direct message, like @Open Fashion on Facebook or follow us on Twitter. We’ll get back to you ASAP. Please include your name, order number, and email address for a faster response!<\/p>",
+            "text_font_class": "fs-body-75",
             "text_max_width": 100,
             "link": "",
             "link_text": "",
@@ -307,7 +309,7 @@
         "icon_column_DLUpiH"
       ],
       "custom_css": [
-        ".multi-column__grid-item-icon-wrapper{display:flex; justify-content:center;}"
+        ".multi-column__grid-item-icon-wrapper {display: flex; justify-content: center;}"
       ],
       "settings": {
         "title": "",
