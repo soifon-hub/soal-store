@@ -59,14 +59,3 @@
 
 }
 
-.slideshow-navigation__dot {
-    position: relative;
-    padding: 12px;
-    padding: var(--spacing-3);
-    opacity: .4;
-    border-radius: 0;
-    transition: opacity .2s ease;
-    width: 20px;  /* Adjust size as needed */
-    height: 20px; /* Adjust size as needed */
-    transform: rotate(45deg); /* Rotates the square to form a rhombus */
-}
