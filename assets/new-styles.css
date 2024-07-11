@@ -120,7 +120,7 @@
 }
 .footer__links ul {
     width: 100%;
-    font-family: var(-font-heading-v1);
+    font-family: var(--font-heading-v1);
     margin: 0;
     padding: 0;
     list-style: none;
