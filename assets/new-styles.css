@@ -53,8 +53,8 @@
     left: 50%;
     transform: translate(-50%, -50%)  rotate(45deg);
     border: 2px solid var(--color-foreground);
-    width: 10px; 
-    height: 10px;
+    width: 15px; 
+    height: 15px;
     border-radius: 0;
 
 }
