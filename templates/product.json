@@ -124,6 +124,31 @@
             "expand_by_default": false
           }
         },
+        "product_callouts_mzBjGA": {
+          "type": "product_callouts",
+          "settings": {
+            "title": "Care",
+            "add_box": false,
+            "add_dividers": true,
+            "icon_1": "none",
+            "custom_icon_image_1": "shopify:\/\/shop_images\/6.png",
+            "text_1": "<p>Free Flat Rate Shipping<\/p>",
+            "icon_2": "none",
+            "custom_icon_image_2": "shopify:\/\/shop_images\/7.png",
+            "text_2": "<p>COD Policy<\/p>",
+            "icon_3": "none",
+            "custom_icon_image_3": "shopify:\/\/shop_images\/8.png",
+            "text_3": "<p>Return Policy<\/p>",
+            "icon_4": "none",
+            "text_4": "",
+            "icon_5": "none",
+            "text_5": "",
+            "icon_6": "padlock",
+            "text_6": "",
+            "display_as_collapsible_row": false,
+            "expand_by_default": false
+          }
+        },
         "share": {
           "type": "share",
           "settings": {
@@ -195,6 +220,7 @@
         "buy_buttons",
         "product_callouts-1",
         "product_callouts-2",
+        "product_callouts_mzBjGA",
         "share",
         "description",
         "accordion-1",
