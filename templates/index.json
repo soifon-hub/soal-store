@@ -236,7 +236,7 @@
       ],
       "custom_css": [
         "h2.rich-text__heading {font-size: 18px;}",
-        "div.rich-text{border-bottom: 1px solid #C4C4C4;}"
+        "div.rich-text {border-bottom: 1px solid #c4c4c4;}"
       ],
       "settings": {
         "alignment": "center_center",
@@ -245,6 +245,14 @@
         "section_padding": "section--vertical-padding-top-bottom",
         "content_width": "custom",
         "custom_content_width": 500
+      }
+    },
+    "custom_liquid_6iQaBq": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<nav class=\"navigation__nav\">\n<ul class=\"navigation__list\">\n<li class=\"navigation__item\"><a href=\"#\" class=\"navigation__link\">All<\/a><\/li>\n<li class=\"navigation__item\"><a href=\"#\" class=\"navigation__link\">Apparel<\/a><\/li>\n<li class=\"navigation__item\"><a href=\"#\" class=\"navigation__link\">Dress<\/a><\/li>\n<li class=\"navigation__item\"><a href=\"#\" class=\"navigation__link\">T-Shirt<\/a><\/li>\n<li class=\"navigation__item\"><a href=\"#\" class=\"navigation__link\">Bag<\/a><\/li>\n<\/ul>\n<\/nav>",
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
       }
     },
     "featured_collection_grid_8qB6Fy": {
@@ -1381,6 +1389,7 @@
     "slideshow_ngWCPT",
     "1654916105fd939f8f",
     "rich_text_DxcVMF",
+    "custom_liquid_6iQaBq",
     "featured_collection_grid_8qB6Fy",
     "165489980473ecbf41",
     "video_GfxzKJ",
