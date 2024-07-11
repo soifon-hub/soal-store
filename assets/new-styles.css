@@ -178,7 +178,12 @@
   
 }
 
+.rich-text__text, .rte, .ff-body, .fs-body-100, .section-blocks__subheading{
 
+  display:block;
+  text-align:left;
+  padding:2px 0;
+}
 
 
 
