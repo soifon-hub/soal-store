@@ -397,7 +397,7 @@
         "play_button_Tiaq9M"
       ],
       "custom_css": [
-        ".video.video--text-mobile-center {padding: 10px 0px;}"
+        ".video.video--text-mobile-center {padding: 40px 0px;}"
       ],
       "settings": {
         "video_source": "shopify",
@@ -414,7 +414,7 @@
         "color_overlay_gradient": "",
         "overlay_opacity": 50,
         "enable_animation": true,
-        "section_padding": "section--vertical-padding-top-only"
+        "section_padding": "section--vertical-padding-top-bottom"
       }
     },
     "testimonials_eb6fnk": {
