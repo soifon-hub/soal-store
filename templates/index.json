@@ -331,7 +331,8 @@
       ],
       "custom_css": [
         "h2.image-with-text__text-container-heading.ff-heading.fs-heading-display-3.section-blocks__heading {font-size: 37px;}",
-        "@media (max-width: 600px) {h2.image-with-text__text-container-heading.ff-heading.fs-heading-display-3.section-blocks__heading {font-size: 27px; } .image-with-text {background-image: none; } .image-with-text__image-container-inner {width: 100%; }}"
+        "@media (max-width: 600px) {h2.image-with-text__text-container-heading.ff-heading.fs-heading-display-3.section-blocks__heading {font-size: 27px; } .image-with-text {background-image: none; } .image-with-text__image-container-inner {width: 100%; }}",
+        "div.image-with-text__inner{padding:0px;}"
       ],
       "settings": {
         "image_position": "right",
