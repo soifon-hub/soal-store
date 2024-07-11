@@ -152,4 +152,9 @@
   background-color:white;
 }
 
+.rich-text__heading, .ff-heading, .fs-heading-2-base, .section-blocks__heading{
+  font-size: 20px;
+  display:block;
+  text-align:center;
+}
 
