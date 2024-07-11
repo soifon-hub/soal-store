@@ -453,7 +453,8 @@
         "article_XM9wLN"
       ],
       "custom_css": [
-        ".article-item__content-inner {background-color: transparent;}"
+        ".article-item__content-inner {background-color: transparent;}",
+        "h4.article-item__title {display: flex; font-size: 14px; color: white; margin-bottom: 25px;}"
       ],
       "settings": {
         "heading": "",
