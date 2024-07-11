@@ -17,7 +17,8 @@
 }
 .drawer-menu__primary-links{
   display:flex;
-  justify-content:space-between;
+  justify-content:space-around;
+  border-bottom: 1px solid white;
 }
 
   .drawer-menu__link .icon.icon-chevron{
