@@ -95,7 +95,11 @@
     
 }
 
-
+.footer__group-content{
+  color:black;
+  display: block;
+  margin: 0 auto;
+}
 
 
 
