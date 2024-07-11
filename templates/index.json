@@ -235,7 +235,8 @@
         "text_3EHdAQ"
       ],
       "custom_css": [
-        "h2.rich-text__heading {font-size: 18px;}"
+        "h2.rich-text__heading {font-size: 18px;}",
+        "div.rich-text{border-bottom: 1px solid #C4C4C4;}"
       ],
       "settings": {
         "alignment": "center_center",
