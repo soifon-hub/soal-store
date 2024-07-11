@@ -112,7 +112,7 @@
         "slide_knYbkH"
       ],
       "custom_css": [
-        "h2.slideshow-slide__text-container-heading.ff-heading {color: black; font-size: 25px; font-weight: 600;}",
+        "h2.slideshow-slide__text-container-heading.ff-heading {color: black; font-size: 35px; font-weight: 600;}",
         "div.slideshow-slide__text-container-text.rte.ff-body {color: white;}",
         "div.slideshow-slide__text-container-wrapper {}"
       ],
