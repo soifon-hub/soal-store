@@ -385,9 +385,9 @@
         "play_button_Tiaq9M": {
           "type": "play-button",
           "settings": {
-            "text": "Watch now",
-            "button_layout": "full",
-            "icon_style": "outline"
+            "text": "",
+            "button_layout": "minimal",
+            "icon_style": "dark"
           }
         }
       },
@@ -412,7 +412,7 @@
         "color_overlay": "rgba(0,0,0,0)",
         "color_overlay_text": "#ffffff",
         "color_overlay_gradient": "",
-        "overlay_opacity": 49,
+        "overlay_opacity": 50,
         "enable_animation": true,
         "section_padding": "section--vertical-padding-top-only"
       }
