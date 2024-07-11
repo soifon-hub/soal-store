@@ -233,9 +233,9 @@
         "div.product__price.fs-body-100 {color: #dd8560;}"
       ],
       "settings": {
-        "enable_sticky_product_details": true,
-        "show_breadcrumbs": true,
-        "show_navigation_buttons": true,
+        "enable_sticky_product_details": false,
+        "show_breadcrumbs": false,
+        "show_navigation_buttons": false,
         "gallery_style": "thumbnails",
         "gallery_size": "large",
         "gallery_overflow": "3",
