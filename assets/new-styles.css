@@ -37,4 +37,9 @@
   html.sticky-header-enabled .icon svg path {
     stroke: black;
 }
+  #shopify-section-template--21978605027674__slideshow_ngWCPT div.slideshow-slide__text-container-text.rte.ff-body {
+    display:flex;
+    flex-direction:column;
+    align-content: flex-end;
+  }
 }
