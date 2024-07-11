@@ -1204,7 +1204,7 @@
       ".fs-body-50 {display: none;}",
       ".slideshow-navigation__navigation-button--next .icon {display: none;}",
       ".slideshow-navigation__navigation-button--previous .icon {display: none;}",
-      "ul.navigation_item {list-style: none;display:inline-block; }"
+      "ul.navigation__list {list-style: none; display: flex; justify-content: space-between; align-content:center; }"
     ]
   }
 }
