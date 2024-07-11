@@ -23,7 +23,7 @@
       <li class="navigation__submenu-item">
         {%- if has_children -%}
           {%- liquid
-            assign child_is_active = true //added
+            assign child_is_active = false
             for link in link.links
               if link.active
                 assign child_is_active = true
