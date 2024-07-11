@@ -315,11 +315,30 @@
               "apply_p": false,
               "apply_custom": ".footer__links ul li a"
             }
+          },
+          "image_mGNhz4": {
+            "type": "image",
+            "settings": {
+              "name": "LeendDeca",
+              "custom_font_weight": "none",
+              "custom_font_style": "none",
+              "custom_font_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0843\/2638\/3962\/files\/LexendDeca-Regular.woff?v=1720712244",
+              "apply_h1": true,
+              "apply_h2": true,
+              "apply_h3": true,
+              "apply_h4": true,
+              "apply_h5": true,
+              "apply_h6": true,
+              "apply_span": true,
+              "apply_p": true,
+              "apply_custom": ""
+            }
           }
         },
         "block_order": [
           "image_PpyAbi",
-          "image_WiHCCx"
+          "image_WiHCCx",
+          "image_mGNhz4"
         ],
         "settings": {
           "enable": true
