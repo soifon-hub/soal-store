@@ -13,5 +13,10 @@
   
 .drawer-menu__item{
   border-bottom:none;
+  
+}
+.drawer-menu__primary-links{
+  display:flex;
+  justify-content:space-between;
 }
 }
