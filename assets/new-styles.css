@@ -18,7 +18,7 @@
 .drawer-menu__primary-links{
   display:flex;
   justify-content:space-around;
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid black;
 }
 
   .drawer-menu__link .icon.icon-chevron{
