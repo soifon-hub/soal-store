@@ -95,10 +95,14 @@
     
 }
 
-.footer__group-content{
-  color:black;
-  display: block;
-  margin: 0 auto;
+.footer__group.footer__group--text .footer__text, .footer__bottom p {
+    color: black;
+    font-family: var(--font-heading-v1);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: .7px;
 }
 
 
