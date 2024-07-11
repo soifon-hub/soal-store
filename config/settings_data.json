@@ -1202,7 +1202,8 @@
     "custom_css": [
       "h5.product-item__product-vendor {display: none;}",
       ".fs-body-50 {display: none;}",
-      ".slideshow-navigation__navigation-button--next .icon {display: none;}"
+      ".slideshow-navigation__navigation-button--next .icon {display: none;}",
+      ".slideshow-navigation__navigation-button--previous .icon {display: none;}"
     ]
   }
 }

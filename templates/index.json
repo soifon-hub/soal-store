@@ -12,35 +12,6 @@
     "slideshow_ngWCPT": {
       "type": "slideshow",
       "blocks": {
-        "slide_UwQfwM": {
-          "type": "slide",
-          "settings": {
-            "focal_point": "center",
-            "mobile_focal_point": "center",
-            "media_link": "",
-            "text_position": "center_center",
-            "text_position_mobile": "center_center",
-            "accent": "",
-            "title": "Slideshow",
-            "heading_font_class": "fs-heading-display-2",
-            "subheading": "",
-            "subheading_font_class": "fs-heading-5-base",
-            "text": "<p>Use this section to make a bold statement<\/p>",
-            "text_font_class": "fs-body-100",
-            "link_1": "",
-            "link_text_1": "Read more",
-            "button_style_1": "btn--primary",
-            "link_2": "",
-            "link_text_2": "Read more",
-            "button_style_2": "btn--primary",
-            "text_color": "#FFFFFF",
-            "button_background_color": "#FFFFFF",
-            "button_text_color": "#000000",
-            "color_overlay": "#000",
-            "color_overlay_gradient": "",
-            "overlay_opacity": 40
-          }
-        },
         "slide_jMtJT4": {
           "type": "slide",
           "settings": {
@@ -136,7 +107,6 @@
         }
       },
       "block_order": [
-        "slide_UwQfwM",
         "slide_jMtJT4",
         "slide_xNcEK7",
         "slide_knYbkH"
