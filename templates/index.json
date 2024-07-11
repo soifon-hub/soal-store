@@ -287,6 +287,14 @@
         "section_padding": "section--vertical-padding-top-bottom"
       }
     },
+    "custom_liquid_VcENnG": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<a href=# class=\"explore-more-link\">Explore More &#8594;<\/a>",
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
     "165489980473ecbf41": {
       "type": "image-with-text",
       "blocks": {
@@ -1462,6 +1470,7 @@
     "rich_text_DxcVMF",
     "custom_liquid_6iQaBq",
     "featured_collection_grid_8qB6Fy",
+    "custom_liquid_VcENnG",
     "165489980473ecbf41",
     "video_GfxzKJ",
     "testimonials_eb6fnk",

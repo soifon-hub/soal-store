@@ -1204,7 +1204,7 @@
       ".fs-body-50 {display: none;}",
       ".slideshow-navigation__navigation-button--next .icon {display: none;}",
       ".slideshow-navigation__navigation-button--previous .icon {display: none;}",
-      "ul.navigation__list {list-style: none; display: flex; flex-direction: row; justify-content: space-between; padding:0px;}",
+      "ul.navigation__list {list-style: none; display: flex; flex-direction: row; justify-content: space-between; padding: 0px;}",
       "@media (max-width: 719px) {.image-block.image-block--break-to-mobile-at-720:not(.image-block--full-width) .image-block__inner {width: 100%; display: block; margin: 0 auto; }}"
     ]
   }
