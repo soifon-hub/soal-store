@@ -137,5 +137,8 @@
 }
 
 
-
+.button-block__button {
+    display: flex;
+    justify-content: center;
+}
 
