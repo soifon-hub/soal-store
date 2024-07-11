@@ -229,7 +229,8 @@
         "text"
       ],
       "custom_css": [
-        "h3.ff-heading.fs-heading-5-base{margin-top: 50px; font-size: 20px;}"
+        "h3.ff-heading.fs-heading-5-base {margin-top: 50px; font-size: 20px;}",
+        "div.product__price.fs-body-100 {color: #DD8560;}"
       ],
       "settings": {
         "enable_sticky_product_details": true,
