@@ -318,7 +318,7 @@
         "heading_alignment": "left",
         "content_vertical_alignment": "top",
         "content_background_padding": "medium",
-        "columns": "4",
+        "columns": "3",
         "column_spacing": 28,
         "row_spacing": 28,
         "column_alignment": "left",
@@ -330,7 +330,7 @@
         "background_color": "",
         "text_color": "#000000",
         "button_background_color": "#000000",
-        "button_text_color": "#FFFFFF",
+        "button_text_color": "#ffffff",
         "enable_animation": true,
         "divider_style": "none",
         "section_padding": "section--vertical-padding-top-bottom"
