@@ -306,6 +306,9 @@
         "icon_column_PKcwcy",
         "icon_column_DLUpiH"
       ],
+      "custom_css": [
+        ".multi-column__grid-item-icon-wrapper{display:flex; justify-content:center;}"
+      ],
       "settings": {
         "title": "",
         "subheading": "",
