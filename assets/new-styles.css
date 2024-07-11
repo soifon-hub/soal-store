@@ -85,6 +85,16 @@
     color: black;
 }
 
+.social-icons {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    fill: black;
+    justify-content: center;
+    width: 70px;
+}
+
 
 
 
