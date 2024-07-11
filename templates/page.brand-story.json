@@ -424,12 +424,33 @@
         "article_H7ihi8": {
           "type": "article",
           "settings": {
-            "article": ""
+            "article": "news\/2021-style-guide-the-biggest-fall-trends"
+          }
+        },
+        "article_3dkxG4": {
+          "type": "article",
+          "settings": {
+            "article": "news\/2021-style-guide-the-biggest-fall-trends-1"
+          }
+        },
+        "article_APbrjb": {
+          "type": "article",
+          "settings": {
+            "article": "news\/2021-style-guide-the-biggest-fall-trends-2"
+          }
+        },
+        "article_XM9wLN": {
+          "type": "article",
+          "settings": {
+            "article": "news\/2021-style-guide-the-biggest-fall-trends-3"
           }
         }
       },
       "block_order": [
-        "article_H7ihi8"
+        "article_H7ihi8",
+        "article_3dkxG4",
+        "article_APbrjb",
+        "article_XM9wLN"
       ],
       "settings": {
         "heading": "",
@@ -440,8 +461,8 @@
         "blog": "news",
         "max_articles": 4,
         "show_tags": true,
-        "show_author": true,
-        "show_date": true,
+        "show_author": false,
+        "show_date": false,
         "show_excerpt": true,
         "show_featured_image": true,
         "aspect_ratio": "landscape",
