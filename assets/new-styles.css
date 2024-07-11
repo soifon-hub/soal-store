@@ -59,7 +59,7 @@
 
 }
 
-.slideshow-navigation__dot:after {
+.slideshow-navigation__dot {
     content: "";
     width: 8px;
     height: 8px;
