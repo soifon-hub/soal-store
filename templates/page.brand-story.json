@@ -452,6 +452,9 @@
         "article_APbrjb",
         "article_XM9wLN"
       ],
+      "custom_css": [
+        ".article-item__content-inner {background-color: transparent;}"
+      ],
       "settings": {
         "heading": "",
         "subheading": "<p>Blog posts<\/p>",
