@@ -290,6 +290,14 @@
     "165489980473ecbf41": {
       "type": "image-with-text",
       "blocks": {
+        "image_dXqCYM": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/10_2.png",
+            "image_size": 200,
+            "image_size_mobile": 350
+          }
+        },
         "accent_zwKXmU": {
           "type": "accent",
           "disabled": true,
@@ -324,6 +332,7 @@
         }
       },
       "block_order": [
+        "image_dXqCYM",
         "accent_zwKXmU",
         "1654899804e4fc48ec-0",
         "1654899804e4fc48ec-1",
@@ -332,7 +341,7 @@
       "custom_css": [
         "h2.image-with-text__text-container-heading.ff-heading.fs-heading-display-3.section-blocks__heading {font-size: 37px;}",
         "@media (max-width: 600px) {h2.image-with-text__text-container-heading.ff-heading.fs-heading-display-3.section-blocks__heading {font-size: 27px; } .image-with-text {background-image: none; } .image-with-text__image-container-inner {width: 100%; }}",
-        "div.image-with-text__inner{padding:0px;}"
+        "div.image-with-text__inner {padding: 0px;}"
       ],
       "settings": {
         "image_position": "right",
@@ -393,18 +402,19 @@
       "settings": {
         "video_source": "shopify",
         "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "image": "shopify:\/\/shop_images\/cecfd36dc4b2cb3c9806f14d338c939e.png",
         "loop": false,
         "media_aspect_ratio": "landscape_wide_alt",
-        "focal_point": "center",
+        "focal_point": "top",
         "text_position": "center_center",
         "text_position_mobile": "center",
         "button_background_color": "#ffffff",
-        "color_overlay": "#000000",
+        "color_overlay": "rgba(0,0,0,0)",
         "color_overlay_text": "#ffffff",
         "color_overlay_gradient": "",
-        "overlay_opacity": 40,
+        "overlay_opacity": 49,
         "enable_animation": true,
-        "section_padding": "section--vertical-padding-none"
+        "section_padding": "section--vertical-padding-top-only"
       }
     },
     "testimonials_eb6fnk": {
