@@ -118,7 +118,16 @@
     letter-spacing: 2.4px;
     text-transform: uppercase;
 }
-
+.footer__links ul {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: baseline;
+}
 
 
 
