@@ -46,16 +46,24 @@
 }
 }
 
+css
+Copy code
+.slideshow-navigation__dot {
+    position: relative;
+    padding: 12px; /* or use var(--spacing-3) */
+    opacity: .4;
+    border-radius: 0;
+    transition: opacity .2s ease;
+}
+
 .slideshow-navigation__dot-loader {
-    display: none;
+    width: 20px;  /* Adjust size as needed */
+    height: 20px; /* Adjust size as needed */
+    background-color: var(--color-foreground); /* Set the color of the dot */
+    transform: rotate(45deg); /* Rotates the square to form a rhombus */
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%)  rotate(45deg);
-    border: 2px solid var(--color-foreground);
-    width: 15px; 
-    height: 15px;
-    border-radius: 0;
-
+    transform: translate(-50%, -50%) rotate(45deg); /* Center the dot and rotate it */
+    border: none;
 }
-
