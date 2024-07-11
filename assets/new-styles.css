@@ -59,7 +59,7 @@
 
 }
 
-.slideshow-navigation__dot {
+/* .slideshow-navigation__dot {
     position: relative;
     padding: 12px;
     padding: var(--spacing-3);
@@ -67,4 +67,4 @@
     transform: rotate(45deg);
     border-radius: 0;
     transition: opacity .2s ease;
-}
+} */
