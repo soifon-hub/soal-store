@@ -10,4 +10,8 @@
 .header{
  background-color:black;
 }
+  
+.drawer-menu__item{
+  border-bottom:none;
+}
 }
