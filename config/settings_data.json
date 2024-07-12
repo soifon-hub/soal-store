@@ -63,10 +63,11 @@
     "quick_search_product_style": "columns",
     "quick_search_show_vendor": false,
     "quick_search_suggested_heading": "Popular collections",
-    "social_facebook_link": "#",
+    "social_facebook_link": "",
     "social_instagram_link": "#",
-    "social_tiktok_link": "#",
+    "social_tiktok_link": "",
     "social_twitter_link": "#",
+    "social_youtube_link": "#",
     "enable_back_to_top": true,
     "sections": {
       "announcement-bar": {
