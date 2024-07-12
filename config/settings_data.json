@@ -266,6 +266,9 @@
           "2fa54f91-30aa-454a-93b7-4a98ffea3020",
           "newsletter_VLqTMj"
         ],
+        "custom_css": [
+          "html.sticky-header-enabled.icon.svg.path {stroke: none; }"
+        ],
         "settings": {
           "enable_locale_selector": true,
           "enable_country_selector": true,
