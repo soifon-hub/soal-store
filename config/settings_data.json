@@ -281,10 +281,10 @@
       "font-section": {
         "type": "font-section",
         "blocks": {
-          "image_mGNhz4": {
+          "image_acVzn8": {
             "type": "image",
             "settings": {
-              "name": "LeendDeca",
+              "name": "customfont",
               "custom_font_weight": "none",
               "custom_font_style": "none",
               "custom_font_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0843\/2638\/3962\/files\/LexendDeca-Regular.woff?v=1720712244",
@@ -296,12 +296,12 @@
               "apply_h6": true,
               "apply_span": true,
               "apply_p": true,
-              "apply_custom": ".footer__links ul li a"
+              "apply_custom": ""
             }
           }
         },
         "block_order": [
-          "image_mGNhz4"
+          "image_acVzn8"
         ],
         "settings": {
           "enable": true
