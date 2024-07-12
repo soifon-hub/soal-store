@@ -514,6 +514,10 @@
     },
     "recommendations": {
       "type": "recommended-products",
+      "custom_css": [
+        "@media (min-width: 1200px) {.featured-collection-grid__products {grid-template-columns: 1fr 1fr 1fr; column-gap: calc(var(--spacing-10) + 1px); }}",
+        "@media (max-width: 720px) {.featured-collection-grid__products.carousel__wrapper.swiper-wrapper {display: grid; row-gap: 22px; grid-template-columns: auto auto; }}"
+      ],
       "settings": {
         "title": "YOU MAY ALSO LIKE",
         "subheading": "",
