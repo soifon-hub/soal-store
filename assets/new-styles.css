@@ -234,7 +234,7 @@ html:not(.no-js) body.template-index:not([mobile-menu-open=true]):not([quick-sea
 
  .product-item__product-title, .fs-product-card-title {
   color: black;
-  text-align:center;
+  text-align:left;
 }
 
 html.sticky-header-enabled [data-js-cart-count] {
@@ -280,6 +280,7 @@ html.sticky-header-enabled [data-js-cart-count] {
        letter-spacing: 2px;
     }
   .ff-heading, .fs-heading-5-base{
+    display:block;
     text-align:left;
   }
 }
