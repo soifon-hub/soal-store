@@ -38,7 +38,7 @@
     color: black;
 }
   html.sticky-header-enabled .icon svg path {
-    stroke: black;
+    stroke: none;
 }
 
   #shopify-section-template--21978605027674__slideshow_ngWCPT div.slideshow-slide__text-container-text.rte.ff-body {
