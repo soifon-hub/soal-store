@@ -143,7 +143,7 @@
               "link": "shopify:\/\/collections\/all",
               "link_text": "Discover",
               "text_position": "flex-start_flex-end",
-              "text_color": "#ffffff",
+              "text_color": "#000000",
               "color_overlay": "#ff0000",
               "color_overlay_gradient": "linear-gradient(180deg, rgba(0, 0, 0, 0.15) 22%, rgba(0, 0, 0, 1) 96%)",
               "overlay_opacity": 50
