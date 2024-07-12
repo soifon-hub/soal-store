@@ -94,7 +94,6 @@
     margin: 0;
     padding: 0;
     fill: #333333;
-    stroke:none;
     color: #333333;
     justify-content:center;
     gap: 33px;
@@ -144,6 +143,7 @@
     height: 25px;
     color: #333333;
     display:flex;
+    stroke:none;
     justify-content:  space-between;
 }
 
