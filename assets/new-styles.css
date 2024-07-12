@@ -279,6 +279,9 @@ html.sticky-header-enabled [data-js-cart-count] {
        line-height: 20px;
        letter-spacing: 2px;
     }
+  .ff-heading, .fs-heading-5-base{
+    text-align:left;
+  }
 }
 
 
