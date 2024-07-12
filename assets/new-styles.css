@@ -225,7 +225,7 @@ html:not(.no-js) body.template-index:not([mobile-menu-open=true]):not([quick-sea
     text-align: center;
 }
 
-.product-item__price{
+.p, .product-item__price{
   color: #DD8560;
   display:flex;
   text-align:center;
