@@ -1,7 +1,7 @@
 @media (max-width:720px)
 {
   .section{
-    padding:0px;
+    padding:0px 7px;
   }
 .drawer-menu__bottom {
     width: 100%;
