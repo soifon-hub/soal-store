@@ -254,7 +254,7 @@ html.sticky-header-enabled [data-js-cart-count] {
     border-radius: 20px;
     border: 1px solid #C4C4C4;
     background-color: #C4C4C4;
-    color: var(--color-text);
+    color: #555555;
     transition: border-color .25s ease-in-out;
 }
 
