@@ -337,7 +337,11 @@ color:#888888;
 }
 
 
-
+.quick-search__result-price {
+    display: block;
+    text-align: left;
+    color:#DD8560;
+}
 
 
 
