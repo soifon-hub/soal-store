@@ -268,8 +268,7 @@
           "newsletter_VLqTMj"
         ],
         "custom_css": [
-          "html.sticky-header-enabled.icon.svg.path {stroke: none;}",
-          "@media(max-width:1200px){.footer__links ul{display:flex; flex-dierction:column; }}"
+          "html.sticky-header-enabled.icon.svg.path {stroke: none;}"
         ],
         "settings": {
           "enable_locale_selector": true,
