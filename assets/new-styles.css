@@ -278,6 +278,8 @@ html.sticky-header-enabled [data-js-cart-count] {
        display:block;
        text-align:left;
        font-size: 16px;
+       line-height: 20px;
+       letter-spacing: 1px;
     }
 }
 
