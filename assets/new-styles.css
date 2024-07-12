@@ -263,9 +263,7 @@ html.sticky-header-enabled [data-js-cart-count] {
 }
 
 .product__vendor_and_sku {
-    
-    display: flex;
-    align-items: baseline;
+    display: none;
 }
 
 .btn.btn--primary:before, .shopify-challenge__button:before{
