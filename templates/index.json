@@ -1404,7 +1404,7 @@
       "custom_css": [
         ".multi-column:not(.multi-column--background-behind-column) {background-color: #00000085;}",
         "div.multi-column__subheading {font-size: 15px; line-height: 25px; letter-spacing: 0.5px; word-spacing: -1px; padding: 20px;}",
-        "div.multi-column__grid-item-text {font-size: 10px;}",
+        "div.multi-column__grid-item-text {font-size: 11px;}",
         ".multi-column__grid-item-image-figure {max-width: 30%;}"
       ],
       "settings": {
