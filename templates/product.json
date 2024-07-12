@@ -515,7 +515,7 @@
     "recommendations": {
       "type": "recommended-products",
       "settings": {
-        "title": "Recommended Products",
+        "title": "YOU MAY ALSO LIKE",
         "subheading": "",
         "maximum_products": 8,
         "columns": "4",
