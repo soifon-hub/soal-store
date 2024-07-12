@@ -231,3 +231,7 @@ html:not(.no-js) body.template-index:not([mobile-menu-open=true]):not([quick-sea
   text-align:center;
   
 }
+
+.product-item__inner .product-item__meta .product-item__text .fs-product-card-title{
+  color: black;
+}
