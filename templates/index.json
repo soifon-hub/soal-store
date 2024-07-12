@@ -1468,7 +1468,7 @@
         "heading_alignment": "center",
         "content_vertical_alignment": "center",
         "content_background_padding": "medium",
-        "columns": "4",
+        "columns": "1",
         "column_spacing": 48,
         "row_spacing": 48,
         "column_alignment": "center",
