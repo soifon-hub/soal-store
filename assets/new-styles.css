@@ -237,7 +237,10 @@ html:not(.no-js) body.template-index:not([mobile-menu-open=true]):not([quick-sea
   text-align:center;
 }
 
+html.sticky-header-enabled [data-js-cart-count] {
 
+    display: none;
+}
 
 
 
