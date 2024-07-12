@@ -328,3 +328,9 @@ color:#888888;
     border-bottom: 1px solid;
 }
 
+.newsletter__block-content-text, .rte, .ff-body, .fs-body-100, .section-blocks__text
+{
+
+  display:block;
+  text-align:center;
+}
