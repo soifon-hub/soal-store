@@ -309,6 +309,9 @@
       "block_order": [
         "heading_6ry6Je"
       ],
+      "custom_css": [
+        "h2.rich-text__heading.ff-heading.fs-heading-2-base.section-blocks__heading{padding-bottom:30px;}"
+      ],
       "settings": {
         "alignment": "left_left",
         "enable_animation": true,
