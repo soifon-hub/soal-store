@@ -316,7 +316,9 @@ html.sticky-header-enabled [data-js-cart-count] {
         background-color: #000;
     }
 }
-
+.icon .icon-new .icon-instagram{
+  fill:#333;
+}
 
 
 
