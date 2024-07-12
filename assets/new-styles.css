@@ -131,9 +131,11 @@
 }
 
 .footer .social-icons .icon {
-    width: 20px;
-    height: 20px;
+    width: 25px;
+    height: 25px;
     color: black;
+    display:flex;
+    justify-content:  space-between;
 }
 
 
