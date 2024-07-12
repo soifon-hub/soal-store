@@ -87,12 +87,12 @@
 
 .social-icons {
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     margin: 0;
     padding: 0;
     fill: black;
     color: black;
-    justify-content: center;
+    justify-content: space-evenly;
     
 }
 
