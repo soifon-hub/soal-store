@@ -316,9 +316,8 @@ html.sticky-header-enabled [data-js-cart-count] {
         background-color: #000;
     }
 }
-
-.navigation__item:active{
-  color:black;
+.navigation__nav{
+  padding: 0 10px;
 }
 
 .navigation__item{
