@@ -262,7 +262,11 @@ html.sticky-header-enabled [data-js-cart-count] {
   border-bottom: 0px;
 }
 
-
+.product__vendor_and_sku {
+    
+    display: flex;
+    align-items: baseline;
+}
 
 
 
