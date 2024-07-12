@@ -198,10 +198,9 @@
     }
 
 
-
-
-
-
+.rich-text__heading, .ff-heading, .fs-heading-3-base, .section-blocks__heading{
+  padding: 0px;
+}
 
 
 
