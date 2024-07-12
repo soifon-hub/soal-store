@@ -344,7 +344,12 @@ color:#888888;
 }
 
 
-
+@media (max-width: 1200px) {
+  .footer__links ul {
+    display: flex;
+    flex-dierction: column;
+  }
+}
 
 
 
