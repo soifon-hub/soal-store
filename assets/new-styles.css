@@ -311,7 +311,11 @@ html.sticky-header-enabled [data-js-cart-count] {
   padding-top: 35px;
 }
 
-
+@media (max-width: 720px) {
+    .header {
+        background-color: #000;
+    }
+}
 
 
 
