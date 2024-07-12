@@ -276,7 +276,8 @@ html.sticky-header-enabled [data-js-cart-count] {
 @media (max-width: 720px) {
     .product__title.ff-heading {
        display:block;
-       text-align:center;
+       text-align:left;
+       font-size: 16px;
     }
 }
 
