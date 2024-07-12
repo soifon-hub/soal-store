@@ -105,7 +105,15 @@
     font-weight: 400;
     letter-spacing: .7px;
     text-align:center;
+    line-height: 21px;
 }
+
+
+
+
+
+
+
 
 .footer__links ul li a {
     color: #000000;
