@@ -68,7 +68,7 @@
 
 .multi-column__heading, .section-introduction__heading, .ff-heading, .fs-heading-3-base{
   font-size: 17px;
-  padding-top: 35px;
+  padding:35px;
 }
 
 .footer{
