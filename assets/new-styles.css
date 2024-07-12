@@ -322,5 +322,9 @@ html.sticky-header-enabled [data-js-cart-count] {
 color:#888888;
 }
 
-
+.newsletter__signup .newsletter__signup-input {
+    
+    border: none;
+    border-bottom: 1px solid;
+}
 
