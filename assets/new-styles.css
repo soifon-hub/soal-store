@@ -292,8 +292,7 @@ html.sticky-header-enabled [data-js-cart-count] {
     color: #555555;
 }
 
-.recommended-products__heading, .ff-heading, .fs-heading-3-base, .section-introduction__heading{
-  display:block;
-  text-align:center;
-  
+.carousel__navigation-wrapper {
+    display: flex;
+    justify-content: center;
 }
