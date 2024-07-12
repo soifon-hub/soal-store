@@ -274,13 +274,13 @@ html.sticky-header-enabled [data-js-cart-count] {
 
 
 @media (max-width: 720px) {
-    .product__title {
+    /* .product__title {
        display:block;
        text-align:left;
        font-size: 16px;
        line-height: 20px;
        letter-spacing: 2px;
-    }
+    } */
   .fs-heading-5-base{
     display:block;
     text-align:left;
