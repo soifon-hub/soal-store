@@ -295,6 +295,29 @@
         "section_padding": "section--vertical-padding-top-bottom"
       }
     },
+    "rich_text_XE4VUr": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_6ry6Je": {
+          "type": "heading",
+          "settings": {
+            "title": "COLLECTIONS",
+            "heading_font_class": "fs-heading-2-base"
+          }
+        }
+      },
+      "block_order": [
+        "heading_6ry6Je"
+      ],
+      "settings": {
+        "alignment": "left_left",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom",
+        "custom_content_width": 700
+      }
+    },
     "165489980473ecbf41": {
       "type": "image-with-text",
       "blocks": {
@@ -1471,6 +1494,7 @@
     "custom_liquid_6iQaBq",
     "featured_collection_grid_8qB6Fy",
     "custom_liquid_VcENnG",
+    "rich_text_XE4VUr",
     "165489980473ecbf41",
     "video_GfxzKJ",
     "testimonials_eb6fnk",
