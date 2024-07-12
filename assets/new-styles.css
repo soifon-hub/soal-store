@@ -304,3 +304,21 @@ html.sticky-header-enabled [data-js-cart-count] {
     display: flex;
     justify-content: center;
 }
+
+
+.rich-text__heading, .ff-heading, .fs-heading-2-base, .section-blocks__heading{
+  padding: 5px;
+ 
+
+  
+}
+
+
+
+
+
+
+
+
+
+
