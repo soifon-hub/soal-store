@@ -103,7 +103,7 @@
           "settings": {
             "title": "",
             "add_box": false,
-            "add_dividers": true,
+            "add_dividers": false,
             "icon_1": "none",
             "custom_icon_image_1": "shopify:\/\/shop_images\/2_80b34d56-6d06-4689-97cf-32d5e21fa15e.png",
             "text_1": "<p>Do not use bleach<\/p>",
