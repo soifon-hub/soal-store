@@ -142,6 +142,7 @@
     width: 25px;
     height: 25px;
     color: #333333;
+    stroke:none;
     display:flex;
     justify-content:  space-between;
 }
