@@ -258,6 +258,10 @@ html.sticky-header-enabled [data-js-cart-count] {
     transition: border-color .25s ease-in-out;
 }
 
+.product__block--product-header.product__block--with-divider{
+  border-bottom: 0px;
+}
+
 
 
 
