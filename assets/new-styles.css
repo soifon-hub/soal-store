@@ -285,6 +285,10 @@ html.sticky-header-enabled [data-js-cart-count] {
     display:block;
     text-align:left;
   }
+
+  .navigation__nav{
+    padding:5px;
+  }
 }
 
 .rich-text__text, .rte, .fs-body-100, .section-blocks__subheading {
