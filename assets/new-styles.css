@@ -318,11 +318,7 @@ html.sticky-header-enabled [data-js-cart-count] {
 }
 
 
-html:not(.no-js) body.template-index:not([mobile-menu-open=true]):not([quick-search-open=true]) header.header--transparent:not(.is-sticky):not(:hover):not(:focus-within):not(.dropdown-active), html:not(.no-js) body.template-collection:not([mobile-menu-open=true]):not([quick-search-open=true]) header.header--transparent:not(.is-sticky):not(:hover):not(:focus-within):not(.dropdown-active)  html.sticky-header-enabled .icon svg path {
-    stroke:#333;
-    background-color: transparent;
-    
-}
+
 
 
 
