@@ -337,7 +337,7 @@ color:#888888;
 }
 
 
-.quick-search__result-price {
+.quick-search__result-price .sale{
     display: block;
     text-align: left;
     color:#DD8560;
