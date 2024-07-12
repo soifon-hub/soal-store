@@ -93,8 +93,8 @@
     /* flex-wrap: wrap; */
     margin: 0;
     padding: 0;
-    fill: black;
-    color: black;
+    fill: #333333;
+    color: #333333;
     justify-content:center;
     gap: 33px;
     
@@ -141,7 +141,7 @@
 .footer .social-icons .icon {
     width: 25px;
     height: 25px;
-    color: black;
+    color: #333333;
     display:flex;
     justify-content:  space-between;
 }
