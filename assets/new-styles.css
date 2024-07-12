@@ -68,7 +68,6 @@
 
 .multi-column__heading, .section-introduction__heading, .ff-heading, .fs-heading-3-base{
   font-size: 17px;
-  padding:35px;
 }
 
 .footer{
@@ -307,12 +306,7 @@ html.sticky-header-enabled [data-js-cart-count] {
 }
 
 
-.rich-text__heading, .ff-heading, .fs-heading-2-base, .section-blocks__heading{
-  padding: 15px;
- 
 
-  
-}
 
 
 
