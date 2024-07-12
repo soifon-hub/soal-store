@@ -22,8 +22,8 @@
         "focal_point": "center",
         "text_position": "center_center",
         "text_position_mobile": "center_center",
-        "text_color": "#FFFFFF",
-        "color_overlay": "#000",
+        "text_color": "#ffffff",
+        "color_overlay": "#000000",
         "color_overlay_gradient": "",
         "overlay_opacity": 30,
         "enable_animation": true,
@@ -32,6 +32,9 @@
     },
     "product-grid": {
       "type": "main-collection-product-grid",
+      "custom_css": [
+        ".product-item__inner .product-item__meta .product-item__text, .product-item__inner .product-item__meta .product-item__text .product-item__price .product-item__price {color: #dd8560; display: block; text-align: left;}"
+      ],
       "settings": {
         "columns": "4",
         "rows": "4",
