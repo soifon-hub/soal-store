@@ -268,7 +268,9 @@ html.sticky-header-enabled [data-js-cart-count] {
     align-items: baseline;
 }
 
-
+.btn.btn--primary:before, .shopify-challenge__button:before{
+  background-color:black;
+}
 
 
 
