@@ -143,6 +143,7 @@
     height: 25px;
     color: #333333;
     stroke:none;
+    border:none;
     display:flex;
     justify-content:  space-between;
 }
