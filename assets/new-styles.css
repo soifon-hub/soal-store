@@ -232,7 +232,7 @@ html:not(.no-js) body.template-index:not([mobile-menu-open=true]):not([quick-sea
   
 }
 
-.ff-body, .product-item__product-title, .fs-product-card-title {
+ .product-item__product-title, .fs-product-card-title {
   color: black;
   text-align:center;
 }
