@@ -296,7 +296,7 @@
               "apply_h6": true,
               "apply_span": true,
               "apply_p": true,
-              "apply_custom": ".footer__links ul li a"
+              "apply_custom": ".footer__links ul li a, .product-block-social-share .btn.social-share__button"
             }
           }
         },
