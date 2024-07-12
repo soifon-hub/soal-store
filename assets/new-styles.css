@@ -317,7 +317,7 @@ html.sticky-header-enabled [data-js-cart-count] {
     }
 }
 
-.navigation__link:active{
+.navigation__item:active{
   color:black;
 }
 
