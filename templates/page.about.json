@@ -547,7 +547,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/16b6994e6dbe5cc1631a24eacd2be50c.png",
-            "content_width": "custom",
+            "content_width": "full",
             "image_size": 200,
             "image_size_mobile": 350
           }
