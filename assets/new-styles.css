@@ -202,7 +202,9 @@
   padding: 0px;
 }
 
-
+.product-item__hoverless-quick-view-button.btn .icon-quick-buy{
+  display:none;
+}
 
 
 
