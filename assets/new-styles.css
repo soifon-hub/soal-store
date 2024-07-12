@@ -206,5 +206,10 @@
   display:none;
 }
 
+.template-index .product-item__inner .product-item__meta .product-item__text .fs-product-card-title {
+  
+    text-align: center;
+}
+
 
 
