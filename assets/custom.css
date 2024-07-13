@@ -7,6 +7,7 @@
 :root {
   --white-color: #ffffff;
   --white-color-op: #FFE7E7;
+  --black-color-op:#000000;
   --green-color-black: #1D271A;
   --green-grass-color-op: #A4C55D;
   --font-heading-v1: "Lexend Zetta", sans-serif;
@@ -16,9 +17,9 @@
 html.sticky-header-enabled .shopify-section.header__outer-wrapper .fs-navigation-base a {
   color: var(--white-color); }
 html.sticky-header-enabled .icon svg path {
-  stroke: var(--white-color-op); }
+  stroke: var(--black-color-op); }
 html.sticky-header-enabled [data-js-cart-count] {
-  background: var(--white-color-op); }
+  background: var(--black-color-op); }
 
 .header__links-primary .header__links-list > li:not(:last-child) {
   margin-right: var(--spacing-12); }
