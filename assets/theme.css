@@ -3489,8 +3489,8 @@ header[data-navigation-position="left"][data-logo-position="left"] .header__row.
         margin-right:var(--spacing-7);
       }
 header[data-navigation-position="left"][data-logo-position="center"] .header__row.header__row-desktop.upper{
-    /* margin-bottom:calc(calc(4px * 3) * -1); */
-    margin-bottom:calc(var(--spacing-3) * -1);
+    margin-bottom:calc(calc(4px * 3) * -1);
+    /* margin-bottom:calc(var(--spacing-3) * -1); */
   }
 header[data-navigation-position="left"][data-logo-position="center"].is-sticky .header__row.header__row-desktop.upper{
     opacity:0;
