@@ -259,8 +259,8 @@
           "type": "collection",
           "settings": {
             "show_view_all": true,
-            "collection": "adidas",
-            "collection_name": "First collection"
+            "collection": "all",
+            "collection_name": "All"
           }
         },
         "collection_Rnm9hH": {
@@ -277,7 +277,7 @@
         "collection_Rnm9hH"
       ],
       "settings": {
-        "heading": "Featured collection",
+        "heading": "",
         "subheading": "",
         "link": "",
         "link_text": "",
