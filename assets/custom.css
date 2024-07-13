@@ -518,9 +518,11 @@ html.sticky-header-enabled .shopify-section.header__outer-wrapper .fs-navigation
 .template-index .product-item__inner .product-item__meta .product-item__text .fs-product-card-title {
   text-align: center; }
 
-header[data-navigation-position="left"][data-logo-position="center"].is-sticky .icon-button__icon svg,
-header[data-navigation-position="left"][data-logo-position="center"].is-sticky .icon-button__icon .icon path {
+header[data-navigation-position="left"][data-logo-position="center"].is-sticky .icon-button__icon {
   stroke: var(--white-color); }
+  header[data-navigation-position="left"][data-logo-position="center"].is-sticky .icon-button__icon svg,
+  header[data-navigation-position="left"][data-logo-position="center"].is-sticky .icon-button__icon .icon path {
+    stroke: var(--white-color); }
 
 html:not(.no-js) body.template-index:not([mobile-menu-open=true]):not([quick-search-open=true]) header.header--transparent:not(.is-sticky):not(:hover):not(:focus-within):not(.dropdown-active) .header__inner [data-js-cart-count] {
   display: none; }
