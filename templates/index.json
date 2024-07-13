@@ -56,8 +56,8 @@
             "accent": "",
             "title": "DARE TO DIFFER",
             "heading_font_class": "fs-heading-display-1",
-            "subheading": "",
-            "subheading_font_class": "fs-heading-5-base",
+            "subheading": "Explore Collection",
+            "subheading_font_class": "fs-heading-4-base",
             "text": "",
             "text_font_class": "fs-body-100",
             "link_1": "",
@@ -87,8 +87,8 @@
             "accent": "",
             "title": "DARE TO DIFFER",
             "heading_font_class": "fs-heading-display-1",
-            "subheading": "",
-            "subheading_font_class": "fs-heading-5-base",
+            "subheading": "Explore Collection",
+            "subheading_font_class": "fs-heading-4-base",
             "text": "",
             "text_font_class": "fs-body-100",
             "link_1": "",
@@ -252,29 +252,37 @@
         "section_padding": "section--vertical-padding-top-bottom"
       }
     },
-    "featured_collection_grid_8qB6Fy": {
-      "type": "featured-collection-grid",
+    "featured_collection_slider_jXD4iB": {
+      "type": "featured-collection-slider",
       "blocks": {
-        "collection_HnyJhb": {
+        "collection_GH8awq": {
           "type": "collection",
           "settings": {
-            "collection": "kid"
+            "show_view_all": true,
+            "collection": "adidas",
+            "collection_name": "First collection"
+          }
+        },
+        "collection_Rnm9hH": {
+          "type": "collection",
+          "settings": {
+            "show_view_all": true,
+            "collection": "kid",
+            "collection_name": "Second collection"
           }
         }
       },
       "block_order": [
-        "collection_HnyJhb"
-      ],
-      "custom_css": [
-
+        "collection_GH8awq",
+        "collection_Rnm9hH"
       ],
       "settings": {
-        "heading": "",
+        "heading": "Featured collection",
         "subheading": "",
         "link": "",
         "link_text": "",
-        "maximum_collections": 7,
-        "columns": "5",
+        "maximum_products": 8,
+        "columns": "4",
         "mobile_columns": "2",
         "enable_animation": true,
         "divider_style": "none",
@@ -747,7 +755,7 @@
     "1654916105fd939f8f",
     "rich_text_DxcVMF",
     "custom_liquid_6iQaBq",
-    "featured_collection_grid_8qB6Fy",
+    "featured_collection_slider_jXD4iB",
     "custom_liquid_VcENnG",
     "rich_text_XE4VUr",
     "165489980473ecbf41",
