@@ -18590,7 +18590,7 @@ body.template-password.header-transparent-on-home
   padding:calc(4px * 3);
   padding:var(--spacing-3);
   opacity:0.4;
-  border-radius:100%;
+  border-radius:0;
   transition:opacity 0.2s ease
 }
 .slideshow-navigation__dot:after{
