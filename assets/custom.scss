@@ -871,7 +871,7 @@ html {
             header.header--transparent {
                 &.is-sticky {
                     .icon-button__icon {
-                        .svg,
+                        svg,
                         .icon path {
                             color: var(--white-color);
                         }
