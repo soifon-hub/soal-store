@@ -1074,6 +1074,11 @@ html.sticky-header-enabled {
     flex-direction:column;
     justify-content:var(--text-horizontal-position-mobile)
 }
+
+.slideshow-navigation__navigation-button--previous,
+.slideshow-navigation__navigation-button--next {
+    display: none;
+}
 // h5.product-item__product-vendor {
 //     display: none;
 //   }
