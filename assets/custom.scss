@@ -867,7 +867,8 @@ html {
                         }
                         &.is-sticky {
                             .icon-button__icon {
-                                .icon {
+                                .icon,
+                                .icon path {
                                     color: var(--white-color);
                                 }
                             }
