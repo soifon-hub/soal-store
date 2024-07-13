@@ -433,6 +433,9 @@ html.sticky-header-enabled .shopify-section.header__outer-wrapper .fs-navigation
 
 .rich-text.section {
   padding: var(--spacing-5) var(--space-outer); }
+  @media (max-width: 720px) {
+    .rich-text.section {
+      padding: var(--spacing-10) var(--space-outer); } }
 
 .rte {
   display: block;
