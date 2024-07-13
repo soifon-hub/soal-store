@@ -3559,7 +3559,7 @@ header[data-navigation-position="left"][data-logo-position="center"].is-sticky .
   }
 .header__links.header__links-primary > ul > li > .active[data-link] .link-hover::before,
 .header__links.header__links-primary > ul > li > [data-link] .link-hover::before{
-      /* content:"";
+      content:"";
       position:absolute;
       left:0;
       top:100%;
@@ -3570,7 +3570,7 @@ header[data-navigation-position="left"][data-logo-position="center"].is-sticky .
       transform-origin:100% 50%;
       transform:scale3d(0, 1, 1);
       transition:transform 300ms cubic-bezier(0.33, 0, 0, 1);
-      transition:transform var(--duration-fast) var(--easing); */
+      transition:transform var(--duration-fast) var(--easing);
       content: "";
       position: absolute;
       left: 0;
