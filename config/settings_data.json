@@ -113,7 +113,7 @@
             "settings": {
               "dropdown_parent_link": "",
               "column_count": 2,
-              "show_column_borders": true,
+              "show_column_borders": false,
               "show_promo": true,
               "promo_width": 700,
               "promo_height": 400,
@@ -159,7 +159,7 @@
         "settings": {
           "layout": "logo-center_nav-left",
           "enable_sticky_header": true,
-          "divider_width": "1px",
+          "divider_width": "0px",
           "enable_locale_selector": false,
           "enable_country_selector": false,
           "show_social_media": false,
