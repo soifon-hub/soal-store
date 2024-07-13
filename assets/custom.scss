@@ -1039,6 +1039,12 @@ html.sticky-header-enabled {
     }
 }
 
+.slideshow-slide__text-container{
+    max-width:750px;
+    display:flex;
+    flex-direction:column;
+    justify-content:var(--text-horizontal-position-mobile)
+}
 // h5.product-item__product-vendor {
 //     display: none;
 //   }

@@ -622,5 +622,10 @@ html.sticky-header-enabled [data-js-cart-count] {
   .footer__links ul {
     display: flex;
     flex-direction: column; } }
+.slideshow-slide__text-container {
+  max-width: 750px;
+  display: flex;
+  flex-direction: column;
+  justify-content: var(--text-horizontal-position-mobile); }
 
 /*# sourceMappingURL=custom.css.map */
