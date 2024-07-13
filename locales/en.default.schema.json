@@ -575,7 +575,6 @@
         }
       },
       "name": "Featured collection grid",
-      "limit": 10,
       "presets": {
         "name": "Featured collection grid"
       },
