@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Lexend+Zetta:wght@100..900&display=swap");
 @font-face {
   font-family: 'Agne';
-  src: url("agne-regular.woff2") format("woff2"), url("agne-regular.woff") format("woff");
+  src: url("Agne.ttf.woff") format("woff"), url("Agne.ttf.svg#Agne") format("svg"), url("Agne.ttf.eot"), url("Agne.eot?#iefix") format("embedded-opentype");
   font-weight: normal;
   font-style: normal; }
 :root {
