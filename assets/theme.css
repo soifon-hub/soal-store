@@ -18602,7 +18602,7 @@ body.template-password.header-transparent-on-home
     left:50%;
     transform:translate(-50%, -50%);
     background-color:var(--color-foreground);
-    border-radius:100%;
+    border-radius:0;
     transition:background-color 0.2s ease;
   }
 .slideshow-navigation__dot:hover,
