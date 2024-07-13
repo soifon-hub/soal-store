@@ -18511,7 +18511,7 @@ body.template-password.header-transparent-on-home
   position:absolute;
   right:0;
   bottom:calc(4px * 8);
-  bottom:var(--spacing-8);
+  bottom:var(--spacing-20);
   left:0;
   max-width:calc(1400px + calc(3.3vw * 2));
   max-width:calc(var(--max-width) + calc(var(--space-outer) * 2));
