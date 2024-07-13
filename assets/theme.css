@@ -19871,7 +19871,7 @@ html.theme-editor .popup__tab{
   font-size:var(--font-size-heading-display-1);
 }
 .fs-heading-display-2{
-  font-size:var(--font-size-heading-display-2);
+  font-size:var(--font-size-heading-display-1);
 }
 .fs-heading-display-3{
   font-size:var(--font-size-heading-display-3);
