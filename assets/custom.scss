@@ -703,9 +703,9 @@ $background-color_4: #000;
 
 .rich-text {
     &.section {
-        padding: var(--spacing-5) var(--space-outer);
+        padding: var(--spacing-10) var(--space-outer);
         @media (max-width: 720px) {
-            padding: var(--spacing-10) var(--space-outer);
+            padding: var(--spacing-5) var(--space-outer);
         }
     }
 }
