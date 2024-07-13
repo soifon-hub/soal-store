@@ -34,10 +34,11 @@
 @mixin product__title_20 {
     color: var(--black-color-op);
     font-family: var(--font-heading-v1);
-    font-size:16px;
-    font-style: normal;
-    font-weight: 400;
     line-height: normal;
+    font-size: 12px;
+    font-style: normal;
+    line-height: 16px;
+    font-weight: 400;
 
     @media (min-width: 960px) {
         font-size: 20px;
