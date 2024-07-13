@@ -18620,8 +18620,8 @@ body.template-password.header-transparent-on-home
     }
 .slideshow-navigation__dot.slideshow-navigation__dot--active:before{
       content:"";
-      width:16px;
-      height:16px;
+      width:8px;
+      height:8px;
       position:absolute;
       border:2px solid var(--color-foreground-transparent);
       top:50%;
