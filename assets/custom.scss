@@ -698,6 +698,12 @@ $background-color_4: #000;
     color: $color_6;
 }
 
+.rich-text {
+    &.section {
+        padding: var(--spacing-5) var(--space-outer);
+    }
+}
+
 .rte {
     display: block;
     text-align: center;

@@ -428,6 +428,9 @@ html.sticky-header-enabled .shopify-section.header__outer-wrapper .fs-navigation
   padding: 2px 0;
   color: #555555; }
 
+.rich-text.section {
+  padding: var(--spacing-5) var(--space-outer); }
+
 .rte {
   display: block;
   text-align: center;
