@@ -393,16 +393,19 @@ html.sticky-header-enabled .shopify-section.header__outer-wrapper .fs-navigation
   background-color: white; }
 
 .rich-text__heading {
-  font-size: 20px;
   display: block;
   text-align: center;
   padding: 30px 0;
-  line-height: 30px;
   font-size: 20px;
+  font-weight: 400;
+  line-height: 40px;
   display: block;
+  letter-spacing: 4px;
   text-align: center;
-  letter-spacing: 2.5px;
   padding: 0px; }
+  @media (max-width: 720px) {
+    .rich-text__heading {
+      font-size: 18px; } }
 
 .fs-heading-2-base {
   font-size: 20px;
