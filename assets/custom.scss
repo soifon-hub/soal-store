@@ -148,7 +148,7 @@ html {
     position: relative;
     .ff-subheading {
         position: absolute;
-        bottom: 10px;
+        bottom:var(--spacing-10);
         margin: 0 auto;
         margin-bottom: 0px;
         text-align: center;
