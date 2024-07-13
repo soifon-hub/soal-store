@@ -916,13 +916,6 @@ div.multi-column__grid-item-text {
 .shopify-section.footer__parent {
   background-color: white; }
 
-.rich-text__heading, .ff-heading, .fs-heading-2-base, .section-blocks__heading {
-  font-size: 20px;
-  display: block;
-  text-align: center;
-  padding: 30px 0;
-  line-height: 30px; }
-
 .rich-text__text, .rte, .ff-body, .fs-body-100, .section-blocks__subheading {
   display: block;
   text-align: center;
