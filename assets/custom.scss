@@ -865,13 +865,15 @@ html {
                                 }
                             }
                         }
-                        &.is-sticky {
-                            .icon-button__icon {
-                                .icon,
-                                .icon path {
-                                    color: var(--white-color);
-                                }
-                            }
+                    }
+                }
+            }
+            header.header--transparent {
+                &.is-sticky {
+                    .icon-button__icon {
+                        .icon,
+                        .icon path {
+                            color: var(--white-color);
                         }
                     }
                 }
