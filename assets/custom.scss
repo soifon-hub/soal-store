@@ -83,12 +83,12 @@ html {
         .icon {
             svg {
                 path {
-                    stroke: var(--black-color-op);
+                    // stroke: var(--black-color-op);
                 }
             }
         }
         [data-js-cart-count] {
-            background: var(--black-color-op);
+            // background: var(--black-color-op);
         }
     }
 }
