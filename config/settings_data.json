@@ -69,6 +69,7 @@
     "social_tiktok_link": "",
     "social_twitter_link": "#",
     "social_youtube_link": "#",
+    "favicon": "shopify:\/\/shop_images\/soal.svg",
     "enable_back_to_top": true,
     "sections": {
       "announcement-bar": {
@@ -112,7 +113,7 @@
             "settings": {
               "dropdown_parent_link": "",
               "column_count": 2,
-              "show_column_borders": true,
+              "show_column_borders": false,
               "show_promo": true,
               "promo_width": 700,
               "promo_height": 400,
@@ -125,7 +126,7 @@
               "text_color": "#ffffff",
               "color_overlay": "#000000",
               "color_overlay_gradient": "linear-gradient(180deg, rgba(0, 0, 0, 0.1) 22%, rgba(0, 0, 0, 1) 96%)",
-              "overlay_opacity": 33
+              "overlay_opacity": 0
             }
           },
           "c4636010-a86d-4ad7-9118-77e19b973170": {
@@ -159,16 +160,17 @@
           "layout": "logo-center_nav-left",
           "enable_sticky_header": true,
           "divider_width": "0px",
-          "enable_locale_selector": true,
-          "enable_country_selector": true,
+          "enable_locale_selector": false,
+          "enable_country_selector": false,
           "show_social_media": false,
-          "logo": "shopify:\/\/shop_images\/Untitled_design_9.png",
-          "logo_width": 100,
-          "mobile_logo_width": 80,
+          "logo": "shopify:\/\/shop_images\/soal.svg",
+          "logo_width": 180,
+          "mobile_logo_width": 180,
           "menu": "menu",
           "secondary_menu": "",
           "enable_transparent_on_home": true,
           "enable_transparent_on_collection": false,
+          "logo_transparent": "shopify:\/\/shop_images\/soal.svg",
           "color_text_transparent": "#121111",
           "color_count_transparent": "#000000"
         }
