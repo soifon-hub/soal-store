@@ -18493,7 +18493,7 @@ body.template-password.header-transparent-on-home
     padding-top:calc(var(--height-header) + var(--spacing-10));
   }
 .slideshow-slide__text-container{
-  max-width:600px;
+  max-width:750px;
   display:flex;
   flex-direction:column;
   justify-content:var(--text-horizontal-position-mobile)
