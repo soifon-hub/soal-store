@@ -865,6 +865,13 @@ html {
                                 }
                             }
                         }
+                        &.is-sticky {
+                            .icon-button__icon {
+                                .icon {
+                                    color: var(--white-color);
+                                }
+                            }
+                        }
                     }
                 }
             }
