@@ -51,6 +51,17 @@ html.sticky-header-enabled .shopify-section.header__outer-wrapper .fs-navigation
   .ff-heading.image-with-text__text-container-heading span {
     color: var(--green-grass-color-op); }
 
+.slideshow-slide__inner {
+  position: relative; }
+  .slideshow-slide__inner .ff-subheading {
+    position: absolute;
+    bottom: 10px;
+    margin: 0 auto;
+    margin-bottom: 0px;
+    text-align: center;
+    left: 0;
+    right: 0; }
+
 .ff-subheading.testimonials__item-quote {
   color: #1D271A;
   text-align: center;

@@ -144,6 +144,18 @@ html {
         }
     }
 }
+.slideshow-slide__inner {
+    position: relative;
+    .ff-subheading {
+        position: absolute;
+        bottom: 10px;
+        margin: 0 auto;
+        margin-bottom: 0px;
+        text-align: center;
+        left: 0;
+        right: 0;
+    }
+}
 
 .ff-subheading {
     &.testimonials__item-quote  {
