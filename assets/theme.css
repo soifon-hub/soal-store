@@ -15285,7 +15285,7 @@ html:not(.no-js) .navigation__submenu-list{
     padding:calc(4px * 4) calc(4px * 5);
     padding:var(--spacing-4) var(--spacing-5);
     border:1px solid var(--color-text);
-    background-color:var(--color-background);
+    /* background-color:var(--color-background); */
     overflow-y:auto;
     -ms-overflow-style:none;
     scrollbar-width:none;
