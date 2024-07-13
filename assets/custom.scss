@@ -12,7 +12,6 @@
     --white-color: #ffffff;
     --black-color-op: #FFE7E7;
     --black-color-op:#000000;
-    --green-color-black: #1D271A;
     --green-grass-color-op: #A4C55D;
     --font-heading-v1: "Lexend Zetta", sans-serif;
     --font-heading-v2: "Agne";
@@ -20,7 +19,7 @@
 } 
 
 @mixin product__title_24 {
-    color: var(--green-color-black);
+    color: var(--black-color-op);
     font-family: var(--font-heading-v1);
     font-size:16px;
     font-style: normal; 
@@ -33,7 +32,7 @@
 }
 
 @mixin product__title_20 {
-    color: var(--green-color-black);
+    color: var(--black-color-op);
     font-family: var(--font-heading-v1);
     font-size:16px;
     font-style: normal;
@@ -46,7 +45,7 @@
 }
 
 @mixin product__title_18 {
-    color: var(--green-color-black);
+    color: var(--black-color-op);
     font-family: var(--font-heading-v1);
     font-size: 12px;
     font-style: normal;
@@ -425,7 +424,7 @@ html {
     }
     .accordion__label {
         h3 {
-            color: var(--green-color-black);
+            color: var(--black-color-op);
             font-family: var(--font-heading-v1);
             font-size: 24px;
             font-style: normal;
