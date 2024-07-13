@@ -268,13 +268,22 @@
           "settings": {
             "show_view_all": true,
             "collection": "kid",
-            "collection_name": "Second collection"
+            "collection_name": "Apparel"
+          }
+        },
+        "collection_iWeXBW": {
+          "type": "collection",
+          "settings": {
+            "show_view_all": true,
+            "collection": "adidas",
+            "collection_name": "Dress"
           }
         }
       },
       "block_order": [
         "collection_GH8awq",
-        "collection_Rnm9hH"
+        "collection_Rnm9hH",
+        "collection_iWeXBW"
       ],
       "settings": {
         "heading": "",
