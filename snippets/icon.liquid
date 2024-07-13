@@ -115,9 +115,10 @@
           <path d="M15.51 12 9.79 7.84v8.26z"  fill="currentColor" />
 
         {%- when 'search' -%}
-          <path d="M10.165 18.808a8.745 8.745 0 1 0 0-17.49 8.745 8.745 0 0 0 0 17.49z" stroke="currentColor" stroke-width="1.6" stroke-miterlimit="10" stroke-linecap="round"/>
-          <path d="m16.5 16.5 5.363 5.362" stroke="currentColor" stroke-width="1.6" stroke-miterlimit="10"/>
-
+          {% comment %} <path d="M10.165 18.808a8.745 8.745 0 1 0 0-17.49 8.745 8.745 0 0 0 0 17.49z" stroke="currentColor" stroke-width="1.6" stroke-miterlimit="10" stroke-linecap="round"/>
+          <path d="m16.5 16.5 5.363 5.362" stroke="currentColor" stroke-width="1.6" stroke-miterlimit="10"/> {% endcomment %}
+          <path d="M11 20C15.9706 20 20 15.9706 20 11C20 6.02944 15.9706 2 11 2C6.02944 2 2 6.02944 2 11C2 15.9706 6.02944 20 11 20Z" stroke="black"/>
+          <path d="M21.9999 21.9999L18.7822 18.7822" stroke="currentColor"/>
         {%- when 'zoom' -%}
           <path d="M10.3,19.71c5.21,0,9.44-4.23,9.44-9.44S15.51,.83,10.3,.83,.86,5.05,.86,10.27s4.23,9.44,9.44,9.44Z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1.63"/>
           <path d="M5.05,10.27H15.54" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="1.63"/>
