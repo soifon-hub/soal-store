@@ -212,7 +212,7 @@
         "type": "range",
         "id": "heading_base_size",
         "label": "t:shared.settings.typography.base_size.label",
-        "min": 36,
+        "min": 20,
         "max": 60,
         "step": 1,
         "default": 48,
