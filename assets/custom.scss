@@ -10,7 +10,7 @@
 
 :root {
     --white-color: #ffffff;
-    --white-color-op: #FFE7E7;
+    --black-color-op: #FFE7E7;
     --black-color-op:#000000;
     --green-color-black: #1D271A;
     --green-grass-color-op: #A4C55D;
@@ -96,7 +96,7 @@ html {
     margin-right: var(--spacing-12);
 }
 .header__links.header__links-primary>ul>li>[data-link] {
-    color: var(--white-color-op);
+    color: var(--black-color-op);
     text-align: right;
     font-family: var(--font-heading-v1);
     font-size: 14px;
@@ -339,7 +339,7 @@ html {
 
 .footer__header  {
     .fs-accent {
-        color: var(--white-color-op);
+        color: var(--black-color-op);
         font-family: var(--font-heading-v1);
         font-size: 12px;
         font-style: normal;
@@ -353,7 +353,7 @@ html {
     ul {
         li {
             a {
-                color: var(--white-color-op);
+                color: var(--black-color-op);
                 font-family: var(--font-heading-v1);
                 font-size: 12px;
                 font-style: normal;
