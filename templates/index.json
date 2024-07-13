@@ -17,7 +17,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/05b87a15a34ed241e22abbbdaa1276b2.jpg",
             "image_mobile": "shopify:\/\/shop_images\/05b87a15a34ed241e22abbbdaa1276b2.jpg",
-            "focal_point": "center",
+            "focal_point": "top",
             "mobile_focal_point": "center",
             "media_link": "",
             "text_position": "center_center",
