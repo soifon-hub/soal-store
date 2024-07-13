@@ -15239,7 +15239,7 @@ model-viewer{
     height:32px;
     position:relative;
     z-index:10;
-    color:var(--color);
+    /* color:var(--color); */
   }
 html:not(.no-js){
 }
