@@ -845,18 +845,17 @@ $background-color_4: #000;
         }
     }
 }
-header[data-navigation-position="left"][data-logo-position="center"].is-sticky {
-    header.header--transparent {
-        &.is-sticky {
-            .icon-button__icon {
-                svg,
-                .icon path {
-                    color: var(--white-color);
-                }
+header[data-navigation-position="left"][data-logo-position="center"] {
+    &.is-sticky {
+        .icon-button__icon {
+            svg,
+            .icon path {
+                color: var(--white-color);
             }
         }
     }
 }
+
 html {
     &:not(.no-js) {
         body.template-index {
