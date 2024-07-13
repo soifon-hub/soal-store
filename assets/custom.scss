@@ -863,9 +863,6 @@ html {
                 &:not([quick-search-open=true]) {
                     header.header--transparent {
                         &:not(.is-sticky) {
-                            .icon-button__icon {
-                                stroke: var(--white-color);
-                            }
                             &:not(:hover) {
                                 &:not(:focus-within) {
                                     &:not(.dropdown-active) {
