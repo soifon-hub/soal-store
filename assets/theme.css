@@ -18590,7 +18590,7 @@ body.template-password.header-transparent-on-home
   padding:calc(4px * 3);
   padding:var(--spacing-3);
   opacity:0.4;
-  border-radius:0;
+  border-radius:100%;
   transition:opacity 0.2s ease
 }
 .slideshow-navigation__dot:after{
@@ -18628,7 +18628,7 @@ body.template-password.header-transparent-on-home
       left:50%;
       transform:translate(-50%, -50%);
       background-color:transparent;
-      border-radius:100%;
+      border-radius:0;
       transition:border-color 0.2s ease;
     }
 .slideshow-navigation__dot.slideshow-navigation__dot--active .slideshow-navigation__dot-loader{
