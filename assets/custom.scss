@@ -863,16 +863,6 @@ $background-color_4: #000;
         }
     }
 }
-header[data-navigation-position="left"][data-logo-position="center"] {
-    &.is-sticky {
-        .icon-button__icon {
-            svg,
-            .icon path {
-                stroke: var(--white-color);
-            }
-        }
-    }
-}
 
 html {
     &:not(.no-js) {
