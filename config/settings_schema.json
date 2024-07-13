@@ -222,7 +222,7 @@
         "type": "range",
         "id": "heading_mobile_base_scale",
         "label": "t:shared.settings.typography.mobile_base_scale.label",
-        "min": 70,
+        "min": 40,
         "max": 100,
         "step": 1,
         "default": 85,
