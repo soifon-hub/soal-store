@@ -279,9 +279,6 @@ html.sticky-header-enabled .shopify-section.header__outer-wrapper .fs-navigation
 @media (min-width: 960px) {
   .featured-collection-grid__products .product-item__inner .product-item__meta .show-product-quickview {
     max-width: initial; } }
-.yotpo-head .yotpo-reviews-by {
-  display: none !important; }
-
 .slideshow-navigation__dot-loader {
   display: none;
   position: absolute;
