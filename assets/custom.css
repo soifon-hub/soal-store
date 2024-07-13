@@ -25,7 +25,6 @@ html.sticky-header-enabled [data-js-cart-count] {
   margin-right: var(--spacing-12); }
 
 .header__links.header__links-primary > ul > li > [data-link] {
-  color: var(--black-color-op);
   text-align: right;
   font-family: var(--font-heading-v1);
   font-size: 14px;
