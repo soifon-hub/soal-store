@@ -324,8 +324,8 @@ html.sticky-header-enabled .shopify-section.header__outer-wrapper .fs-navigation
   left: 50%;
   transform: translate(-50%, -50%) rotate(45deg);
   border: 2px solid var(--color-foreground);
-  width: 15px;
-  height: 15px;
+  width: 9px;
+  height: 8px;
   border-radius: 0; }
 
 .explore-more-link {
