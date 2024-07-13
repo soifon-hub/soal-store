@@ -3180,7 +3180,7 @@ html.sticky-header-enabled .shopify-section.header__outer-wrapper{
   --size-icon-touch:40px;
   --size-icon-touch-mobile:41px;
 
-  background-color:var(--color-background-header);
+  /* background-color:var(--color-background-header); */
   color:var(--color-text-header);
   transition:background-color 500ms cubic-bezier(0.33, 0, 0, 1);
   transition:background-color var(--duration-normal) var(--easing)
