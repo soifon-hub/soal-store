@@ -48,19 +48,6 @@
     left: 25%;
 }
 }
-
-.slideshow-navigation__dot-loader {
-    display: none;
-    position: absolute;
-    top: 30%;
-    left: 50%;
-    transform: translate(-50%, -50%)  rotate(45deg);
-    border: 2px solid var(--color-foreground);
-    width: 15px; 
-    height: 15px;
-    border-radius: 0;
-
-}
 .explore-more-link{
   display:block;
   text-align:center;
