@@ -39,6 +39,9 @@
             <h2 class="rich-text__heading ff-heading {{ block.settings.heading_font_class }} section-blocks__heading">
               {{ block.settings.title | newline_to_br }}
             </h2>
+            {% if block.settings.enable_border %} 
+            <span class="border_with_dot"></span>
+            {% endif %}
           {%- endunless -%}
         {%- when 'subheading' -%}
           {%- unless block.settings.subheading == blank -%}
