@@ -69,9 +69,11 @@
               <li class="blog__nav-item">
                 <a
                   href="{{ blog.url }}"
-                  class=" ff-heading fs-body-60 
+                  class="
                     blog__nav-link
                     {% if current_tags == blank %} blog__nav-link--active{% endif %}
+                    ff-heading
+                    fs-body-150
                   "
                 >
                   {{ 'blogs.general.all' | t }}
