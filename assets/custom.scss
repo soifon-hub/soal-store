@@ -1136,8 +1136,10 @@ html.sticky-header-enabled {
 }
 
 .multi-column__grid-item-image-wrapper{
-    .image__inner .image__img {
-        max-width: 50px;
-        margin: 0 auto;
+    .image__inner {
+        .image__img {
+            max-width: 50px;
+            margin: 0 auto;
+        }
     }
 }
