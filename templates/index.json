@@ -442,10 +442,10 @@
 
       ],
       "settings": {
-        "video_source": "shopify",
-        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "video_source": "external",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=Q_EwuVHDb5U",
         "image": "shopify:\/\/shop_images\/cecfd36dc4b2cb3c9806f14d338c939e.png",
-        "loop": false,
+        "loop": true,
         "media_aspect_ratio": "landscape_wide_alt",
         "focal_point": "top",
         "text_position": "center_center",
@@ -456,7 +456,7 @@
         "color_overlay_gradient": "",
         "overlay_opacity": 50,
         "enable_animation": true,
-        "section_padding": "section--vertical-padding-top-bottom"
+        "section_padding": "section--vertical-padding-top-only"
       }
     },
     "testimonials_eb6fnk": {
