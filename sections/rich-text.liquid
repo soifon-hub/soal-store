@@ -40,7 +40,9 @@
               {{ block.settings.title | newline_to_br }}
             </h2>
             {% if block.settings.enable_border %} 
-              <span class="border_with_d"></span>
+              <span class="border_with_d">
+                <span class="diamond"></span>
+              </span>
             {% endif %}
           {%- endunless -%}
         {%- when 'subheading' -%}
