@@ -494,7 +494,7 @@
           "settings": {
             "show_view_all": false,
             "collection": "all",
-            "collection_name": "All"
+            "collection_name": ""
           }
         },
         "collection_txne8c": {
@@ -502,7 +502,7 @@
           "settings": {
             "show_view_all": false,
             "collection": "kid",
-            "collection_name": "Apparel"
+            "collection_name": ""
           }
         },
         "collection_tYiBjy": {
@@ -510,7 +510,7 @@
           "settings": {
             "show_view_all": false,
             "collection": "adidas",
-            "collection_name": "Dress"
+            "collection_name": ""
           }
         },
         "product_list_aXxXYD": {
@@ -523,7 +523,7 @@
               "converse-toddler-chuck-taylor-all-star-axel-mid",
               "converse-chuck-taylor-all-star-lo"
             ],
-            "collection_name": "Tshirt"
+            "collection_name": ""
           }
         },
         "product_list_xwxQFc": {
@@ -535,7 +535,7 @@
               "herschel-iona",
               "flex-fit-mini-ottoman-black"
             ],
-            "collection_name": "Bag"
+            "collection_name": ""
           }
         }
       },
