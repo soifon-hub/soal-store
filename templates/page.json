@@ -32,7 +32,7 @@
         "show_date": true,
         "show_excerpt": true,
         "show_featured_image": true,
-        "aspect_ratio": "landscape",
+        "aspect_ratio": "square",
         "enable_animation": true,
         "divider_style": "none",
         "section_padding": "section--vertical-padding-top-bottom"
