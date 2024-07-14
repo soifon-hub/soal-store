@@ -459,95 +459,36 @@
         "section_padding": "section--vertical-padding-top-bottom"
       }
     },
-    "testimonials_eb6fnk": {
-      "type": "testimonials",
+    "rich_text_Xrkabj": {
+      "type": "rich-text",
       "blocks": {
-        "testimonial_AUH78c": {
-          "type": "testimonial",
+        "heading_fkgUaY": {
+          "type": "heading",
           "settings": {
-            "product": "",
-            "image_position": "left",
-            "image": "shopify:\/\/shop_images\/8072c8b5718306d4be25aac21836ce16.jpg",
-            "aspect_ratio": "natural",
-            "focal_point": "center",
-            "show_rating": false,
-            "rating": 5,
-            "quote": "\"Dukat Olive Oil has become a cherished part of our family rituals, elevating every dish with its unmatched flavor. Knowing we're enjoying the highest quality adds reassurance to every meal.\"",
-            "author": "– Nick"
+            "title": "Just for You",
+            "heading_font_class": "fs-heading-2-base"
           }
         },
-        "testimonial_6b77xE": {
-          "type": "testimonial",
+        "text_Fg8aYe": {
+          "type": "text",
+          "disabled": true,
           "settings": {
-            "product": "",
-            "image_position": "left",
-            "aspect_ratio": "natural",
-            "focal_point": "center",
-            "show_rating": false,
-            "rating": 5,
-            "quote": "\"I love the freshness and brightness of Dukat oils. Freshness matters and makes a huge difference.\"",
-            "author": "– James"
-          }
-        },
-        "testimonial_c899gM": {
-          "type": "testimonial",
-          "settings": {
-            "product": "",
-            "image_position": "left",
-            "aspect_ratio": "natural",
-            "focal_point": "center",
-            "show_rating": false,
-            "rating": 5,
-            "quote": "\"Its superior quality and authentic taste bring the flavors of the Mediterranean right to my table. It's like a taste of sunshine in every drop.\"",
-            "author": "– Eva"
-          }
-        },
-        "testimonial_djHbg6": {
-          "type": "testimonial",
-          "settings": {
-            "product": "",
-            "image_position": "left",
-            "aspect_ratio": "natural",
-            "focal_point": "center",
-            "show_rating": false,
-            "rating": 5,
-            "quote": "\"I've tried many olive oils, but Dukat Olives stands out with its rich flavor and smooth finish. It's now a kitchen essential for me.\"",
-            "author": "– Ben"
-          }
-        },
-        "testimonial_8NmXMV": {
-          "type": "testimonial",
-          "settings": {
-            "product": "",
-            "image_position": "left",
-            "aspect_ratio": "natural",
-            "focal_point": "center",
-            "show_rating": false,
-            "rating": 5,
-            "quote": "\"Quality matters to me, which is why I trust Dukats Olives. Its fresh taste and versatility make it a must-have in my pantry.\"",
-            "author": "- Nora"
+            "text": "",
+            "text_font_class": "fs-body-100"
           }
         }
       },
       "block_order": [
-        "testimonial_AUH78c",
-        "testimonial_6b77xE",
-        "testimonial_c899gM",
-        "testimonial_djHbg6",
-        "testimonial_8NmXMV"
-      ],
-      "disabled": true,
-      "custom_css": [
-
+        "heading_fkgUaY",
+        "text_Fg8aYe"
       ],
       "settings": {
-        "image_size": "small",
-        "quote_font": "heading",
-        "background_color": "",
-        "text_color": "#000000",
+        "alignment": "center_center",
         "enable_animation": true,
         "divider_style": "none",
-        "section_padding": "section--vertical-padding-top-bottom"
+        "section_padding": "section--vertical-padding-top-bottom",
+        "content_width": "custom",
+        "custom_content_width": 500
       }
     },
     "featured_collection_grid_xJwedG": {
@@ -556,7 +497,7 @@
         "collection_ficjrf": {
           "type": "collection",
           "settings": {
-            "collection": "adidas"
+            "collection": "all"
           }
         }
       },
@@ -567,16 +508,16 @@
 
       ],
       "settings": {
-        "heading": "JUST FOR YOU",
+        "heading": "",
         "subheading": "",
         "link": "",
         "link_text": "",
-        "maximum_collections": 4,
+        "maximum_collections": 15,
         "columns": "4",
-        "mobile_columns": "2",
+        "mobile_columns": "1",
         "enable_animation": true,
         "divider_style": "none",
-        "section_padding": "section--vertical-padding-top-bottom"
+        "section_padding": "section--vertical-padding-none"
       }
     },
     "multi_column_mqeEBj": {
@@ -767,7 +708,7 @@
     "rich_text_dryRq7",
     "165489980473ecbf41",
     "video_GfxzKJ",
-    "testimonials_eb6fnk",
+    "rich_text_Xrkabj",
     "featured_collection_grid_xJwedG",
     "multi_column_mqeEBj",
     "multi_column_V7Gbd6"
