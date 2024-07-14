@@ -4,39 +4,39 @@
   assign has_featured = section.settings.show_featured_item
 -%}
 
-{%- if section.settings.show_tag_nav and blog.all_tags.size > 0 -%}
-  {%- for tag in blog.all_tags -%}
-    {%- assign tag_dc = tag | downcase -%}
-    {%- if article_categories contains tag_dc or article_categories == blank -%}
-      {%- capture tag_list -%}
-        {{ tag_list }}
-        <li class="blog__nav-item">
-          <a
-            href="{{ blog.url }}/tagged/{{ tag | handle }}"
-            class="
-              blog__nav-link
-              {% if current_tags contains tag %} blog__nav-link--active{% endif %}
-              ff-heading
-              fs-body-150
-            "
-          >
-            {{ tag }}
-          </a>
-        </li>
-      {%- endcapture -%}
-    {%- endif -%}
-    {%- capture tag_select_options -%}
-      {{ tag_select_options }}
-      <option
-        value="{{ blog.url }}/tagged/{{ tag | handle }}"
-        {% if current_tags contains tag %}
-          selected="selected"
-        {% endif %}
-      >
-        {{ tag }}
-      </option>
+{%- for tag in blog.all_tags -%}
+  {%- assign tag_dc = tag | downcase -%}
+  {%- if article_categories contains tag_dc or article_categories == blank -%}
+    {%- capture tag_list -%}
+      {{ tag_list }}
+      <li class="blog__nav-item">
+        <a
+          href="{{ blog.url }}/tagged/{{ tag | handle }}"
+          class="
+            blog__nav-link
+            {% if current_tags contains tag %} blog__nav-link--active{% endif %}
+            ff-heading
+            fs-body-150
+          "
+        >
+          {{ tag }}
+        </a>
+      </li>
     {%- endcapture -%}
-  {%- endfor -%}
+  {%- endif -%}
+  {%- capture tag_select_options -%}
+    {{ tag_select_options }}
+    <option
+      value="{{ blog.url }}/tagged/{{ tag | handle }}"
+      {% if current_tags contains tag %}
+        selected="selected"
+      {% endif %}
+    >
+      {{ tag }}
+    </option>
+  {%- endcapture -%}
+{%- endfor -%}
+{%- if section.settings.show_tag_nav and blog.all_tags.size > 0 -%}
 {%- endif -%}
 
 {% paginate blog.articles by paginate_by %}
