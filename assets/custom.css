@@ -680,6 +680,7 @@ html.sticky-header-enabled [data-js-cart-count] {
   align-items: center;
   justify-content: center;
   width: 100%;
+  max-width: 125px;
   height: 1px;
   background-color: var(--gray-black-color); }
   .border_with_d:before, .border_with_d:after {
