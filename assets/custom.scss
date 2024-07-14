@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Zetta:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Exa:wght@100..900&display=swap');
+
 
 @font-face {
     font-family: 'Agne';
@@ -16,6 +19,8 @@
     --green-grass-color-op: #A4C55D;
     --font-heading-v1: "Lexend Zetta", sans-serif;
     --font-heading-v2: "Agne";
+    --font-heading-v3: "Lexend Deca", sans-serif;
+    --font-heading-v4: "Lexend Exa", sans-serif;
     --font-heading-weight-v1: 400;
 } 
 
@@ -324,7 +329,12 @@ html {
                 }
                 .product-item__price {
                     .product-item__price {
-                       @include product__title_18;
+                        @include product__title_18;
+                        font-size: 15px;
+                        font-weight: 400;
+                        line-height: 24px;
+                        text-align: left;
+
                     }
                 }
             }
@@ -712,6 +722,7 @@ $background-color_4: #000;
         letter-spacing: 4px;
         text-align: center;
         font-weight: 400;
+        font-family: var(--font-heading-v4);
     }
 }
 

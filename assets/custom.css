@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Lexend+Zetta:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Exa:wght@100..900&display=swap");
 @font-face {
   font-family: 'Agne';
   src: url("agne-regular-webfont.woff2") format("woff2"), url("agne-regular-webfont.woff") format("woff");
@@ -11,6 +13,8 @@
   --green-grass-color-op: #A4C55D;
   --font-heading-v1: "Lexend Zetta", sans-serif;
   --font-heading-v2: "Agne";
+  --font-heading-v3: "Lexend Deca", sans-serif;
+  --font-heading-v4: "Lexend Exa", sans-serif;
   --font-heading-weight-v1: 400; }
 
 html.sticky-header-enabled .shopify-section.header__outer-wrapper .fs-navigation-base a {
@@ -176,7 +180,11 @@ html.sticky-header-enabled .shopify-section.header__outer-wrapper .fs-navigation
   font-size: 12px;
   font-style: normal;
   line-height: 16px;
-  font-weight: 400; }
+  font-weight: 400;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left; }
   @media (min-width: 960px) {
     .template-index .product-item__inner .product-item__meta .product-item__text .product-item__price .product-item__price {
       font-size: 12px; } }
@@ -429,7 +437,8 @@ html.sticky-header-enabled .shopify-section.header__outer-wrapper .fs-navigation
 .rich_text_section .rich-text__heading {
   letter-spacing: 4px;
   text-align: center;
-  font-weight: 400; }
+  font-weight: 400;
+  font-family: var(--font-heading-v4); }
 
 .rich-text.section {
   padding: var(--spacing-10) var(--space-outer); }
