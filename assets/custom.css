@@ -19,7 +19,8 @@
   --font-heading-weight-v1: 400; }
 
 html.sticky-header-enabled .shopify-section.header__outer-wrapper .fs-navigation-base a {
-  color: var(--white-color); }
+  color: var(--white-color);
+  font-family: var(--font-heading-v4); }
 
 .header__links-primary .header__links-list > li:not(:last-child) {
   margin-right: var(--spacing-12); }
