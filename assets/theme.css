@@ -7800,7 +7800,7 @@ p + .account__cta-wrap{
   flex-direction:column;
   margin-bottom:calc(4px * 7);
   margin-bottom:var(--spacing-7);
-  opacity:0.7;
+  /* opacity:0.7; */
   position: relative;
   color: var(--gray-color);
 }
