@@ -493,7 +493,7 @@
           "type": "collection",
           "settings": {
             "show_view_all": false,
-            "collection": "",
+            "collection": "all",
             "collection_name": ""
           }
         }
