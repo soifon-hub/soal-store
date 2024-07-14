@@ -21,6 +21,20 @@
   assign article_categories = settings.article_categories | downcase
 -%}
 
+{%- for tag in blog_article.tags -%}
+  {%- assign tag_dc = tag | downcase -%}
+    <li class="article-tags__item">
+      <{{ tag_el }}
+        {%- if blog -%}
+          href="{{ blog.url }}/tagged/{{ tag | handleize }}"
+        {%- endif -%}
+        class="article-tags__tag fs-body-50"
+      >
+        {{ tag }}
+      </{{ tag_el }}>
+    </li>
+{%- endfor -%}
+
 {%- capture tag_list -%}
   {%- if show_tags and blog_article.tags.size > 0 -%}
     {%- for tag in blog_article.tags -%}
