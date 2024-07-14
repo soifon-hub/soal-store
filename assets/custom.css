@@ -691,4 +691,12 @@ html.sticky-header-enabled [data-js-cart-count] {
     border: 1px solid var(--gray-black-color);
     transform: rotate(45deg); }
 
+.multi-column__inner .multi-column__heading.section-introduction__heading {
+  font-family: var(--font-heading-v3);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.01em;
+  text-align: center; }
+
 /*# sourceMappingURL=custom.css.map */
