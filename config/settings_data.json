@@ -222,13 +222,6 @@
               "show_social_icons": false
             }
           },
-          "8c299bda-c00b-4164-a5bd-c856e1201f0e": {
-            "type": "spacer",
-            "disabled": true,
-            "settings": {
-              "desktop_width": 10
-            }
-          },
           "7fc03fc7-7c3b-41be-b2c1-9301b4c0da98": {
             "type": "links",
             "settings": {
@@ -244,7 +237,6 @@
         "block_order": [
           "footer-0",
           "text_WHtk9H",
-          "8c299bda-c00b-4164-a5bd-c856e1201f0e",
           "7fc03fc7-7c3b-41be-b2c1-9301b4c0da98"
         ],
         "custom_css": [
