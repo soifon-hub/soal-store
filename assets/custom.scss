@@ -307,6 +307,10 @@ html {
             .product-item__text {
                 .fs-product-card-title {
                     @include product__title_20; 
+                    font-size: 12px;
+                    font-weight: 400;
+                    line-height: 16px;
+                    text-align: center;
 
                     a {
                         @media (max-width: 600px) {

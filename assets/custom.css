@@ -159,7 +159,11 @@ html.sticky-header-enabled .shopify-section.header__outer-wrapper .fs-navigation
   font-style: normal;
   line-height: 16px;
   font-weight: 400;
-  text-transform: inherit; }
+  text-transform: inherit;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: center; }
   @media (max-width: 600px) {
     .template-index .product-item__inner .product-item__meta .product-item__text .fs-product-card-title a {
       font-size: 14px; } }
