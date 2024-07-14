@@ -231,8 +231,9 @@ html.sticky-header-enabled .shopify-section.header__outer-wrapper .fs-navigation
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: normal;
-  letter-spacing: 3.2px; }
+  line-height: 24px;
+  letter-spacing: 3.2px;
+  font-family: var(--font-heading-v3); }
   .image-with-text .btn.btn--callout span:before, .image-with-text .btn.btn--callout span:after {
     width: 30%; }
 
