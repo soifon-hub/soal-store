@@ -7819,7 +7819,7 @@ p + .account__cta-wrap{
   top: 62%;
   left: 40%;
   transform: rotate(45deg);
-  border: 1px solid var(--color-foreground);
+  border: 1px solid var(--orange-icon-color);
   border-radius: 0;
   transition: background-color .2s ease;
 }
