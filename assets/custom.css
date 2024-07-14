@@ -190,17 +190,17 @@ html.sticky-header-enabled .shopify-section.header__outer-wrapper .fs-navigation
   font-weight: 400;
   font-family: var(--font-heading-v3);
   color: var(--orange-icon-color);
-  font-size: 1px;
+  font-size: 16px;
   font-weight: 400;
-  line-height: 18px; }
+  line-height: 20px; }
   @media (min-width: 960px) {
     .template-index .product-item__inner .product-item__meta .product-item__text .product-item__price .product-item__price {
       font-size: 12px; } }
   @media (max-width: 720px) {
     .template-index .product-item__inner .product-item__meta .product-item__text .product-item__price .product-item__price {
-      font-size: 15px;
+      font-size: 14px;
       font-weight: 400;
-      line-height: 24px; } }
+      line-height: 18px; } }
 
 .product-item__inner .product-item__meta .product-item__text .fs-product-card-title,
 .product-item__inner .product-item__meta .product-item__text .product-item__price .product-item__price {
