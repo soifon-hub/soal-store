@@ -7817,6 +7817,11 @@ p + .account__cta-wrap{
   }
 .featured-collection-slider__navigation-list-item.selected .indicator{
   width:100%;
+  border: 1px solid var(--orange-icon-color);
+  border-radius: 0;
+  transition: background-color .2s ease;
+}
+.featured-collection-slider__navigation-list-item .indicator{
   content: "";
   width: 8px;
   height: 8px;
@@ -7824,18 +7829,11 @@ p + .account__cta-wrap{
   top: 62%;
   left: 40%;
   transform: rotate(45deg);
-  border: 1px solid var(--orange-icon-color);
-  border-radius: 0;
-  transition: background-color .2s ease;
-}
-.featured-collection-slider__navigation-list-item .indicator{
-    margin:calc(4px * 2) auto 0;
-    margin:var(--spacing-2) auto 0;
-    width:0%;
-    height:2px;
-    background-color:var(--orange-icon-color);
-    transition:width 500ms cubic-bezier(0.33, 0, 0, 1);
-    transition:width var(--duration-normal) var(--easing);
+  margin:calc(4px * 2) auto 0;
+  margin:var(--spacing-2) auto 0;
+  background-color:var(--orange-icon-color);
+  transition:width 500ms cubic-bezier(0.33, 0, 0, 1);
+  transition:width var(--duration-normal) var(--easing);
   }
 .featured-collection-slider__content{
   display:none;
