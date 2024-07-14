@@ -536,7 +536,9 @@ html.sticky-header-enabled .shopify-section.header__outer-wrapper .fs-navigation
     max-width: inherit;
     padding-right: 0; } }
 .template-index .video.video--text-mobile-center {
-  max-width: inherit; }
+  max-width: inherit;
+  padding-left: 0;
+  padding-right: 0; }
   @media (max-width: 720px) {
     .template-index .video.video--text-mobile-center {
       padding-left: 0 !important;
