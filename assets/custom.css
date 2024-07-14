@@ -681,10 +681,9 @@ html.sticky-header-enabled [data-js-cart-count] {
   justify-content: center;
   width: 100%;
   max-width: 125px;
-  margin: 0 auto;
+  margin: 10px auto 0 auto;
   height: 1px;
-  background-color: var(--gray-black-color);
-  margin-top: 10px; }
+  background-color: var(--gray-black-color); }
   @media (min-width: 720px) {
     .border_with_d {
       max-width: 155px;
