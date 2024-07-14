@@ -228,9 +228,6 @@ html.sticky-header-enabled .shopify-section.header__outer-wrapper .fs-navigation
   line-height: normal;
   text-transform: uppercase; }
 
-@media (min-width: 720px) {
-  .image-with-text .image-with-text__text-container {
-    margin-top: 15%; } }
 .image-with-text .btn.btn--callout span {
   color: var(--black-color-op);
   text-align: center;

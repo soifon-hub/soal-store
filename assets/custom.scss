@@ -82,7 +82,7 @@ html {
                     font-weight: 400;
                     line-height: 24px;
                     letter-spacing: 2.8px;
-                    
+
                     &.active {
                         
                     }
@@ -381,11 +381,6 @@ html {
 }
 
 .image-with-text {
-    @media (min-width: 720px) {
-        .image-with-text__text-container {
-            margin-top: 15%;
-        }
-    }
     .btn.btn--callout {
         span {
             color: var(--black-color-op);
