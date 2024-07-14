@@ -859,6 +859,7 @@ $background-color_4: #000;
             &.video--text-center {
                 &.video--text-mobile-center {
                     max-width: inherit;
+                    padding: 0;
                 }
             }
         }
