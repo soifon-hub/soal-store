@@ -308,6 +308,7 @@
       "settings": {
         "heading": "",
         "subheading": "",
+        "section_class_custom": "",
         "link": "",
         "link_text": "",
         "maximum_products": 4,
