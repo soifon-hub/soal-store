@@ -644,7 +644,7 @@ html.sticky-header-enabled [data-js-cart-count] {
 
 @media (max-width: 720px) {
   .featured-collection-slider__products.carousel__wrapper {
-    display: grid;
-    grid-template-columns: 1fr 1fr; } }
+    display: grid !important;
+    grid-template-columns: 1fr 1fr !important; } }
 
 /*# sourceMappingURL=custom.css.map */

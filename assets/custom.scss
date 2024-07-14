@@ -1056,7 +1056,7 @@ html.sticky-header-enabled {
 
 .featured-collection-slider__products.carousel__wrapper {
     @media (max-width: 720px) {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
+        display: grid!important;
+        grid-template-columns: 1fr 1fr!important;
     }
 }
