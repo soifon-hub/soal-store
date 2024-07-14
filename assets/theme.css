@@ -7797,7 +7797,8 @@ p + .account__cta-wrap{
   flex-direction:column;
   margin-bottom:calc(4px * 7);
   margin-bottom:var(--spacing-7);
-  opacity:0.7
+  opacity:0.7;
+  position: relative;
 }
 @media (min-width: 720px){
 .featured-collection-slider__navigation-list-item{
@@ -7809,8 +7810,18 @@ p + .account__cta-wrap{
     opacity:1;
   }
 .featured-collection-slider__navigation-list-item.selected .indicator{
-      width:100%;
-    }
+  width:100%;
+  content: "";
+  width: 8px;
+  height: 8px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: rotate(45deg);
+  border: 1px solid var(--color-foreground);
+  border-radius: 0;
+  transition: background-color .2s ease;
+}
 .featured-collection-slider__navigation-list-item .indicator{
     margin:calc(4px * 2) auto 0;
     margin:var(--spacing-2) auto 0;
