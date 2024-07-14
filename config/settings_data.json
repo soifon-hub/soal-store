@@ -280,6 +280,7 @@
         "settings": {
           "enable_locale_selector": false,
           "enable_country_selector": false,
+          "enable_border_footer": true,
           "show_payment_icons": true,
           "additional_copyright_text": ""
         }
