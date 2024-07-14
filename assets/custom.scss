@@ -1139,7 +1139,7 @@ html.sticky-header-enabled {
         }
     
         .multi-column__grid-item {
-            &:last-child {
+            &:last-of-type {
                 margin: 0 auto;
             }
         }
