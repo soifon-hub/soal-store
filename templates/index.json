@@ -234,7 +234,7 @@
         "text_3EHdAQ"
       ],
       "custom_css": [
-
+        ".rich_text_section {border-bottom: 1px solid #C4C4C4;}"
       ],
       "settings": {
         "alignment": "center_center",
