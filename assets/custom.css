@@ -283,7 +283,7 @@ html.sticky-header-enabled .shopify-section.header__outer-wrapper .fs-navigation
   border-color: #EBE8E1; }
 .accordion__inner .accordion__label h3 {
   color: var(--black-color-op);
-  font-family: var(--font-heading-v1);
+  font-family: var(--font-heading-v4);
   font-size: 24px;
   font-style: normal;
   font-weight: 400;
