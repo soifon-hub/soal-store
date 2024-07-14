@@ -654,7 +654,7 @@ html.sticky-header-enabled [data-js-cart-count] {
 
 @media (max-width: 720px) {
   .section_class_custom .featured-collection-slider__products.carousel__wrapper {
-    display: block !important; } }
+    display: flex !important; } }
 
 .slideshow-navigation__navigation-button--previous,
 .slideshow-navigation__navigation-button--next {
