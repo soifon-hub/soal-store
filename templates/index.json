@@ -251,7 +251,7 @@
         "collection_GH8awq": {
           "type": "collection",
           "settings": {
-            "show_view_all": true,
+            "show_view_all": false,
             "collection": "all",
             "collection_name": "All"
           }
@@ -259,7 +259,7 @@
         "collection_Rnm9hH": {
           "type": "collection",
           "settings": {
-            "show_view_all": true,
+            "show_view_all": false,
             "collection": "kid",
             "collection_name": "Apparel"
           }
@@ -267,7 +267,7 @@
         "collection_iWeXBW": {
           "type": "collection",
           "settings": {
-            "show_view_all": true,
+            "show_view_all": false,
             "collection": "adidas",
             "collection_name": "Dress"
           }
