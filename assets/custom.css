@@ -681,7 +681,12 @@ html.sticky-header-enabled [data-js-cart-count] {
   .footer__links ul {
     display: flex;
     align-items: baseline;
-    gap: 10%; } }
+    gap: 10%; }
+
+  .footer__group-content {
+    display: flex !important;
+    padding: 0;
+    width: 100%; } }
 @media (min-width: 720px) {
   .footer__groups {
     display: flex;
@@ -698,7 +703,7 @@ html.sticky-header-enabled [data-js-cart-count] {
     gap: 10%; }
 
   .footer__group-content {
-    display: flex;
+    display: flex !important;
     padding: 0;
     width: 100%; } }
 .template-index .multi-column__inner .multi-column__grid-item-text {
