@@ -675,7 +675,12 @@ html.sticky-header-enabled [data-js-cart-count] {
   .footer__group-content {
     display: flex;
     padding: 0;
-    width: 100%; } }
+    width: 100%; }
+
+  .footer__links ul {
+    display: flex;
+    align-items: baseline;
+    gap: 10%; } }
 @media (min-width: 720px) {
   .footer__groups {
     display: flex;
@@ -683,7 +688,12 @@ html.sticky-header-enabled [data-js-cart-count] {
     justify-content: space-between; }
 
   .footer__bottom {
-    justify-content: center; } }
+    justify-content: center; }
+
+  .footer__links ul {
+    display: flex;
+    align-items: baseline;
+    gap: 10%; } }
 .template-index .multi-column__inner .multi-column__grid-item-text {
   padding-top: 20px; }
 .template-index .multi-column__inner .multi-column__subheading,

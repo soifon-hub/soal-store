@@ -1098,6 +1098,11 @@ html.sticky-header-enabled {
         padding: 0;
         width: 100%;
     }
+    .footer__links ul {
+        display: flex;
+        align-items: baseline;
+        gap: 10%;
+    }
 }
 @media (min-width: 720px) {
     .footer__groups {
@@ -1107,6 +1112,11 @@ html.sticky-header-enabled {
     }
     .footer__bottom {
         justify-content: center;
+    }
+    .footer__links ul {
+        display: flex;
+        align-items: baseline;
+        gap: 10%;
     }
 }
   
