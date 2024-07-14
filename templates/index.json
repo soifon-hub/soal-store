@@ -217,7 +217,8 @@
           "type": "heading",
           "settings": {
             "title": "NEW ARRIVAL",
-            "heading_font_class": "fs-heading-2-base"
+            "heading_font_class": "fs-heading-2-base",
+            "enable_border": false
           }
         },
         "text_3EHdAQ": {
@@ -353,7 +354,8 @@
           "type": "heading",
           "settings": {
             "title": "COLLECTIONS",
-            "heading_font_class": "fs-heading-2-base"
+            "heading_font_class": "fs-heading-2-base",
+            "enable_border": false
           }
         }
       },
@@ -467,21 +469,13 @@
           "type": "heading",
           "settings": {
             "title": "Just for You",
-            "heading_font_class": "fs-heading-2-base"
-          }
-        },
-        "text_Fg8aYe": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "",
-            "text_font_class": "fs-body-100"
+            "heading_font_class": "fs-heading-2-base",
+            "enable_border": true
           }
         }
       },
       "block_order": [
-        "heading_fkgUaY",
-        "text_Fg8aYe"
+        "heading_fkgUaY"
       ],
       "settings": {
         "alignment": "center_center",
