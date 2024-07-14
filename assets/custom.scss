@@ -1137,6 +1137,18 @@ html.sticky-header-enabled {
                 font-size: 16px; 
             }
         }
+<<<<<<< HEAD
+=======
+    
+        .multi-column__grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            &:last-child {
+                justify-self: center;
+                align-self: center;
+            }
+        }
+>>>>>>> refs/remotes/origin/main
     }
 }
 
