@@ -489,21 +489,17 @@
     "featured_collection_slider_U8g3YQ": {
       "type": "featured-collection-slider",
       "blocks": {
-        "product_list_xwxQFc": {
-          "type": "product_list",
+        "collection_bbaK8t": {
+          "type": "collection",
           "settings": {
-            "product_list": [
-              "nike-crackle-print-tb-tee",
-              "nike-swoosh-pro-flat-peak-cap",
-              "herschel-iona",
-              "flex-fit-mini-ottoman-black"
-            ],
+            "show_view_all": false,
+            "collection": "all",
             "collection_name": ""
           }
         }
       },
       "block_order": [
-        "product_list_xwxQFc"
+        "collection_bbaK8t"
       ],
       "settings": {
         "heading": "",
