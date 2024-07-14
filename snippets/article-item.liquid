@@ -108,13 +108,13 @@
         {%- endif -%}
 
         {%- assign button_label = 'blogs.article.read' | t -%}
-        {%-
+        {% comment %} {%-
           render 'button-block' with
           wrapper_class: "article-item__read-button",
           link: blog_article.url,
           label: button_label,
           button_style: "btn--callout"
-        -%}
+        -%} {% endcomment %}
       </div>
     </div>
   {%- else -%}
