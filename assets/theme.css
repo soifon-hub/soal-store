@@ -2820,7 +2820,7 @@ input.input + label{
   color:var(--color-text-footer-subdued);
 }
 .footer a:hover{
-    color:var(--color-text-footer);
+    /* color:var(--color-text-footer); */
   }
 .footer .image.footer__image{
     max-width:var(--image-max-width);
