@@ -1097,3 +1097,24 @@ html.sticky-header-enabled {
         grid-template-columns: 1fr 1fr!important;
     }
 }
+
+.border_with_d {
+    position: relative;
+    display: block;
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    overflow: hidden;
+  }
+  
+  .border_with_d::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 2px solid black;
+    transform: rotate(45deg);
+    transform-origin: center;
+  }
