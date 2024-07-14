@@ -667,12 +667,18 @@ html.sticky-header-enabled [data-js-cart-count] {
   .footer__groups {
     display: flex;
     flex-direction: row;
-    justify-content: space-between; } }
+    justify-content: space-between; }
+
+  .footer__bottom {
+    justify-content: center; } }
 @media (min-width: 720px) {
   .footer__groups {
     display: flex;
     flex-direction: row;
-    justify-content: space-between; } }
+    justify-content: space-between; }
+
+  .footer__bottom {
+    justify-content: center; } }
 .template-index .multi-column__inner .multi-column__grid-item-text {
   padding-top: 20px; }
 .template-index .multi-column__inner .multi-column__subheading,

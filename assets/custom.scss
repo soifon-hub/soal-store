@@ -1090,12 +1090,18 @@ html.sticky-header-enabled {
         flex-direction: row;
         justify-content: space-between;
     }
+    .footer__bottom {
+        justify-content: center;
+    }
 }
 @media (min-width: 720px) {
     .footer__groups {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+    }
+    .footer__bottom {
+        justify-content: center;
     }
 }
   
