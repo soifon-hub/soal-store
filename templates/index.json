@@ -658,62 +658,6 @@
         "divider_style": "none",
         "section_padding": "section--vertical-padding-bottom-only"
       }
-    },
-    "multi_column_V7Gbd6": {
-      "type": "multi-column",
-      "blocks": {
-        "image_column_CRYpDX": {
-          "type": "image_column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Untitled_design_5.png",
-            "image_width": 50,
-            "aspect_ratio": "natural",
-            "focal_point": "center",
-            "image_position": "above_text",
-            "image_link": "",
-            "small_caption": "",
-            "accent": "",
-            "heading": "",
-            "heading_font_class": "fs-heading-4-base",
-            "text": "",
-            "text_font_class": "fs-body-75",
-            "text_max_width": 100,
-            "link": "",
-            "link_text": "",
-            "button_style": "btn--primary"
-          }
-        }
-      },
-      "block_order": [
-        "image_column_CRYpDX"
-      ],
-      "custom_css": [
-
-      ],
-      "settings": {
-        "title": "",
-        "subheading": "",
-        "heading_font_class": "fs-heading-3-base",
-        "heading_alignment": "center",
-        "content_vertical_alignment": "center",
-        "content_background_padding": "medium",
-        "columns": "1",
-        "column_spacing": 48,
-        "row_spacing": 48,
-        "column_alignment": "center",
-        "columns_mobile": "1",
-        "column_spacing_mobile": 12,
-        "row_spacing_mobile": 36,
-        "column_alignment_mobile": "center",
-        "background_behind_columns": false,
-        "background_color": "rgba(0,0,0,0)",
-        "text_color": "#ffffff",
-        "button_background_color": "#000000",
-        "button_text_color": "#ffffff",
-        "enable_animation": true,
-        "divider_style": "none",
-        "section_padding": "section--vertical-padding-top-bottom"
-      }
     }
   },
   "order": [
@@ -727,7 +671,6 @@
     "video_GfxzKJ",
     "rich_text_Xrkabj",
     "featured_collection_slider_U8g3YQ",
-    "multi_column_mqeEBj",
-    "multi_column_V7Gbd6"
+    "multi_column_mqeEBj"
   ]
 }
