@@ -1,7 +1,12 @@
 {%- liquid
   assign max_products = section.settings.maximum_products
 -%}
-<div class="section_class_custom">
+section_class_custom
+{% if section.settings.section_class_custom != blank %}
+  <div class="section_class_custom">
+{% else %}
+<div class="simple_slider"></div>
+{% endif %}
 {%- for block in section.blocks -%}
   {%- liquid
     assign collection_has_more_products = false
