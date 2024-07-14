@@ -705,4 +705,8 @@ html.sticky-header-enabled [data-js-cart-count] {
     .multi-column__inner .multi-column__grid-item-text {
       font-size: 16px; } }
 
+.multi-column__grid-item-image-wrapper .image__inner .image__img {
+  max-width: 50px;
+  margin: 0 auto; }
+
 /*# sourceMappingURL=custom.css.map */
