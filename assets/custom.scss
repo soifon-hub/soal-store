@@ -1120,7 +1120,8 @@ html.sticky-header-enabled {
 }
   
 .multi-column__inner {
-    .multi-column__subheading {
+    .multi-column__subheading,
+    .multi-column__grid-item-text {
         font-family: var(--font-heading-v3);
         font-size: 14px;
         font-weight: 400;
