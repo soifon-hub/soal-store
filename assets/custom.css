@@ -688,7 +688,7 @@ html.sticky-header-enabled [data-js-cart-count] {
   @media (min-width: 720px) {
     .border_with_d {
       max-width: 155px;
-      margin-top: 20px; } }
+      margin-top: 20px !important; } }
   .border_with_d:before, .border_with_d:after {
     content: "";
     position: absolute;
