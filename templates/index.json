@@ -217,7 +217,7 @@
           "type": "heading",
           "settings": {
             "title": "NEW ARRIVAL",
-            "heading_font_class": "fs-heading-3-base"
+            "heading_font_class": "fs-heading-2-base"
           }
         },
         "text_3EHdAQ": {
@@ -234,7 +234,7 @@
         "text_3EHdAQ"
       ],
       "custom_css": [
-        ".rich_text_section {border-bottom: 1px solid #C4C4C4;}"
+        ".rich_text_section {border-bottom: 1px solid #c4c4c4;}"
       ],
       "settings": {
         "alignment": "center_center",
