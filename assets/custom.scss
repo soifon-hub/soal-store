@@ -1003,3 +1003,12 @@ html.sticky-header-enabled {
 .slideshow-navigation__navigation-button--next {
     display: none;
 }
+
+.featured-collection-slider__navigation-list-item {
+    .ff-heading {
+        text-transform: capitalize;
+        &.fs-body-60 {
+            
+        }
+    }
+}

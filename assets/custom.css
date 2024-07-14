@@ -610,4 +610,7 @@ html.sticky-header-enabled [data-js-cart-count] {
 .slideshow-navigation__navigation-button--next {
   display: none; }
 
+.featured-collection-slider__navigation-list-item .ff-heading {
+  text-transform: capitalize; }
+
 /*# sourceMappingURL=custom.css.map */
