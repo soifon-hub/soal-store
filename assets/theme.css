@@ -7821,7 +7821,7 @@ p + .account__cta-wrap{
   width: 8px;
   height: 8px;
   position: absolute;
-  top: 62%;
+  top: 80%;
   left: 40%;
   transform: rotate(45deg);
   border: 1px solid var(--orange-icon-color);
