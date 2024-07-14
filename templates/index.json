@@ -368,6 +368,57 @@
         "custom_content_width": 700
       }
     },
+    "image_hero_split_dfqnwE": {
+      "type": "image-hero-split",
+      "blocks": {
+        "image_4qh9Rz": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_9.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/image_9.jpg",
+            "focal_point": "left",
+            "mobile_focal_point": "left",
+            "title": "Image hero split",
+            "text": "<p>Use this sections to promote a particular feature with editorial photography.<\/p>",
+            "link": "",
+            "link_text": "Read more",
+            "button_style": "btn--primary"
+          }
+        },
+        "image_wbchre": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_12.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/image_12.jpg",
+            "focal_point": "left",
+            "mobile_focal_point": "left",
+            "title": "Image hero split",
+            "text": "<p>Use this sections to promote a particular feature with editorial photography.<\/p>",
+            "link": "",
+            "link_text": "Read more",
+            "button_style": "btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "image_4qh9Rz",
+        "image_wbchre"
+      ],
+      "settings": {
+        "image_aspect": "original",
+        "desktop_height": 100,
+        "mobile_height": 100,
+        "text_position": "center",
+        "text_color": "#FFFFFF",
+        "button_background_color": "#FFFFFF",
+        "button_text_color": "#000000",
+        "color_overlay": "#000",
+        "color_overlay_gradient": "",
+        "overlay_opacity": 0,
+        "enable_animation": true,
+        "section_padding": "section--vertical-padding-none"
+      }
+    },
     "165489980473ecbf41": {
       "type": "image-with-text",
       "blocks": {
@@ -802,6 +853,7 @@
     "featured_collection_slider_jXD4iB",
     "rich_text_XE4VUr",
     "rich_text_dryRq7",
+    "image_hero_split_dfqnwE",
     "165489980473ecbf41",
     "video_GfxzKJ",
     "testimonials_eb6fnk",
