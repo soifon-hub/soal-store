@@ -492,6 +492,80 @@
         "custom_content_width": 500
       }
     },
+    "featured_collection_slider_U8g3YQ": {
+      "type": "featured-collection-slider",
+      "blocks": {
+        "collection_bbaK8t": {
+          "type": "collection",
+          "settings": {
+            "show_view_all": false,
+            "collection": "all",
+            "collection_name": "All"
+          }
+        },
+        "collection_txne8c": {
+          "type": "collection",
+          "settings": {
+            "show_view_all": false,
+            "collection": "kid",
+            "collection_name": "Apparel"
+          }
+        },
+        "collection_tYiBjy": {
+          "type": "collection",
+          "settings": {
+            "show_view_all": false,
+            "collection": "adidas",
+            "collection_name": "Dress"
+          }
+        },
+        "product_list_aXxXYD": {
+          "type": "product_list",
+          "settings": {
+            "product_list": [
+              "nike-crackle-print-tb-tee",
+              "adidas-superstar-80s",
+              "converse-chuck-taylor-all-star-ii-hi",
+              "converse-toddler-chuck-taylor-all-star-axel-mid",
+              "converse-chuck-taylor-all-star-lo"
+            ],
+            "collection_name": "Tshirt"
+          }
+        },
+        "product_list_xwxQFc": {
+          "type": "product_list",
+          "settings": {
+            "product_list": [
+              "nike-crackle-print-tb-tee",
+              "nike-swoosh-pro-flat-peak-cap",
+              "herschel-iona",
+              "flex-fit-mini-ottoman-black"
+            ],
+            "collection_name": "Bag"
+          }
+        }
+      },
+      "block_order": [
+        "collection_bbaK8t",
+        "collection_txne8c",
+        "collection_tYiBjy",
+        "product_list_aXxXYD",
+        "product_list_xwxQFc"
+      ],
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "section_class_custom": "section_class_custom",
+        "link": "",
+        "link_text": "",
+        "maximum_products": 4,
+        "columns": "4",
+        "mobile_columns": "2",
+        "enable_animation": true,
+        "divider_style": "none",
+        "section_padding": "section--vertical-padding-top-bottom"
+      }
+    },
     "featured_collection_grid_xJwedG": {
       "type": "featured-collection-grid",
       "blocks": {
@@ -710,6 +784,7 @@
     "165489980473ecbf41",
     "video_GfxzKJ",
     "rich_text_Xrkabj",
+    "featured_collection_slider_U8g3YQ",
     "featured_collection_grid_xJwedG",
     "multi_column_mqeEBj",
     "multi_column_V7Gbd6"
