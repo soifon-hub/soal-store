@@ -429,6 +429,17 @@ html.sticky-header-enabled .shopify-section.header__outer-wrapper .fs-navigation
   padding: 2px 0;
   color: #555555; }
 
+.rich_text_section .rich-text__heading {
+  font-size: 20px;
+  line-height: 40px;
+  letter-spacing: 4px;
+  text-align: center;
+  font-weight: 400; }
+  @media (max-width: 720px) {
+    .rich_text_section .rich-text__heading {
+      font-size: 18px;
+      line-height: 24px; } }
+
 .rich-text.section {
   padding: var(--spacing-10) var(--space-outer); }
   @media (max-width: 720px) {
