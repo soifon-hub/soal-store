@@ -532,21 +532,6 @@ html:not(.no-js):not(.prefers-reduced-motion) .animation .animation--mobile-filt
 html.sticky-header-enabled [data-js-cart-count] {
   display: none; }
 
-.mobile-filters__button {
-  position: relative;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 80%;
-  height: 100%;
-  padding: 8px 16px;
-  padding: var(--spacing-2) calc(var(--spacing-unit)* 4);
-  border-radius: 20px;
-  border: 1px solid #C4C4C4;
-  background-color: #C4C4C4;
-  color: #555555;
-  transition: border-color .25s ease-in-out; }
-
 .product__block--product-header.product__block--with-divider {
   border-bottom: 0px; }
 
