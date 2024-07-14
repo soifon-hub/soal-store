@@ -1141,11 +1141,9 @@ html.sticky-header-enabled {
         .multi-column__grid {
             display: grid;
             grid-template-columns: repeat(2, 1fr);
-            .multi-column__grid-item {
-                &:last-of-type {
-                    justify-self: center;
-                    align-self: center;
-                }
+            &:last-of-type {
+                justify-self: center;
+                align-self: center;
             }
         }
     }
