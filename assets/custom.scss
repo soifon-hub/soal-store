@@ -1069,12 +1069,12 @@ html.sticky-header-enabled {
 .footer {
     .border_with_d { 
         margin-top: 30px;
-        @media (max-width: 1200px) {
+        @media (min-width: 720px) {
             display: none;
         }
     }
 
-    @media (max-width: 1200px) {
+    @media (max-width: 720px) {
         .footer__links ul {
             display: flex;
             flex-direction: row;
