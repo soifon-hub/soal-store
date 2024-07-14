@@ -709,7 +709,7 @@ html.sticky-header-enabled [data-js-cart-count] {
 .template-index .multi-column__inner .multi-column__grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr); }
-  .template-index .multi-column__inner .multi-column__grid:last-child {
+  .template-index .multi-column__inner .multi-column__grid.multi-column__grid-item:last-child {
     justify-self: center;
     align-self: center; }
 
