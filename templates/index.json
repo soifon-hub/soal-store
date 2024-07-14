@@ -271,12 +271,39 @@
             "collection": "adidas",
             "collection_name": "Dress"
           }
+        },
+        "product_list_FQmKaG": {
+          "type": "product_list",
+          "settings": {
+            "product_list": [
+              "nike-crackle-print-tb-tee",
+              "adidas-superstar-80s",
+              "converse-chuck-taylor-all-star-ii-hi",
+              "converse-toddler-chuck-taylor-all-star-axel-mid",
+              "converse-chuck-taylor-all-star-lo"
+            ],
+            "collection_name": "Tshirt"
+          }
+        },
+        "product_list_t6RpfV": {
+          "type": "product_list",
+          "settings": {
+            "product_list": [
+              "nike-crackle-print-tb-tee",
+              "nike-swoosh-pro-flat-peak-cap",
+              "herschel-iona",
+              "flex-fit-mini-ottoman-black"
+            ],
+            "collection_name": "Bag"
+          }
         }
       },
       "block_order": [
         "collection_GH8awq",
         "collection_Rnm9hH",
-        "collection_iWeXBW"
+        "collection_iWeXBW",
+        "product_list_FQmKaG",
+        "product_list_t6RpfV"
       ],
       "settings": {
         "heading": "",
