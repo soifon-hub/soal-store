@@ -7813,6 +7813,7 @@ p + .account__cta-wrap{
   }
 .featured-collection-slider__navigation-list-item.selected{
     opacity:1;
+    color: var(--black-soal);
   }
 .featured-collection-slider__navigation-list-item.selected .indicator{
   width:100%;
