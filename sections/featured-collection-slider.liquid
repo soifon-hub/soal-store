@@ -24,16 +24,18 @@
 
   {%- capture navigation_list_items -%}
     {{ navigation_list_items }}
-    <li>
-      <button
-        type="button"
-        class="featured-collection-slider__navigation-list-item{% if forloop.first %} selected{% endif %}"
-        data-navigation-item="{{ forloop.index0 }}"
-      >
-        <span class="ff-heading fs-body-60">{{ block.settings.collection_name }}</span>
-        <span class="indicator"></span>
-      </button>
-    </li>
+    {% if block.settings.collection_name != blank %}
+      <li>
+        <button
+          type="button"
+          class="featured-collection-slider__navigation-list-item{% if forloop.first %} selected{% endif %}"
+          data-navigation-item="{{ forloop.index0 }}"
+        >
+          <span class="ff-heading fs-body-60">{{ block.settings.collection_name }}</span>
+          <span class="indicator"></span>
+        </button>
+      </li>
+    {%- endif -%}
   {%- endcapture -%}
   {%- capture navigation_buttons -%}
     {{ navigation_buttons }}
