@@ -1008,7 +1008,10 @@ html.sticky-header-enabled {
     .ff-heading {
         text-transform: capitalize;
         &.fs-body-60 {
-            
+            font-weight: 400;
+            line-height: 14.84px;
+            letter-spacing: 1px;
+            text-align: center;
         }
     }
 }
