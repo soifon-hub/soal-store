@@ -11,7 +11,8 @@
   --black-soal-two:#333333;
   --black-color-op:#000000;
   --orange-icon-color:#DD8560;
-  --green-grass-color-op: #A4C55D;
+  --black-diff-color: #A4C55D;
+  background: var(--black-soal);
   --font-heading-v1: "Lexend Zetta", sans-serif;
   --font-heading-v2: "Agne";
   --font-heading-v3: "Lexend Deca", sans-serif;
@@ -51,9 +52,9 @@ html.sticky-header-enabled .shopify-section.header__outer-wrapper .fs-navigation
         padding-bottom: 4%;
         margin: 0 auto; } }
     .ff-heading.featured-collection-grid__heading span {
-      color: var(--green-grass-color-op); }
+      color: var(--black-diff-color); }
   .ff-heading.image-with-text__text-container-heading span {
-    color: var(--green-grass-color-op); }
+    color: var(--black-diff-color); }
 
 .slideshow-slide__inner {
   position: relative; }

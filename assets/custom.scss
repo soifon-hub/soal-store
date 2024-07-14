@@ -17,7 +17,8 @@
     --black-soal-two:#333333;
     --black-color-op:#000000;
     --orange-icon-color:#DD8560;
-    --green-grass-color-op: #A4C55D;
+    --black-diff-color: #A4C55D;
+    background: var(--black-soal);
     --font-heading-v1: "Lexend Zetta", sans-serif;
     --font-heading-v2: "Agne";
     --font-heading-v3: "Lexend Deca", sans-serif;
@@ -140,13 +141,13 @@ html {
             margin: 0 auto;
         }
         span {
-            color: var(--green-grass-color-op);
+            color: var(--black-diff-color);
         }
     }
 
     &.image-with-text__text-container-heading {
         span {
-            color: var(--green-grass-color-op);
+            color: var(--black-diff-color);
         }
     }
 }
@@ -738,7 +739,7 @@ $background-color_4: #000;
         span::before,
         span::after {
             content: '';
-            
+
         }
     }
     .btn.btn--callout span::before,
