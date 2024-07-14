@@ -374,64 +374,27 @@
         "image_dXqCYM": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/10_2.png",
+            "image": "shopify:\/\/shop_images\/Component_1.jpg",
             "image_size": 750,
             "image_size_mobile": 350
-          }
-        },
-        "accent_zwKXmU": {
-          "type": "accent",
-          "disabled": true,
-          "settings": {
-            "accent": "Collection"
-          }
-        },
-        "1654899804e4fc48ec-0": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "title": "Preserving Purity in a Sea of Change Amidst a world of mass production, Dukat remains <span>steadfast<\/span>, offering olive oil steeped in the <span>unchanging traditions of our village.<\/span>",
-            "heading_font_class": "fs-heading-display-3"
-          }
-        },
-        "1654899804e4fc48ec-1": {
-          "type": "subheading",
-          "disabled": true,
-          "settings": {
-            "subheading": "Olives are a key component of the Mediterranean diet, renowned for its health benefits.",
-            "subheading_font_class": "fs-heading-5-base"
-          }
-        },
-        "1654899804e4fc48ec-2": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "link": "shopify:\/\/collections\/all",
-            "link_text": "LEARN MORE",
-            "button_style": "btn--callout"
           }
         }
       },
       "block_order": [
-        "image_dXqCYM",
-        "accent_zwKXmU",
-        "1654899804e4fc48ec-0",
-        "1654899804e4fc48ec-1",
-        "1654899804e4fc48ec-2"
+        "image_dXqCYM"
       ],
       "custom_css": [
 
       ],
       "settings": {
-        "image_position": "right",
-        "text_alignment": "left",
+        "image_position": "left",
+        "text_alignment": "center",
         "image": "shopify:\/\/shop_images\/10_1.png",
-        "aspect_ratio": "natural",
-        "focal_point": "center",
+        "aspect_ratio": "landscape",
+        "focal_point": "right",
         "image_caption": "",
         "show_small_image": false,
-        "image_small": "shopify:\/\/shop_images\/58262e66c5e9731050280eb16880d5a4.jpg",
-        "image_small_aspect_ratio": "square",
+        "image_small_aspect_ratio": "portrait",
         "image_small_focal_point": "center",
         "background_color": "#ffffff",
         "text_color": "#000000",
