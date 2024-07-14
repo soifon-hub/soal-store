@@ -165,7 +165,8 @@ html.sticky-header-enabled .shopify-section.header__outer-wrapper .fs-navigation
   line-height: 16px;
   text-align: center;
   color: var(--black-soal-two);
-  text-transform: initial; }
+  text-transform: initial;
+  letter-spacing: normal; }
   @media (max-width: 600px) {
     .template-index .product-item__inner .product-item__meta .product-item__text .fs-product-card-title a {
       font-size: 14px; } }
