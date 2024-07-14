@@ -325,7 +325,7 @@
           "type": "button",
           "settings": {
             "link": "shopify:\/\/collections\/all",
-            "link_text": "Explore More",
+            "link_text": "Explore More &#8594;",
             "button_style": "btn--callout"
           }
         }
@@ -343,14 +343,6 @@
         "section_padding": "section--vertical-padding-none",
         "content_width": "custom",
         "custom_content_width": 700
-      }
-    },
-    "custom_liquid_VcENnG": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<a href=# class=\"explore-more-link\">Explore More &#8594;<\/a>",
-        "divider_style": "none",
-        "section_padding": "section--vertical-padding-top-bottom"
       }
     },
     "rich_text_dryRq7": {
@@ -809,7 +801,6 @@
     "rich_text_DxcVMF",
     "featured_collection_slider_jXD4iB",
     "rich_text_XE4VUr",
-    "custom_liquid_VcENnG",
     "rich_text_dryRq7",
     "165489980473ecbf41",
     "video_GfxzKJ",
