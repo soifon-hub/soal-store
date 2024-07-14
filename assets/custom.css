@@ -445,6 +445,9 @@ html.sticky-header-enabled .shopify-section.header__outer-wrapper .fs-navigation
   text-align: center;
   font-weight: 400;
   font-family: var(--font-heading-v4); }
+.rich_text_section a.btn.btn--callout:hover span::before,
+.rich_text_section a.btn.btn--callout:hover span::after {
+  content: ''; }
 .rich_text_section .btn.btn--callout span::before,
 .rich_text_section .btn.btn--callout span::after {
   content: unset; }
