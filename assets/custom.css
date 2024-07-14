@@ -29,10 +29,7 @@ html.sticky-header-enabled .shopify-section.header__outer-wrapper .fs-navigation
   letter-spacing: 2.8px; }
 
 .ff-heading {
-  font-family: var(--font-heading-v1);
-  font-weight: 600;
-  line-height: 43.49px;
-  letter-spacing: 1.2080129384994507px; }
+  font-family: var(--font-heading-v1); }
   .ff-heading.video-hero__text-container-heading {
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); }
   .ff-heading span {
