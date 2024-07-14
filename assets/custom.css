@@ -651,6 +651,10 @@ html.sticky-header-enabled [data-js-cart-count] {
   flex-direction: column;
   justify-content: var(--text-horizontal-position-mobile); }
 
+@media (max-width: 720px) {
+  .section_class_custom .featured-collection-slider__products.carousel__wrapper {
+    display: block !important; } }
+
 .slideshow-navigation__navigation-button--previous,
 .slideshow-navigation__navigation-button--next {
   display: none; }

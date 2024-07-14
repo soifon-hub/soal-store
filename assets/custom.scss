@@ -1066,6 +1066,14 @@ html.sticky-header-enabled {
     justify-content:var(--text-horizontal-position-mobile)
 }
 
+.section_class_custom {
+
+    .featured-collection-slider__products.carousel__wrapper {
+        @media (max-width: 720px) {
+            display: block!important;
+        }
+    }
+}
 .slideshow-navigation__navigation-button--previous,
 .slideshow-navigation__navigation-button--next {
     display: none;
