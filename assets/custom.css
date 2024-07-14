@@ -226,7 +226,7 @@ html.sticky-header-enabled .shopify-section.header__outer-wrapper .fs-navigation
   .image-with-text .image-with-text__text-container {
     margin-top: 15%; } }
 .image-with-text .btn.btn--callout span {
-  color: #2A3327;
+  color: var(--black-color-op);
   text-align: center;
   font-size: 16px;
   font-style: normal;
