@@ -853,6 +853,14 @@ $background-color_4: #000;
             padding-right: 0;
         }
     }
+
+    .video{
+        &.video--landscape_wide_alt{
+            &.video--text-center {
+                .video--text-mobile-center
+            }
+        }
+    }
 }
 
 html {
