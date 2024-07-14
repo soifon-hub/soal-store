@@ -1104,6 +1104,9 @@ html.sticky-header-enabled {
         align-items: baseline;
         gap: 10%;
     }
+    .footer .social-icons {
+        margin-top: 0;
+    }
 }
 
 @media (min-width: 720px) {
@@ -1125,6 +1128,10 @@ html.sticky-header-enabled {
         display: flex!important;
         padding: 0;
         width: 100%;
+    }
+
+    .footer .social-icons {
+        margin-top: 0;
     }
 }
   

@@ -681,7 +681,10 @@ html.sticky-header-enabled [data-js-cart-count] {
   .footer__links ul {
     display: flex;
     align-items: baseline;
-    gap: 10%; } }
+    gap: 10%; }
+
+  .footer .social-icons {
+    margin-top: 0; } }
 @media (min-width: 720px) {
   .footer__groups {
     display: flex;
@@ -700,7 +703,10 @@ html.sticky-header-enabled [data-js-cart-count] {
   .footer__group-content {
     display: flex !important;
     padding: 0;
-    width: 100%; } }
+    width: 100%; }
+
+  .footer .social-icons {
+    margin-top: 0; } }
 .template-index .multi-column__inner .multi-column__grid-item-text {
   padding-top: 20px; }
 .template-index .multi-column__inner .multi-column__subheading,
