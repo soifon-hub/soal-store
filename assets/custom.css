@@ -663,6 +663,11 @@ html.sticky-header-enabled [data-js-cart-count] {
     justify-content: center;
     gap: 15%; } }
 
+@media (max-width: 720px) {
+  .footer__groups {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; } }
 .template-index .multi-column__inner .multi-column__grid-item-text {
   padding-top: 20px; }
 .template-index .multi-column__inner .multi-column__subheading,
