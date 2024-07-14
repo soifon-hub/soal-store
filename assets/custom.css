@@ -670,7 +670,12 @@ html.sticky-header-enabled [data-js-cart-count] {
     justify-content: space-between; }
 
   .footer__bottom {
-    justify-content: center; } }
+    justify-content: center; }
+
+  .footer__group-content {
+    display: flex;
+    padding: 0;
+    width: 100%; } }
 @media (min-width: 720px) {
   .footer__groups {
     display: flex;
