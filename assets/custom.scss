@@ -294,6 +294,14 @@ html {
             padding-bottom: 10%;
         }
     }
+
+    @media (min-width: 720px){
+        .featured-collection-slider__meta {
+            .featured-collection-slider__navigation-buttons.visible{
+                display:none;
+            }
+        }
+    }
     .product-item__inner {
         .product-item__meta {
             .product-item__text {

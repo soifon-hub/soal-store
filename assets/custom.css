@@ -148,6 +148,9 @@ html.sticky-header-enabled .shopify-section.header__outer-wrapper .fs-navigation
   @media (min-width: 960px) {
     .template-index .featured-collection-grid {
       padding-bottom: 10%; } }
+@media (min-width: 720px) {
+  .template-index .featured-collection-slider__meta .featured-collection-slider__navigation-buttons.visible {
+    display: none; } }
 .template-index .product-item__inner .product-item__meta .product-item__text .fs-product-card-title {
   color: var(--black-color-op);
   font-family: var(--font-heading-v1);
