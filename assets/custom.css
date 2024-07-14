@@ -183,6 +183,7 @@ html.sticky-header-enabled .shopify-section.header__outer-wrapper .fs-navigation
   font-style: normal;
   line-height: 16px;
   font-weight: 400;
+  font-family: var(--font-heading-v3);
   font-size: 15px;
   font-weight: 400;
   line-height: 24px;
