@@ -1,628 +1,69 @@
-@import url("https://fonts.googleapis.com/css2?family=Lexend+Zetta:wght@100..900&display=swap");
-@font-face {
-  font-family: 'Agne';
-  src: url("agne-regular-webfont.woff2") format("woff2"), url("agne-regular-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal; }
-:root {
-  --white-color: #ffffff;
-  --black-soal-two:#333333;
-  --black-color-op:#000000;
-  --green-grass-color-op: #A4C55D;
-  --font-heading-v1: "Lexend Zetta", sans-serif;
-  --font-heading-v2: "Agne";
-  --font-heading-weight-v1: 400; }
-
-html.sticky-header-enabled .shopify-section.header__outer-wrapper .fs-navigation-base a {
-  color: var(--white-color); }
-
-.header__links-primary .header__links-list > li:not(:last-child) {
-  margin-right: var(--spacing-12); }
-
-.header__links.header__links-primary > ul > li > [data-link] {
-  text-align: right;
-  font-family: var(--font-heading-v1);
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 2.8px; }
-
-.ff-heading {
-  font-family: var(--font-heading-v1); }
-  .ff-heading.video-hero__text-container-heading {
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); }
-  .ff-heading span {
-    font-family: var(--font-heading-v2); }
-  @media (min-width: 960px) {
-    .ff-heading.purchase-confirmation-popup__heading, .ff-heading.quick-cart__heading, .ff-heading.product__title {
-      font-size: var(--font-size-heading-6-base); } }
-  .ff-heading.featured-collection-grid__heading {
-    text-align: center; }
-    @media (min-width: 960px) {
-      .ff-heading.featured-collection-grid__heading {
-        max-width: 570px;
-        padding-top: 6%;
-        padding-bottom: 4%;
-        margin: 0 auto; } }
-    .ff-heading.featured-collection-grid__heading span {
-      color: var(--green-grass-color-op); }
-  .ff-heading.image-with-text__text-container-heading span {
-    color: var(--green-grass-color-op); }
-
-.slideshow-slide__inner {
-  position: relative; }
-  .slideshow-slide__inner .ff-subheading {
-    position: absolute;
-    bottom: var(--spacing-10);
-    color: white;
-    margin: 0 auto;
-    margin-bottom: 0px;
-    text-align: center;
-    left: 0;
-    right: 0;
-    font-family: var(--font-heading-v1);
-    font-weight: 400;
-    line-height: 24px;
-    text-align: center; }
-    @media (max-width: 700px) {
-      .slideshow-slide__inner .ff-subheading {
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 24px; } }
-
-.ff-subheading.testimonials__item-quote {
-  text-align: center;
-  font-family: var(--font-heading-v2);
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  margin-top: 25px;
-  margin-bottom: 25px; }
-  @media (min-width: 960px) {
-    .ff-subheading.testimonials__item-quote {
-      font-size: 32px; } }
-
-.testimonials__item .image .image__inner {
-  max-width: 60px; }
-
-.testimonials__item-quote + .testimonials__item-author {
-  text-align: center;
-  font-family: var(--font-heading-v1);
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  letter-spacing: 3.2px;
-  text-transform: uppercase; }
-
-@media (max-width: 719px) {
-  .testimonials__item .testimonials__item-content {
-    margin-top: 40px;
-    margin-top: auto; }
-
-  .product-item__meta .btn.show-product-quickview {
-    display: block; } }
-@media (min-width: 720px) {
-  .testimonials__item.testimonials__item--image-placement-left .testimonials__item-product {
-    margin: 0 auto;
-    align-items: center; } }
-.video-hero__inner .btn.btn--callout span {
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  letter-spacing: 3.2px; }
-  .video-hero__inner .btn.btn--callout span:before {
-    background: transparent; }
-
-@media (min-width: 768px) {
-  .header__inner [data-scroll-container],
-  .header__inner [data-scroll-container][data-axis=horizontal] {
-    margin-left: 20%; } }
-
-.header__row .header__row-segment.contains-nav {
-  width: 100%; }
-
-@media (min-width: 960px) {
-  .header {
-    padding-top: 0; } }
-.header__row.header__row-desktop.lower .header__row-segment.contains-nav .header__logo {
-  margin-top: var(--spacing-4);
-  margin-bottom: var(--spacing-4); }
-
-@media (min-width: 960px) {
-  .featured-collection-grid.featured-collection-grid--per-view-3 .featured-collection-grid__products {
-    grid-template-columns: repeat(2, 1fr);
-    max-width: 1200px;
-    margin: 0 auto; }
-
-  .featured-collection-grid__products .product-item__inner .product-item__meta .show-product-quickview {
-    width: 100%;
-    max-width: 150px; }
-  .featured-collection-grid__products p.product-item__price {
-    padding: 6px 0; } }
-.template-index .featured-collection-grid {
-  padding-bottom: 5%; }
-  @media (min-width: 960px) {
-    .template-index .featured-collection-grid {
-      padding-bottom: 10%; } }
-@media (min-width: 720px) {
-  .template-index .featured-collection-slider__meta .featured-collection-slider__navigation-buttons.visible {
-    display: none; } }
-.template-index .product-item__inner .product-item__meta .product-item__text .fs-product-card-title {
-  color: var(--black-color-op);
-  font-family: var(--font-heading-v1);
-  line-height: normal;
-  font-size: 12px;
-  font-style: normal;
-  line-height: 16px;
-  font-weight: 400;
-  text-transform: inherit;
-  font-size: 12px;
-  font-weight: 400;
-  line-height: 16px;
-  text-align: center;
-  color: var(--black-soal-two);
-  text-transform: initial;
-  letter-spacing: normal; }
-  @media (max-width: 600px) {
-    .template-index .product-item__inner .product-item__meta .product-item__text .fs-product-card-title a {
-      font-size: 14px; } }
-.template-index .product-item__inner .product-item__meta .product-item__text .product-item__price .product-item__price {
-  color: var(--black-color-op);
-  font-family: var(--font-heading-v1);
-  font-size: 12px;
-  font-style: normal;
-  line-height: 16px;
-  font-weight: 400; }
-  @media (min-width: 960px) {
-    .template-index .product-item__inner .product-item__meta .product-item__text .product-item__price .product-item__price {
-      font-size: 12px; } }
-
-.product-item__inner .product-item__meta .product-item__text .fs-product-card-title,
-.product-item__inner .product-item__meta .product-item__text .product-item__price .product-item__price {
-  color: var(--black-color-op);
-  font-family: var(--font-heading-v1);
-  font-size: 12px;
-  font-style: normal;
-  line-height: 16px;
-  font-weight: 400; }
-  @media (min-width: 960px) {
-    .product-item__inner .product-item__meta .product-item__text .fs-product-card-title,
-    .product-item__inner .product-item__meta .product-item__text .product-item__price .product-item__price {
-      font-size: 12px; } }
-
-.btn.btn--primary,
-.btn.btn--secondary,
-.btn.btn--tertiary,
-.spr-button-primary,
-.spr-summary-actions-newreview,
-.shopify-challenge__button,
-.social-share__button {
-  font-family: var(--font-heading-v1);
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  text-transform: uppercase; }
-
-@media (min-width: 720px) {
-  .image-with-text .image-with-text__text-container {
-    margin-top: 15%; } }
-.image-with-text .btn.btn--callout span {
-  color: #2A3327;
-  text-align: center;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  letter-spacing: 3.2px; }
-  .image-with-text .btn.btn--callout span:before, .image-with-text .btn.btn--callout span:after {
-    width: 30%; }
-
-.footer__header .fs-accent {
-  color: var(--black-color-op);
-  font-family: var(--font-heading-v1);
-  font-size: 12px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 2.4px; }
-
-.footer__links ul li a {
-  color: var(--black-color-op);
-  font-family: var(--font-heading-v1);
-  font-size: 12px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 2.4px;
-  text-transform: uppercase; }
-
-.footer__group.footer__group--text .footer__text {
-  color: var(--white-color);
-  font-family: var(--font-heading-v1);
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 18px;
-  letter-spacing: 0.7px; }
-
-.footer__bottom p {
-  color: var(--white-color);
-  font-family: var(--font-heading-v1);
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 18px;
-  letter-spacing: 0.7px; }
-
-.accordion__inner:first-of-type {
-  border-top: unset;
-  border-color: #EBE8E1; }
-.accordion__inner .accordion__label h3 {
-  color: var(--black-color-op);
-  font-family: var(--font-heading-v1);
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal; }
-
-@media (max-width: 720px) {
-  .recommended-products__heading.ff-heading {
-    font-size: var(--font-size-heading-5-base); } }
-
-@media (max-width: 720px) {
-  .product__title.ff-heading {
-    font-size: var(--font-size-heading-4-base); } }
-
-.product-item__meta .btn.show-product-quickview {
-  color: var(--white-color) !important; }
-
-.cross-sells__heading.ff-heading.fs-heading-6-base {
-  font-size: var(--font-size-heading-7-base); }
-
-@media (min-width: 960px) {
-  .featured-collection-grid__products .product-item__inner .product-item__meta .show-product-quickview {
-    max-width: initial; } }
-.slideshow-navigation__dot-loader {
-  display: none;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: rotate(45deg);
-  border: 4px solid var(--color-foreground);
-  width: 8px;
-  height: 8px;
-  border-radius: 0; }
-
-.explore-more-link {
-  display: block;
-  text-align: center; }
-
-.multi-column__heading {
-  font-size: 17px;
-  padding-top: 35px; }
-
-.section-introduction__heading {
-  font-size: 17px;
-  padding-top: 35px; }
-
-.fs-heading-3-base {
-  font-size: 17px;
-  padding: 0px;
-  padding-top: 35px; }
-
-.footer {
-  background-color: white; }
-  .footer .social-icons .icon {
-    width: 25px;
-    height: 25px;
-    color: #333333;
-    display: flex;
-    justify-content: space-between; }
-
-.footer__header .fs-accent {
-  color: black;
-  font-family: var(--font-heading-v1);
-  font-size: 12px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 2.4px; }
-
-.footer__newsletter .input[type=email] {
-  color: black; }
-
-.social-icons {
-  display: flex;
-  margin: 0;
-  padding: 0;
-  fill: #333333;
-  color: #333333;
-  justify-content: center;
-  gap: 33px; }
-
-.footer__group.footer__group--text .footer__text {
-  color: black;
-  font-family: var(--font-heading-v1);
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  letter-spacing: .7px;
-  text-align: center;
-  line-height: 21px; }
-
-.footer__bottom p {
-  color: black;
-  font-family: var(--font-heading-v1);
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  letter-spacing: .7px;
-  text-align: center;
-  line-height: 21px; }
-
-.footer__links ul {
-  width: 100%;
-  font-family: var(--font-heading-v1);
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: baseline; }
-  .footer__links ul li a {
-    color: #000000;
-    display: flex;
-    flex-direction: row;
-    font-size: 12px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 2.4px;
-    text-transform: uppercase; }
-
-.button-block__button {
-  display: flex;
-  justify-content: center; }
-
-.multi-column__grid-item-inner {
-  width: 100%;
-  margin-top: 35px; }
-
-.shopify-section.footer__parent {
-  background-color: white; }
-
-.rich-text__heading {
-  display: block;
-  text-align: center;
-  padding: 30px 0;
-  display: block;
-  letter-spacing: 4px;
-  text-align: center;
-  padding: 0px; }
-
-.fs-heading-2-base {
-  display: block;
-  text-align: center;
-  font-weight: 400;
-  line-height: 40px;
-  letter-spacing: 4px; }
-
-.rich-text__text {
-  display: block;
-  text-align: center;
-  font-size: 18px;
-  padding: 20px 30px;
-  display: block;
-  text-align: left;
-  padding: 2px 0;
-  display: block;
-  text-align: left;
-  padding: 2px 0;
-  color: #555555; }
-
-.rich_text_section .rich-text__heading {
-  letter-spacing: 4px;
-  text-align: center;
-  font-weight: 400; }
-
-.rich-text.section {
-  padding: var(--spacing-10) var(--space-outer); }
-  @media (max-width: 720px) {
-    .rich-text.section {
-      padding: var(--spacing-5) var(--space-outer); } }
-
-.rte {
-  display: block;
-  text-align: center;
-  font-size: 18px;
-  padding: 20px 30px;
-  display: block;
-  text-align: left;
-  padding: 2px 0;
-  display: block;
-  text-align: left;
-  padding: 2px 0;
-  color: #555555; }
-
-.ff-body {
-  display: block;
-  text-align: center;
-  font-size: 18px;
-  padding: 20px 30px;
-  display: block;
-  text-align: left;
-  padding: 2px 0; }
-
-.fs-body-100 {
-  display: block;
-  text-align: center;
-  font-size: 18px;
-  padding: 20px 30px;
-  display: block;
-  text-align: left;
-  padding: 2px 0;
-  display: block;
-  text-align: left;
-  padding: 2px 0;
-  color: #555555; }
-
-.section-blocks__subheading {
-  display: block;
-  text-align: center;
-  font-size: 18px;
-  padding: 20px 30px;
-  display: block;
-  text-align: left;
-  padding: 2px 0;
-  display: block;
-  text-align: left;
-  padding: 2px 0;
-  color: #555555; }
-
-.image-block {
-  margin-top: 10px;
-  padding: 0px; }
-
-.image-block--justify-left {
-  margin-top: 10px;
-  padding: 0px; }
-
-.image-block--justify-mobile-left {
-  margin-top: 10px;
-  padding: 0px; }
-
-.image-block--break-to-mobile-at-720 {
-  margin-top: 10px;
-  padding: 0px; }
-
-.product-item__hoverless-quick-view-button.btn .icon-quick-buy {
-  display: none; }
-
-.template-index .product-item__inner .product-item__meta .product-item__text .fs-product-card-title {
-  text-align: center; }
-
-html:not(.no-js) body.template-index:not([mobile-menu-open=true]):not([quick-search-open=true]) header.header--transparent:not(.is-sticky):not(:hover):not(:focus-within):not(.dropdown-active) .header__inner [data-js-cart-count] {
-  display: none; }
-html:not(.no-js) body.template-collection:not([mobile-menu-open=true]):not([quick-search-open=true]) header.header--transparent:not(.is-sticky):not(:hover):not(:focus-within):not(.dropdown-active) .header__inner [data-js-cart-count] {
-  display: none; }
-html:not(.no-js):not(.prefers-reduced-motion) .animation .animation--mobile-filters.is-visible {
-  width: 50%; }
-
-#shopify-section-template--21978605027674__multi_column_mqeEBj div.multi-column__subheading {
-  font-size: 15px;
-  text-align: center;
-  color: white; }
-#shopify-section-template--21978605027674__multi_column_mqeEBj div.multi-column__grid-item-text {
-  font-size: 11px;
-  text-align: center;
-  color: white; }
-
-.product-item__inner .product-item__meta .product-item__text {
-  color: #DD8560;
-  display: block;
-  text-align: center; }
-  .product-item__inner .product-item__meta .product-item__text .product-item__price .product-item__price {
-    color: #DD8560;
-    display: block;
-    text-align: center; }
-
-.product-item__product-title {
-  color: black;
-  text-align: left; }
-
-.fs-product-card-title {
-  color: black;
-  text-align: left; }
-
-html.sticky-header-enabled [data-js-cart-count] {
-  display: none; }
-
-.mobile-filters__button {
-  position: relative;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 80%;
-  height: 100%;
-  padding: 8px 16px;
-  padding: var(--spacing-2) calc(var(--spacing-unit)* 4);
-  border-radius: 20px;
-  border: 1px solid #C4C4C4;
-  background-color: #C4C4C4;
-  color: #555555;
-  transition: border-color .25s ease-in-out; }
-
-.product__block--product-header.product__block--with-divider {
-  border-bottom: 0px; }
-
-.product__vendor_and_sku {
-  display: none; }
-
-.btn.btn--primary:before {
-  background-color: black; }
-
-.shopify-challenge__button:before {
-  background-color: black; }
-
-.carousel__navigation-wrapper {
-  display: flex;
-  justify-content: center; }
-
-.navigation__item {
-  color: #888888; }
-
-.newsletter__signup .newsletter__signup-input {
-  border: none;
-  border-bottom: 1px solid; }
-
-.newsletter__block-content-text {
-  display: block;
-  text-align: center;
-  color: #888888; }
-
-.section-blocks__text {
-  display: block;
-  text-align: center;
-  color: #888888; }
-
-.quick-search__result-price {
-  display: block;
-  text-align: left;
-  color: #DD8560; }
-
-@media (max-width: 720px) {
-  .fs-heading-5-base {
-    display: block;
-    text-align: left; }
-
-  .header {
-    background-color: #000; } }
-@media (max-width: 1200px) {
-  .footer__links ul {
-    display: flex;
-    flex-direction: column; } }
-.slideshow-slide__text-container {
-  max-width: 750px;
-  display: flex;
-  flex-direction: column;
-  justify-content: var(--text-horizontal-position-mobile); }
-
-.slideshow-navigation__navigation-button--previous,
-.slideshow-navigation__navigation-button--next {
-  display: none; }
-
-.featured-collection-slider__navigation-list-item .ff-heading {
-  text-transform: capitalize; }
-  .featured-collection-slider__navigation-list-item .ff-heading.fs-body-60 {
-    font-weight: 400;
-    line-height: 14.84px;
-    letter-spacing: 1px;
-    text-align: center; }
-
-/*# sourceMappingURL=custom.css.map */
+/*
+Error: Invalid CSS after "...black-soal-two)": expected "{", was ";"
+        on line 316 of assets/custom.scss
+
+311:                     font-size: 12px;
+312:                     font-weight: 400;
+313:                     line-height: 16px;
+314:                     text-align: center;
+315: <<<<<<< HEAD
+316:                     color: var(--black-soal-two);
+317:                     text-transform:initial;
+318:                     letter-spacing: normal;
+319: =======
+320:                     color: var(--black-color-op);
+321: >>>>>>> refs/remotes/origin/main
+
+Backtrace:
+assets/custom.scss:316
+/Library/Ruby/Gems/2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308:in `expected'
+/Library/Ruby/Gems/2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1238:in `expected'
+/Library/Ruby/Gems/2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1233:in `tok!'
+/Library/Ruby/Gems/2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:688:in `block'
+/Library/Ruby/Gems/2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:758:in `declaration_or_ruleset'
+/Library/Ruby/Gems/2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:708:in `block_child'
+/Library/Ruby/Gems/2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:700:in `block_contents'
+/Library/Ruby/Gems/2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:689:in `block'
+/Library/Ruby/Gems/2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:758:in `declaration_or_ruleset'
+/Library/Ruby/Gems/2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:708:in `block_child'
+/Library/Ruby/Gems/2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:697:in `block_contents'
+/Library/Ruby/Gems/2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:689:in `block'
+/Library/Ruby/Gems/2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:758:in `declaration_or_ruleset'
+/Library/Ruby/Gems/2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:708:in `block_child'
+/Library/Ruby/Gems/2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:697:in `block_contents'
+/Library/Ruby/Gems/2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:689:in `block'
+/Library/Ruby/Gems/2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:758:in `declaration_or_ruleset'
+/Library/Ruby/Gems/2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:708:in `block_child'
+/Library/Ruby/Gems/2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:697:in `block_contents'
+/Library/Ruby/Gems/2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:689:in `block'
+/Library/Ruby/Gems/2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:758:in `declaration_or_ruleset'
+/Library/Ruby/Gems/2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:708:in `block_child'
+/Library/Ruby/Gems/2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:700:in `block_contents'
+/Library/Ruby/Gems/2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:689:in `block'
+/Library/Ruby/Gems/2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:681:in `ruleset'
+/Library/Ruby/Gems/2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:707:in `block_child'
+/Library/Ruby/Gems/2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:700:in `block_contents'
+/Library/Ruby/Gems/2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:137:in `stylesheet'
+/Library/Ruby/Gems/2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:41:in `parse'
+/Library/Ruby/Gems/2.6.0/gems/sass-3.7.4/lib/sass/engine.rb:414:in `_to_tree'
+/Library/Ruby/Gems/2.6.0/gems/sass-3.7.4/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+/Library/Ruby/Gems/2.6.0/gems/sass-3.7.4/lib/sass/engine.rb:307:in `render_with_sourcemap'
+/Library/Ruby/Gems/2.6.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:462:in `update_stylesheet'
+/Library/Ruby/Gems/2.6.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/Library/Ruby/Gems/2.6.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:209:in `each'
+/Library/Ruby/Gems/2.6.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/Library/Ruby/Gems/2.6.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:443:in `on_file_changed'
+/Library/Ruby/Gems/2.6.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:320:in `block in watch'
+/Library/Ruby/Gems/2.6.0/gems/sass-listen-4.0.0/lib/sass-listen/event/config.rb:23:in `call'
+/Library/Ruby/Gems/2.6.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:115:in `_process_changes'
+/Library/Ruby/Gems/2.6.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:19:in `block in loop_for'
+/Library/Ruby/Gems/2.6.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:15:in `loop'
+/Library/Ruby/Gems/2.6.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:15:in `loop_for'
+/Library/Ruby/Gems/2.6.0/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb:84:in `_wait_for_changes'
+/Library/Ruby/Gems/2.6.0/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb:42:in `block in setup'
+/Library/Ruby/Gems/2.6.0/gems/sass-listen-4.0.0/lib/sass-listen/internals/thread_pool.rb:6:in `block in add'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"...black-soal-two)\": expected \"{\", was \";\"\A         on line 316 of assets/custom.scss\A \A 311:                     font-size: 12px;\A 312:                     font-weight: 400;\A 313:                     line-height: 16px;\A 314:                     text-align: center;\A 315: <<<<<<< HEAD\A 316:                     color: var(--black-soal-two);\A 317:                     text-transform:initial;\A 318:                     letter-spacing: normal;\A 319: =======\A 320:                     color: var(--black-color-op);\A 321: >>>>>>> refs/remotes/origin/main"; }
