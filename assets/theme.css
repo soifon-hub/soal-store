@@ -7820,6 +7820,7 @@ p + .account__cta-wrap{
   border: 1px solid var(--orange-icon-color);
   border-radius: 0;
   transition: background-color .2s ease;
+  transform: rotate(45deg);
 }
 .featured-collection-slider__navigation-list-item .indicator{
   content: "";
@@ -7828,7 +7829,6 @@ p + .account__cta-wrap{
   position: absolute;
   top: 62%;
   left: 40%;
-  transform: rotate(45deg);
   margin:calc(4px * 2) auto 0;
   margin:var(--spacing-2) auto 0;
   background-color:var(--orange-icon-color);
