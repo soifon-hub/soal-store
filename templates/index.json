@@ -454,7 +454,7 @@
         "color_overlay": "rgba(0,0,0,0)",
         "color_overlay_text": "#ffffff",
         "color_overlay_gradient": "",
-        "overlay_opacity": 50,
+        "overlay_opacity": 64,
         "enable_animation": true,
         "section_padding": "section--vertical-padding-top-only"
       }
