@@ -853,16 +853,11 @@ $background-color_4: #000;
             padding-right: 0;
         }
     }
-
-    .video{
-        &.video--landscape_wide_alt {
-            &.video--text-center {
-                max-width: inherit;
-                @media (max-width: 720px) {
-                    padding-left: 0!important;
-                    padding-right: 0!important;
-                }
-            }
+    .video.video--text-mobile-center {
+        max-width: inherit;
+        @media (max-width: 720px) {
+            padding-left: 0!important;
+            padding-right: 0!important;
         }
     }
 }
