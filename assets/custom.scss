@@ -1110,6 +1110,7 @@ html.sticky-header-enabled {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+        align-items: baseline;
     }
     .footer__bottom {
         justify-content: center;

@@ -686,7 +686,8 @@ html.sticky-header-enabled [data-js-cart-count] {
   .footer__groups {
     display: flex;
     flex-direction: row;
-    justify-content: space-between; }
+    justify-content: space-between;
+    align-items: baseline; }
 
   .footer__bottom {
     justify-content: center; }
