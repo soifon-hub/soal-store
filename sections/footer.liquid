@@ -85,6 +85,11 @@
               {%- if block.settings.show_social_icons -%}
                 {% render 'social-icons' %}
               {%- endif -%}
+              {% if section.settings.enable_border_footer %} 
+                <span class="border_with_d">
+                  <span class="diamond"></span>
+                </span>
+              {% endif %}
             {%- elsif block.type == 'links' -%}
               <div class="footer__links fs-body-100">
                 {% if linklists[block.settings.link_list].links.size > 0 %}
@@ -192,6 +197,12 @@
       "id": "enable_locale_selector",
       "label": "t:shared.settings.disclosure.enable_locale_selector.label",
       "default": true
+    },
+    {
+      "id": "enable_border_footer",
+      "type": "checkbox",
+      "label": "Short Border",
+      "default": false
     },
     {
       "type": "header",
@@ -318,12 +329,6 @@
           "id": "show_social_icons",
           "type": "checkbox",
           "label": "t:sections.footer.settings.show_social_icons.label",
-          "default": false
-        },
-        {
-          "id": "enable_border_footer",
-          "type": "checkbox",
-          "label": "Short Border",
           "default": false
         }
       ]
