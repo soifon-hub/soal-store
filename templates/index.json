@@ -489,43 +489,6 @@
     "featured_collection_slider_U8g3YQ": {
       "type": "featured-collection-slider",
       "blocks": {
-        "collection_bbaK8t": {
-          "type": "collection",
-          "settings": {
-            "show_view_all": false,
-            "collection": "all",
-            "collection_name": ""
-          }
-        },
-        "collection_txne8c": {
-          "type": "collection",
-          "settings": {
-            "show_view_all": false,
-            "collection": "kid",
-            "collection_name": ""
-          }
-        },
-        "collection_tYiBjy": {
-          "type": "collection",
-          "settings": {
-            "show_view_all": false,
-            "collection": "adidas",
-            "collection_name": ""
-          }
-        },
-        "product_list_aXxXYD": {
-          "type": "product_list",
-          "settings": {
-            "product_list": [
-              "nike-crackle-print-tb-tee",
-              "adidas-superstar-80s",
-              "converse-chuck-taylor-all-star-ii-hi",
-              "converse-toddler-chuck-taylor-all-star-axel-mid",
-              "converse-chuck-taylor-all-star-lo"
-            ],
-            "collection_name": ""
-          }
-        },
         "product_list_xwxQFc": {
           "type": "product_list",
           "settings": {
@@ -540,10 +503,6 @@
         }
       },
       "block_order": [
-        "collection_bbaK8t",
-        "collection_txne8c",
-        "collection_tYiBjy",
-        "product_list_aXxXYD",
         "product_list_xwxQFc"
       ],
       "settings": {
