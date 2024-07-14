@@ -691,7 +691,7 @@ html.sticky-header-enabled [data-js-cart-count] {
     border: 1px solid var(--gray-black-color);
     transform: rotate(45deg); }
 
-.multi-column__inner .multi-column__heading.section-introduction__heading {
+.multi-column__inner .multi-column__heading.multi-column__subheading {
   font-family: var(--font-heading-v3);
   font-size: 14px;
   font-weight: 400;
@@ -700,7 +700,7 @@ html.sticky-header-enabled [data-js-cart-count] {
   text-align: center;
   color: var(--white-color); }
   @media (min-width: 720px) {
-    .multi-column__inner .multi-column__heading.section-introduction__heading {
+    .multi-column__inner .multi-column__heading.multi-column__subheading {
       font-size: 16px; } }
 
 /*# sourceMappingURL=custom.css.map */

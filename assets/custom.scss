@@ -1121,7 +1121,7 @@ html.sticky-header-enabled {
   
 .multi-column__inner {
     .multi-column__heading {
-        &.section-introduction__heading {
+        &.multi-column__subheading {
             font-family: var(--font-heading-v3);
             font-size: 14px;
             font-weight: 400;
