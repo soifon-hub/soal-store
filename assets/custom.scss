@@ -1106,8 +1106,13 @@ html.sticky-header-enabled {
     justify-content: center;
     width: 100%;
     max-width: 125px;
+    margin: 0 auto;
     height: 1px;
     background-color: var(--gray-black-color);
+
+    @media (min-width: 720px) {
+        max-width: 155px;
+    }
 
     &:before,
     &:after {
