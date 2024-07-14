@@ -394,16 +394,10 @@ html.sticky-header-enabled .shopify-section.header__outer-wrapper .fs-navigation
   display: block;
   text-align: center;
   padding: 30px 0;
-  font-size: 20px;
-  font-weight: 400;
-  line-height: 40px;
   display: block;
   letter-spacing: 4px;
   text-align: center;
   padding: 0px; }
-  @media (max-width: 720px) {
-    .rich-text__heading {
-      font-size: 18px; } }
 
 .fs-heading-2-base {
   font-size: 20px;
@@ -430,11 +424,22 @@ html.sticky-header-enabled .shopify-section.header__outer-wrapper .fs-navigation
   color: #555555; }
 
 .rich_text_section .rich-text__heading {
-  font-size: 20px;
-  line-height: 40px;
   letter-spacing: 4px;
   text-align: center;
   font-weight: 400; }
+  .rich_text_section .rich-text__heading.fs-heading-1-base {
+    font-size: 24px;
+    line-height: 30px; }
+  .rich_text_section .rich-text__heading.fs-heading-2-base {
+    font-size: 20px;
+    line-height: 25px; }
+  .rich_text_section .rich-text__heading.fs-heading-3-base {
+    font-size: 18px;
+    line-height: 22px; }
+    @media (max-width: 720px) {
+      .rich_text_section .rich-text__heading.fs-heading-3-base {
+        font-size: 18px;
+        line-height: 24px; } }
   @media (max-width: 720px) {
     .rich_text_section .rich-text__heading {
       font-size: 18px;
