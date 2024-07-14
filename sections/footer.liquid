@@ -85,7 +85,7 @@
               {%- if block.settings.show_social_icons -%}
                 {% render 'social-icons' %}
               {%- endif -%}
-              {% if block.settings.enable_border_footer %} 
+              {% if block.settings.enable_border %} 
                 <span class="border_with_d">
                   <span class="diamond"></span>
                 </span>
@@ -323,12 +323,6 @@
           "id": "show_social_icons",
           "type": "checkbox",
           "label": "t:sections.footer.settings.show_social_icons.label",
-          "default": false
-        },
-        {
-          "id": "enable_border_footer",
-          "type": "checkbox",
-          "label": "Short Border",
           "default": false
         }
       ]
