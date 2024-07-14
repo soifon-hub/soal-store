@@ -17,7 +17,6 @@
     --black-soal-two:#333333;
     --black-color-op:#000000;
     --orange-icon-color:#DD8560;
-    --black-diff-color: #A4C55D;
     background: var(--black-soal);
     --font-heading-v1: "Lexend Zetta", sans-serif;
     --font-heading-v2: "Agne";
@@ -141,13 +140,13 @@ html {
             margin: 0 auto;
         }
         span {
-            color: var(--black-diff-color);
+            color: var(--black-soal-two);
         }
     }
 
     &.image-with-text__text-container-heading {
         span {
-            color: var(--black-diff-color);
+            color: var(--black-soal-two);
         }
     }
 }
