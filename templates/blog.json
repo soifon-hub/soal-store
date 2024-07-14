@@ -15,7 +15,7 @@
         "show_tag_nav": true,
         "article_per_page": 12,
         "show_tags": true,
-        "show_author": true,
+        "show_author": false,
         "show_date": true,
         "show_excerpt": true,
         "show_featured_image": true,
