@@ -733,6 +733,11 @@ $background-color_4: #000;
         font-weight: 400;
         font-family: var(--font-heading-v4);
     }
+
+    .btn.btn--callout span::before,
+    .btn.btn--callout span::after{
+        content:unset;
+    }
 }
 
 .rich-text {
