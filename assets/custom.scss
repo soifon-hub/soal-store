@@ -334,7 +334,6 @@ html {
                         font-weight: 400;
                         line-height: 24px;
                         text-align: left;
-
                     }
                 }
             }
@@ -921,6 +920,7 @@ html {
 .fs-product-card-title {
     color: $color_1;
     text-align: left;
+    font-family: var(--font-heading-v4);
 }
 
 html.sticky-header-enabled {

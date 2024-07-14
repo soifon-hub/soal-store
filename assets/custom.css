@@ -547,7 +547,8 @@ html:not(.no-js):not(.prefers-reduced-motion) .animation .animation--mobile-filt
 
 .fs-product-card-title {
   color: black;
-  text-align: left; }
+  text-align: left;
+  font-family: var(--font-heading-v4); }
 
 html.sticky-header-enabled [data-js-cart-count] {
   display: none; }
