@@ -252,7 +252,7 @@ html.sticky-header-enabled .shopify-section.header__outer-wrapper .fs-navigation
 
 .footer__links ul li a {
   color: var(--black-color-op);
-  font-family: var(--font-heading-v1);
+  font-family: var(--font-heading-v3);
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
