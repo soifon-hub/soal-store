@@ -40,7 +40,7 @@
               {{ block.settings.title | newline_to_br }}
             </h2>
             {% if block.settings.enable_border %} 
-            <span class="border_with_d"></span>
+              <span class="border_with_d"></span>
             {% endif %}
           {%- endunless -%}
         {%- when 'subheading' -%}
@@ -140,12 +140,6 @@
       "label": "t:shared.settings.section_style.enable_animation.label",
       "info": "t:shared.settings.section_style.enable_animation.info",
       "default": true
-    },
-    {
-      "id": "enable_border",
-      "type": "checkbox",
-      "label": "Short Border",
-      "default": false
     },
     {
       "type": "select",
@@ -256,6 +250,12 @@
               "label": "t:shared.settings.heading_font_class.option_large"
             }
           ]
+        },
+        {
+          "id": "enable_border",
+          "type": "checkbox",
+          "label": "Short Border",
+          "default": false
         }
       ]
     },
