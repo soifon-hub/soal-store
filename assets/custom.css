@@ -20,7 +20,13 @@
 
 html.sticky-header-enabled .shopify-section.header__outer-wrapper .fs-navigation-base a {
   color: var(--white-color);
-  font-family: var(--font-heading-v4); }
+  font-family: var(--font-heading-v4);
+  font-family: var(--font-heading-v4);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 2.8px; }
 
 .header__links-primary .header__links-list > li:not(:last-child) {
   margin-right: var(--spacing-12); }
