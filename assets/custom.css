@@ -652,6 +652,13 @@ html.sticky-header-enabled [data-js-cart-count] {
 
 .footer .border_with_d {
   margin-top: 30px; }
+@media (max-width: 1200px) {
+  .footer .footer__links ul {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: center;
+    gap: 15%; } }
 
 .template-index .multi-column__inner .multi-column__grid-item-text {
   padding-top: 20px; }
