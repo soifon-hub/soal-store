@@ -2,15 +2,13 @@
   assign paginate_by = section.settings.article_per_page
   assign article_categories = settings.article_categories | downcase
   assign has_featured = section.settings.show_featured_item
-  assign tag_list = ""
-  assign tag_select_options = ""
 -%}
 
 {%- if section.settings.show_tag_nav and blog.all_tags.size > 0 -%}
   {%- for tag in blog.all_tags -%}
     {%- assign tag_dc = tag | downcase -%}
     {%- if article_categories contains tag_dc or article_categories == blank -%}
-      {%- capture temp_tag_list -%}
+      {%- capture tag_list -%}
         {{ tag_list }}
         <li class="blog__nav-item">
           <a
@@ -26,9 +24,8 @@
           </a>
         </li>
       {%- endcapture -%}
-      {%- assign tag_list = temp_tag_list -%}
     {%- endif -%}
-    {%- capture temp_tag_select_options -%}
+    {%- capture tag_select_options -%}
       {{ tag_select_options }}
       <option
         value="{{ blog.url }}/tagged/{{ tag | handle }}"
@@ -39,7 +36,6 @@
         {{ tag }}
       </option>
     {%- endcapture -%}
-    {%- assign tag_select_options = temp_tag_select_options -%}
   {%- endfor -%}
 {%- endif -%}
 
@@ -67,7 +63,7 @@
           {{ page_title }}
         </h1>
 
-        {%- if tag_list != blank -%}
+        {%- if tag_list.size > 0 -%}
           <div class="blog__nav">
             <ul class="blog__nav-list" data-current="{{ current_tags }}">
               <li class="blog__nav-item">
@@ -86,7 +82,7 @@
               {{ tag_list }}
             </ul>
 
-            {%- if tag_select_options != blank -%}
+            {%- if tag_select_options.size > 0 -%}
               <div class="blog__nav-mobile--wrapper select-wrapper">
                 <select name="blog-mobile-nav" id="blog-mobile-nav" class="blog__nav-mobile input">
                   <option
