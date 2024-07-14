@@ -85,6 +85,11 @@
               {%- if block.settings.show_social_icons -%}
                 {% render 'social-icons' %}
               {%- endif -%}
+              {% if block.settings.enable_border %} 
+                <span class="border_with_d">
+                  <span class="diamond"></span>
+                </span>
+              {% endif %}
             {%- elsif block.type == 'links' -%}
               <div class="footer__links fs-body-100">
                 {% if linklists[block.settings.link_list].links.size > 0 %}
