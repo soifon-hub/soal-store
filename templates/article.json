@@ -56,7 +56,7 @@
       ],
       "settings": {
         "content_width": "custom",
-        "custom_content_width": 550,
+        "custom_content_width": 400,
         "enable_animation": true
       }
     }
