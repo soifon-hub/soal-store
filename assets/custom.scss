@@ -1084,8 +1084,14 @@ html.sticky-header-enabled {
         }
     }
 }
-
-@media (max-width: 720px) {
+@media (min-width: 960px) {
+    .footer__groups {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+@media (min-width: 720px) {
     .footer__groups {
         display: flex;
         flex-direction: row;
