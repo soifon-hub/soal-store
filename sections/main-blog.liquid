@@ -4,7 +4,7 @@
   assign has_featured = section.settings.show_featured_item
 -%}
 
-{%- if section.settings.show_tag_nav or blog.all_tags.size > 0 -%}
+{%- if section.settings.show_tag_nav and blog.all_tags.size > 0 -%}
   {%- for tag in blog.all_tags -%}
     {%- assign tag_dc = tag | downcase -%}
     {%- if article_categories contains tag_dc or article_categories == blank -%}
