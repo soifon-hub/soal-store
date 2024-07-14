@@ -693,7 +693,12 @@ html.sticky-header-enabled [data-js-cart-count] {
   .footer__links ul {
     display: flex;
     align-items: baseline;
-    gap: 10%; } }
+    gap: 10%; }
+
+  .footer__group-content {
+    display: flex;
+    padding: 0;
+    width: 100%; } }
 .template-index .multi-column__inner .multi-column__grid-item-text {
   padding-top: 20px; }
 .template-index .multi-column__inner .multi-column__subheading,

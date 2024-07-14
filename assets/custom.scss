@@ -1118,6 +1118,11 @@ html.sticky-header-enabled {
         align-items: baseline;
         gap: 10%;
     }
+    .footer__group-content {
+        display: flex;
+        padding: 0;
+        width: 100%;
+    }
 }
   
 .template-index  {
