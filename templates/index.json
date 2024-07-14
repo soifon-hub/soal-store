@@ -496,55 +496,10 @@
             "collection": "all",
             "collection_name": ""
           }
-        },
-        "collection_txne8c": {
-          "type": "collection",
-          "settings": {
-            "show_view_all": false,
-            "collection": "kid",
-            "collection_name": ""
-          }
-        },
-        "collection_tYiBjy": {
-          "type": "collection",
-          "settings": {
-            "show_view_all": false,
-            "collection": "adidas",
-            "collection_name": ""
-          }
-        },
-        "product_list_aXxXYD": {
-          "type": "product_list",
-          "settings": {
-            "product_list": [
-              "nike-crackle-print-tb-tee",
-              "adidas-superstar-80s",
-              "converse-chuck-taylor-all-star-ii-hi",
-              "converse-toddler-chuck-taylor-all-star-axel-mid",
-              "converse-chuck-taylor-all-star-lo"
-            ],
-            "collection_name": ""
-          }
-        },
-        "product_list_xwxQFc": {
-          "type": "product_list",
-          "settings": {
-            "product_list": [
-              "nike-crackle-print-tb-tee",
-              "nike-swoosh-pro-flat-peak-cap",
-              "herschel-iona",
-              "flex-fit-mini-ottoman-black"
-            ],
-            "collection_name": ""
-          }
         }
       },
       "block_order": [
-        "collection_bbaK8t",
-        "collection_txne8c",
-        "collection_tYiBjy",
-        "product_list_aXxXYD",
-        "product_list_xwxQFc"
+        "collection_bbaK8t"
       ],
       "settings": {
         "heading": "",
@@ -558,35 +513,6 @@
         "enable_animation": true,
         "divider_style": "none",
         "section_padding": "section--vertical-padding-top-bottom"
-      }
-    },
-    "featured_collection_grid_xJwedG": {
-      "type": "featured-collection-grid",
-      "blocks": {
-        "collection_ficjrf": {
-          "type": "collection",
-          "settings": {
-            "collection": "all"
-          }
-        }
-      },
-      "block_order": [
-        "collection_ficjrf"
-      ],
-      "custom_css": [
-
-      ],
-      "settings": {
-        "heading": "",
-        "subheading": "",
-        "link": "",
-        "link_text": "",
-        "maximum_collections": 15,
-        "columns": "4",
-        "mobile_columns": "2",
-        "enable_animation": true,
-        "divider_style": "none",
-        "section_padding": "section--vertical-padding-none"
       }
     },
     "multi_column_mqeEBj": {
@@ -779,7 +705,6 @@
     "video_GfxzKJ",
     "rich_text_Xrkabj",
     "featured_collection_slider_U8g3YQ",
-    "featured_collection_grid_xJwedG",
     "multi_column_mqeEBj",
     "multi_column_V7Gbd6"
   ]
