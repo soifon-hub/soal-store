@@ -18638,7 +18638,7 @@ body.template-password.header-transparent-on-home
       width:8px;
       height:8px;
       position:absolute;
-      border:1px solid var(--color-foreground);
+      border:1px solid var(#DD8560);
       top:50%;
       left:50%;
       transform: rotate(45deg);
