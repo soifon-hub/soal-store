@@ -9,6 +9,7 @@
 */
 {
   "current": {
+    "article_categories": "News",
     "color_background_body": "#ffffff",
     "color_text_link": "#000000",
     "color_text": "#111111",
