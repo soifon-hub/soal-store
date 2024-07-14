@@ -858,8 +858,10 @@ $background-color_4: #000;
         &.video--landscape_wide_alt {
             &.video--text-center {
                 max-width: inherit;
-                padding-left: 0!important;
-                padding-right: 0!important;
+                @media (max-width: 720px) {
+                    padding-left: 0!important;
+                    padding-right: 0!important;
+                }
             }
         }
     }

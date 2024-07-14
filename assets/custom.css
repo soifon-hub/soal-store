@@ -536,9 +536,11 @@ html.sticky-header-enabled .shopify-section.header__outer-wrapper .fs-navigation
     max-width: inherit;
     padding-right: 0; } }
 .template-index .video.video--landscape_wide_alt.video--text-center {
-  max-width: inherit;
-  padding-left: 0 !important;
-  padding-right: 0 !important; }
+  max-width: inherit; }
+  @media (max-width: 720px) {
+    .template-index .video.video--landscape_wide_alt.video--text-center {
+      padding-left: 0 !important;
+      padding-right: 0 !important; } }
 
 html:not(.no-js) body.template-index:not([mobile-menu-open=true]):not([quick-search-open=true]) header.header--transparent:not(.is-sticky):not(:hover):not(:focus-within):not(.dropdown-active) .header__inner [data-js-cart-count] {
   display: none; }
