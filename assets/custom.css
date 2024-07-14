@@ -691,6 +691,8 @@ html.sticky-header-enabled [data-js-cart-count] {
     border: 1px solid var(--gray-black-color);
     transform: rotate(45deg); }
 
+.multi-column__inner .multi-column__grid-item-text {
+  padding-top: 20px; }
 .multi-column__inner .multi-column__subheading,
 .multi-column__inner .multi-column__grid-item-text {
   font-family: var(--font-heading-v3);

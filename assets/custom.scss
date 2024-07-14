@@ -1120,6 +1120,9 @@ html.sticky-header-enabled {
 }
   
 .multi-column__inner {
+    .multi-column__grid-item-text {
+        padding-top: 20px;
+    }
     .multi-column__subheading,
     .multi-column__grid-item-text {
         font-family: var(--font-heading-v3);
