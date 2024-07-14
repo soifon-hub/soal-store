@@ -1119,22 +1119,26 @@ html.sticky-header-enabled {
     }
 }
   
-.multi-column__inner {
-    .multi-column__grid-item-text {
-        padding-top: 20px;
-    }
-    .multi-column__subheading,
-    .multi-column__grid-item-text {
-        font-family: var(--font-heading-v3);
-        font-size: 14px;
-        font-weight: 400;
-        line-height: 20px;
-        letter-spacing: 0.01em;
-        text-align: center;
-        color: var(--white-color);
-        @media (min-width: 720px) {
-            font-size: 16px; 
+.template-index  {
+    .multi-column__inner {
+        .multi-column__grid-item-text {
+            padding-top: 20px;
         }
+        .multi-column__subheading,
+        .multi-column__grid-item-text {
+            font-family: var(--font-heading-v3);
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 20px;
+            letter-spacing: 0.01em;
+            text-align: center;
+            color: var(--white-color);
+            @media (min-width: 720px) {
+                font-size: 16px; 
+            }
+        }
+    
+        .multi-column__grid-item
     }
 }
 
