@@ -10,6 +10,7 @@
   --white-color: #ffffff;
   --black-soal-two:#333333;
   --black-color-op:#000000;
+  --gray-black-color:#555555;
   --orange-icon-color:#DD8560;
   background: var(--black-soal);
   --font-heading-v1: "Lexend Zetta", sans-serif;
@@ -679,19 +680,18 @@ html.sticky-header-enabled [data-js-cart-count] {
   align-items: center;
   justify-content: center;
   width: 100%;
-  height: 2px;
-  background-color: black; }
+  height: 1px;
+  background-color: var(--gray-black-color); }
   .border_with_d:before, .border_with_d:after {
     content: "";
     position: absolute;
     width: 45%;
-    height: 2px;
-    background-color: black; }
+    height: 1px; }
   .border_with_d .diamond {
     width: 8px;
     height: 8px;
     background-color: white;
-    border: 2px solid black;
+    border: 1px solid var(--gray-black-color);
     transform: rotate(45deg); }
 
 /*# sourceMappingURL=custom.css.map */
