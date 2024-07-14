@@ -312,7 +312,7 @@ html {
                     line-height: 16px;
                     text-align: center;
                     color: var(--black-soal-two);
-                    text-transform: capitalize;
+                    text-transform:initial;
 
                     a {
                         @media (max-width: 600px) {
