@@ -7782,6 +7782,9 @@ p + .account__cta-wrap{
   margin:0;
   list-style:none;
 }
+.template-index .featured-collection-slider__navigation-list {
+  margin: 0 auto;
+}
 .featured-collection-slider__navigation-list li{
     margin-right:calc(4px * 6);
     margin-right:var(--spacing-6);
