@@ -387,7 +387,7 @@
 
       ],
       "settings": {
-        "image_position": "right",
+        "image_position": "left",
         "text_alignment": "center",
         "image": "shopify:\/\/shop_images\/10_1.png",
         "aspect_ratio": "landscape",
