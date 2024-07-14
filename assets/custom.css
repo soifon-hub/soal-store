@@ -683,7 +683,8 @@ html.sticky-header-enabled [data-js-cart-count] {
   max-width: 125px;
   margin: 0 auto;
   height: 1px;
-  background-color: var(--gray-black-color); }
+  background-color: var(--gray-black-color);
+  margin-top: 15px; }
   @media (min-width: 720px) {
     .border_with_d {
       max-width: 155px; } }
