@@ -1138,7 +1138,11 @@ html.sticky-header-enabled {
             }
         }
     
-        .multi-column__grid-item
+        .multi-column__grid-item {
+            &:last-child {
+                margin: 0 auto;
+            }
+        }
     }
 }
 
