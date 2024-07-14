@@ -15266,7 +15266,7 @@ html:not(.no-js){
 html:not(.no-js) .navigation__submenu{
     position:absolute;
     color:var(--color-text);
-    /* margin-top:-1px; */
+    margin-top:-2px;
     text-align:left;
     text-transform:none;
     line-height:1.55em;
